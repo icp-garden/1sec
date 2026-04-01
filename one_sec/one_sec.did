@@ -1,0 +1,780 @@
+/// Supported blockchains.
+type Chain = variant {
+    ICP;
+    Base;
+    Arbitrum;
+    Ethereum
+};
+
+/// Supported EVM-compatible blockchains.
+type EvmChain = variant { Base; Arbitrum; Ethereum };
+
+/// Supported tokens.
+type Token = variant {
+    ICP;
+    USDC;
+    USDT;
+    cbBTC;
+    ckBTC;
+    BOB;
+    GLDT;
+    CHAT;
+};
+
+/// An EVM address represented as a hex-string.
+type EvmAccount = record { address : text };
+
+/// An ICP address that is either an ICRC2 account or a legacy ICP ledger
+/// specific account identifier.
+type IcpAccount = variant {
+    ICRC : record { owner : principal; subaccount : opt blob };
+    AccountId : text
+};
+
+/// A general address that can be either an EVM address or an ICP address.
+type Account = variant {
+    Evm : EvmAccount;
+    Icp : IcpAccount
+};
+
+/// An EVM transaction hash with an optional log index.
+type EvmTx = record {
+    hash : text;
+    log_index : opt nat64
+};
+
+/// An ICRC2 ledger transaction.
+type IcpTx = record {
+    ledger : principal;
+    block_index : nat64
+};
+
+/// A general transaction that can be either an EVM transaction or an ICP
+/// transaction.
+type Tx = variant {
+    Evm : EvmTx;
+    Icp : IcpTx
+};
+
+/// The argument of the `transfer_icp_to_evm` endpoint.
+/// Specifies tokens being sent and received.
+type TransferIcpToEvmArg = record {
+    /// The token being transferred.
+    token : Token;
+    /// The sender on the ICP side.
+    icp_account : IcpAccount;
+    /// The amount of tokens being sent.
+    /// It is represented in the smallest units of the token.
+    icp_amount : nat;
+    /// The destination EVM chain.
+    evm_chain : EvmChain;
+    /// The receiver on the EVM side.
+    evm_account : EvmAccount;
+    /// The amount that the user has agreed to receive.
+    /// The actual amount of received tokens may be higher
+    /// depending on the current transaction fees.
+    /// It is represented in the smallest units of the token.
+    evm_amount : opt nat
+};
+
+/// The argument of the `transfer_evm_to_icp` endpoint.
+/// Specifies tokens being sent and received.
+type TransferEvmToIcpArg = record {
+    /// The token being transferred.
+    token : Token;
+    /// The source EVM chain.
+    evm_chain : EvmChain;
+    /// The sender on the EVM side.
+    evm_account : EvmAccount;
+    /// The amount of tokens being sent.
+    /// It is represented in the smallest units of the token.
+    evm_amount : nat;
+    /// The lock or burn transaction on the EVM side that initiated the
+    /// transfer.
+    evm_tx : EvmTx;
+    /// The receiver on the ICP side.
+    icp_account : IcpAccount;
+    /// The amount that the user has agreed to receive.
+    /// The actual amount of received tokens may be higher
+    /// depending on the current transaction fees.
+    /// It is represented in the smallest units of the token.
+    icp_amount : opt nat
+};
+
+/// A result of the transfer endpoints.
+type TransferResponse = variant {
+    /// The transfer has been started and has the given id.
+    Accepted : TransferId;
+
+    /// The EVM to ICP transfer has not been detected yet.
+    /// `FetchedBlock` shows the last processed block
+    /// and can be used to estimate progress.
+    Fetching : FetchedBlock;
+
+    /// The transfer has failed.
+    Failed : ErrorMessage
+};
+
+/// The argument of the `forward_evm_to_icp` endpoint.
+/// Specifies that the given tokens have been transferred to the given
+/// forwarding address and are ready to be transferred from EVM To ICP.
+type ForwardEvmToIcpArg = record {
+    /// The token being transferred.
+    token : Token;
+    /// The source EVM chain.
+    chain : EvmChain;
+    /// The source forwarding address on the EVM side.
+    address : text;
+    /// The receiver on the ICP side.
+    receiver : IcpAccount
+};
+
+/// The status of forwarding tokens from the forwarding address to bridging.
+type ForwardingStatus = variant {
+    /// The forwarding request has been received, but the balance of the
+    /// forwarding address hasn't been checked yet.
+    CheckingBalance;
+    /// The balance has been checked, but it is lower than the minimum amount.
+    LowBalance : record {
+        balance : nat;
+        min_amount : nat
+    };
+    /// The tokens are being forwarded for bridging.
+    Forwarding;
+    /// The tokens have been forwarded and the given transaction has initiated
+    /// the EVM to ICP transfer.
+    Forwarded : EvmTx;
+};
+
+/// A result of the `forward_evm_to_icp` endpoint.
+type ForwardingResponse = record {
+    /// The result of the last completed forwarding operation.
+    /// It is the id of the transfer initiated by forwarding.
+    done : opt TransferId;
+    /// The status of the new forwarding operation.
+    /// This field is marked as optional for backwards compatibility when adding
+    /// new status cases.
+    status : opt ForwardingStatus
+};
+
+/// A general representation of tokens being sent.
+type Asset = record {
+    /// The source chain.
+    chain : Chain;
+    /// The sender.
+    account : Account;
+    /// The tokens being sent.
+    token : Token;
+    /// The amount of tokens represented in the smallest units of the token.
+    amount : nat;
+    /// If token are sent from EVM, then this contains the lock or burn
+    /// transaction and the log index of the corresponding event log.
+    tx : opt Tx
+};
+
+/// A general representation of tokens being received.
+type AssetRequest = record {
+    /// The destination chain.
+    chain : Chain;
+    /// The receiver.
+    account : Account;
+    /// The tokens being received. Currently, they must be the same as the tokens
+    /// being sent.
+    token : Token;
+    /// The amount that the user has agreed to receive.
+    /// The actual amount of received tokens may be higher
+    /// depending on the current transaction fees.
+    amount : opt nat
+};
+
+/// A general representation of tokens being transferred.
+type AssetInfo = record {
+    /// The source chain.
+    /// This field is marked as optional for backwards compatibility when adding
+    /// new account chains.
+    chain : opt Chain;
+    /// The sender.
+    /// This field is marked as optional for backwards compatibility when adding
+    /// new account types.
+    account : opt Account;
+    /// This field is marked as optional for backwards compatibility when adding
+    /// new tokens.
+    token : opt Token;
+    /// The amount of tokens represented in the smallest units of the token.
+    amount : nat;
+    /// If token are sent from EVM, then this contains the lock or burn
+    /// transaction and the log index of the corresponding event log.
+    tx : opt Tx
+};
+
+/// The argument of the `transfer` endpoint.
+/// Specifies tokens being sent and received.
+type TransferArg = record {
+    source : Asset;
+    destination : AssetRequest
+};
+
+/// The unique identifier of an accepted transfer.
+type TransferId = record {
+    id : nat64
+};
+
+/// General information about a transfer.
+type Transfer = record {
+    source : AssetInfo;
+    destination : AssetInfo;
+    /// This field is marked as optional for backwards compatibility when adding
+    /// new status cases.
+    status : opt Status;
+    trace : Trace;
+    queue_position : opt nat64;
+    start : opt nat64;
+    end : opt nat64
+};
+
+/// Transfer status.
+type Status = variant {
+    PendingSourceTx;
+    PendingDestinationTx;
+    PendingRefundTx;
+    Succeeded;
+    Failed : ErrorMessage;
+    Refunded : Tx
+};
+
+type TransferFee = record {
+    /// This field is marked as optional for backwards compatibility when adding
+    /// new chains.
+    source_chain : opt Chain;
+    /// This field is marked as optional for backwards compatibility when adding
+    /// new tokens.
+    source_token : opt Token;
+    /// This field is marked as optional for backwards compatibility when adding
+    /// new chain.
+    destination_chain : opt Chain;
+    /// This field is marked as optional for backwards compatibility when adding
+    /// new tokens.
+    destination_token : opt Token;
+    min_amount : nat;
+    max_amount : nat;
+    available : opt nat;
+    latest_transfer_fee_in_tokens : nat;
+    average_transfer_fee_in_tokens : nat;
+    protocol_fee_in_percent : float64
+};
+
+/// The argument of the `get_transfers` query.
+type GetTransfersArg = record {
+    /// These addresses are used to filter the transfers.
+    accounts : vec Account;
+    /// This is useful for pagination of the results.
+    /// The canister returns `count` latest transactions excluding the first {skip} ones.
+    skip : nat64;
+    count : nat64
+};
+
+type TraceEvent = variant {
+    FetchTx;
+    SignTx;
+    SendTx;
+    PendingConfirmTx;
+    ConfirmTx
+};
+
+type TraceEntry = record {
+    /// This field is marked as optional for backwards compatibility when adding
+    /// new chains.
+    chain : opt Chain;
+    /// This field is marked as optional for backwards compatibility when adding
+    /// new trace events.
+    event : opt TraceEvent;
+    start : nat64;
+    end : opt nat64;
+    tx : opt Tx;
+    block_number : opt nat64;
+    result : opt Result
+};
+
+type Trace = record {
+    entries : vec TraceEntry
+};
+
+type FetchedBlock = record {
+    block_height : nat64
+};
+
+/////////////////////////////////////////////////////
+/// Metrics and stats
+/////////////////////////////////////////////////////
+
+type TransferStats = record {
+    /// This field is marked as optional for backwards compatibility when adding
+    /// new chains.
+    source_chain : opt Chain;
+    /// This field is marked as optional for backwards compatibility when adding
+    /// new tokens.
+    source_token : opt Token;
+    /// This field is marked as optional for backwards compatibility when adding
+    /// new chains.
+    destination_chain : opt Chain;
+    /// This field is marked as optional for backwards compatibility when adding
+    /// new tokens.
+    destination_token : opt Token;
+    count : nat64;
+    duration_ms_avg : nat64;
+    duration_ms_max : nat64
+};
+
+type EvmBlockStats = record {
+    /// This field is marked as optional for backwards compatibility when adding
+    /// new chains.
+    chain : opt EvmChain;
+    block_time_ms : nat64;
+    block_number_safe : opt nat64;
+    fetch_time_safe_ms : opt nat64;
+    block_number_latest : opt nat64;
+    fetch_time_latest_ms : opt nat64
+};
+
+type CanisterCallResult = record {
+    label : text;
+    count : nat64
+};
+
+type CanisterCalls = record {
+    canister : principal;
+    method : text;
+    duration_in_ms : vec nat64;
+    cost_in_cycles : vec nat64;
+    response_in_bytes : vec nat64;
+    results : vec CanisterCallResult
+};
+
+/////////////////////////////////////////////////////
+/// Relayer
+/////////////////////////////////////////////////////
+
+type RLP = record {
+    bytes : blob
+};
+
+type RelayTask = variant {
+    SendEvmTransaction : record {
+        id : nat64;
+        tx : RLP
+    };
+    FetchEvmBlock : record {
+        block_number : nat64
+    }
+};
+
+type TrieProof = record {
+    root_hash : blob;
+    index : nat64;
+    value : RLP;
+    nodes : vec RLP
+};
+
+type RelayProof = variant {
+    EvmTransactionReceipt : record {
+        id : nat64;
+        block_hash : blob;
+        tx : TrieProof;
+        receipt : TrieProof
+    };
+    EvmBlockHeader : record {
+        block_hash : blob;
+        block_header : blob;
+        hint_fee_per_gas : opt nat64;
+        hint_priority_fee_per_gas : opt nat64
+    };
+    EvmBlockWithTxLogs : record {
+        block_number : nat64
+    }
+};
+
+/////////////////////////////////////////////////////
+/// Forwarder
+/////////////////////////////////////////////////////
+type ForwardingAccount = record {
+    token : Token;
+    chain : EvmChain;
+    address : text;
+    receiver : IcpAccount
+};
+
+type ForwardingBalance = record {
+    token : Token;
+    address : text;
+    balance : nat
+};
+
+type RequestedTx = variant {
+    Burn;
+    Lock;
+    ApproveAndLock
+};
+
+type UnsignedForwardingTx = record {
+    token : Token;
+    address : text;
+    receiver : IcpAccount;
+    amount : nat;
+    nonce : nat64;
+    max_fee_per_gas : nat64;
+    max_priority_fee_per_gas : nat64;
+    requested_tx : RequestedTx
+};
+
+type SignedForwardingTx = record {
+    token : Token;
+    address : text;
+    receiver : IcpAccount;
+    nonce : nat64;
+    total_tx_cost_in_wei : nat64;
+    approve_tx : opt RLP;
+    lock_or_burn_tx : RLP
+};
+
+type ForwardedTx = record {
+    token : Token;
+    address : text;
+    receiver : IcpAccount;
+    nonce : nat64;
+    total_tx_cost_in_wei : nat64;
+    lock_or_burn_tx : EvmTx
+};
+
+type ForwardingUpdate = record {
+    chain : EvmChain;
+    balances : vec ForwardingBalance;
+    to_sign : vec UnsignedForwardingTx;
+    forwarded : vec ForwardedTx
+};
+
+/////////////////////////////////////////////////////
+/// Metadata
+/////////////////////////////////////////////////////
+
+type TokenMetadata = record {
+    /// This field is marked as optional for backwards compatibility when adding
+    /// new tokens.
+    token : opt Token;
+    /// This field is marked as optional for backwards compatibility when adding
+    /// new chains.
+    chain : opt Chain;
+    contract : text;
+    locker : opt text;
+    topics : vec blob;
+    decimals : nat8;
+    balance : nat;
+    queue_size : nat64;
+    wei_per_token : float64
+};
+
+type IcpTokenMetadata = record {
+    /// This field is marked as optional for backwards compatibility when adding
+    /// new tokens.
+    token : opt Token;
+    ledger : principal;
+    index : opt principal
+};
+
+type EvmChainMetadata = record {
+    /// This field is marked as optional for backwards compatibility when adding
+    /// new chains.
+    chain : opt EvmChain;
+    chain_id : nat64;
+    nonce : nat64;
+    block_time_ms : nat64;
+    block_number_safe : opt nat64;
+    fetch_time_safe_ms : opt nat64;
+    block_number_latest : opt nat64;
+    fetch_time_latest_ms : opt nat64;
+    max_fee_per_gas : nat64;
+    max_priority_fee_per_gas : nat64;
+    max_fee_per_gas_average : nat64;
+    max_priority_fee_per_gas_average : nat64
+};
+
+type EcdsaMetadata = record {
+    public_key_pem : text;
+    chain_code_hex : text
+};
+
+type Metadata = record {
+    cycle_balance : nat;
+    stable_memory_bytes : nat64;
+    wasm_memory_bytes : nat64;
+    event_count : nat64;
+    event_bytes : nat64;
+    last_upgrade_time : nat64;
+    ecdsa : opt EcdsaMetadata;
+    tokens : vec TokenMetadata;
+    evm_chains : vec EvmChainMetadata
+};
+
+/////////////////////////////////////////////////////
+/// Pause and resume
+/////////////////////////////////////////////////////
+
+type Endpoint = variant {
+    ForwardEvmToIcp;
+    GetCanisterCalls;
+    GetEvents;
+    GetEvmAddress;
+    GetForwardingAccounts;
+    GetForwardingAddress;
+    GetForwardingTransactions;
+    GetMetadata;
+    GetRelayTasks;
+    GetTransfer;
+    GetTransfers;
+    GetWeiPerIcpRate;
+    HttpRequest;
+    RunTask;
+    ScheduleAllTasks;
+    SubmitForwardingUpdate;
+    SubmitRelayProof;
+    Transfer;
+    TransferEvmToIcp;
+    TransferIcpToEvm;
+    UpdateEstimates;
+    ValidateForwardingAddress
+};
+
+type Task = variant {
+    Icp : IcpTask;
+    Evm : record { chain : EvmChain; task : EvmTask }
+};
+
+type IcpTask = variant {
+    InitializeEcdsaPublicKey;
+    RefreshExchangeRate;
+    Ledger : record { token : Token; task : LedgerTask }
+};
+
+type LedgerTask = variant {
+    Transfer;
+    TransferFee
+};
+
+type EvmTask = variant {
+    Reader : ReaderTask;
+    Writer : WriterTask;
+    Prover : ProverTask;
+    Forwarder : ForwarderTask
+};
+
+type ReaderTask = variant {
+    FetchTxLogs
+};
+
+type WriterTask = variant {
+    NewTx;
+    SendTx;
+    PollTx;
+    FetchFeeEstimate
+};
+
+type ProverTask = variant {
+    FetchLatestBlock;
+    FetchSafeBlock
+};
+
+type ForwarderTask = variant {
+    SignTx
+};
+
+/////////////////////////////////////////////////////
+/// Install and upgrade
+/////////////////////////////////////////////////////
+
+type Deployment = variant {
+    Local;
+    Testnet;
+    Mainnet;
+    Test
+};
+
+type InitIcpTokenArg = record {
+    token : Token;
+    initial_balance : opt nat64
+};
+
+type InitIcpArg = record {
+    ledger : vec InitIcpTokenArg
+};
+
+type InitEvmTokenArg = record {
+    token : Token;
+    erc20_address : opt text;
+    logger_address : opt text;
+    initial_balance : opt nat64
+};
+
+type InitEvmArg = record {
+    chain : EvmChain;
+    initial_nonce : opt nat64;
+    initial_block : opt nat64;
+    ledger : vec InitEvmTokenArg
+};
+
+type InitArg = record {
+    deployment : Deployment;
+    icp : opt InitIcpArg;
+    evm : vec InitEvmArg
+};
+
+type UpgradeArg = record {
+    deployment : Deployment
+};
+
+type InitOrUpgradeArg = variant { Init : InitArg; Upgrade : UpgradeArg };
+
+type ErrorMessage = record {
+    error : text
+};
+
+type Result = variant {
+    Ok;
+    Err : text
+};
+
+service : (InitOrUpgradeArg) -> {
+    /////////////////////////////////////////////////////
+    /// Cross-chain token transfer (bridging) operations
+    /////////////////////////////////////////////////////
+
+    /// Starts a transfer of tokens from ICP to EVM.
+    ///
+    /// The transfer is performed from an ICRC2 ledger on ICP to the
+    /// corresponding ERC20 contract on EVM.
+    ///
+    /// Preconditions:
+    /// - The principal of the caller must match the principal of the sender.
+    /// - The caller has approved the transfer on the ICRC2 ledger using
+    ///   `icrc2_approve` and specifying this canister as the spender.
+    ///   The approval is not needed for tokens that are minted by this
+    ///   canister.
+    /// - The transfer amount is within the `[min_amount..max_amount]`
+    ///   range that can be queries via `get_transfer_fees()`.
+    ///
+    /// See comments of `TransferIcpToEvmArg` for more details.
+    transfer_icp_to_evm : (TransferIcpToEvmArg) -> (TransferResponse);
+
+    /// Notifies about an initiated transfer of tokens from EVM to ICP.
+    ///
+    /// A transfers from EVM to ICP is initiated on the EVM side by calling the
+    /// helper contracts to lock or burn ERC20 tokens. The canister
+    /// automatically detects such transfer by fetching EVM event logs.
+    ///
+    /// This endpoint allows the caller to learn the status of the transfer and
+    /// the assigned transfer-id. Calling this endpoint is optional in the sense
+    /// that the transfer will complete even if the endpoint is not called.
+    /// It is okay to call the endpoint multiple times with the same arguments.
+    ///
+    /// See comments of `TransferEvmToIcpArg` for more details.
+    transfer_evm_to_icp : (TransferEvmToIcpArg) -> (TransferResponse);
+
+    /// A legacy endpoint that combines the functionality of
+    /// `transfer_icp_to_evm` and `transfer_evm_to_icp`.
+    /// Use the specialized endpoints instead.
+    transfer : (TransferArg) -> (TransferResponse);
+
+    /// Starts a transfer of tokens from EVM to ICP using a forwarding address.
+    /// To get the lowest latency, call this endpoint after tokens have been
+    /// transferred to the forwarding address.
+    ///
+    /// See comments of `ForwardEvmToIcpArg` for more details.
+    forward_evm_to_icp : (ForwardEvmToIcpArg) -> (variant { Ok : ForwardingResponse; Err : text });
+
+    /////////////////////////////////////////////////////
+    /// Cross-chain token transfer (bridging) queries
+    /////////////////////////////////////////////////////
+
+    /// Returns the current transfer fees and additional information such as the
+    /// minimum and maximum supported amounts per chain and token.
+    get_transfer_fees : () -> (vec TransferFee) query;
+
+    /// Returns information about a transfer by its id.
+    get_transfer : (TransferId) -> (variant { Ok : Transfer; Err : text }) query;
+
+    /// Returns a list of transfers for the given addresses.
+    get_transfers : (arg : GetTransfersArg) -> (
+        variant {
+            Ok : vec Transfer;
+            Err : text
+        }
+    ) query;
+
+    /// Encodes the given ICP address into 32 (or 64) bytes that can be passed
+    /// as arguments to the EVM helper contracts for locking or burning.
+    ///
+    /// This differs from the forwarding address and cannot be used as a
+    /// forwarding address. Do not confuse them!
+    get_evm_encoding : (opt IcpAccount) -> (text) query;
+
+    /// Checks that the given forwarding address corresponds to the given ICP
+    /// account.
+    ///
+    /// For maximum security, the forwarding address should be computed
+    /// off-chain and the validated via this query. A query endpoint to get the
+    /// forwarding address is intentionally not exposed.
+    validate_forwarding_address : (receiver : IcpAccount, address : text) -> (Result) query;
+
+    /// Returns information about token contract addresses.
+    get_metadata : () -> (variant { Ok : Metadata; Err : text }) query;
+
+    /////////////////////////////////////////////////////
+    /// Metrics and statistics queries
+    /////////////////////////////////////////////////////
+
+    get_transfer_stats : (nat64) -> (vec TransferStats) query;
+    get_evm_block_stats : (EvmChain) -> (EvmBlockStats) query;
+    get_canister_calls : () -> (vec CanisterCalls) query;
+    get_wei_per_icp_rate : () -> (float64) query;
+
+    /////////////////////////////////////////////////////
+    /// Miscellaneous queries
+    /////////////////////////////////////////////////////
+
+    get_evm_address : () -> (opt text) query;
+    get_events_bin : (count : nat64, skip : nat64) -> (variant { Ok : vec blob; Err : text }) query;
+    get_events : (count : nat64, skip : nat64) -> (variant { Ok : vec text; Err : text }) query;
+    get_icp_token_metadata : () -> (vec IcpTokenMetadata) query;
+
+    /////////////////////////////////////////////////////
+    /// Relayer endpoints
+    /////////////////////////////////////////////////////
+
+    submit_relay_proof : (EvmChain, vec RelayProof) -> (Result);
+    get_relay_tasks : (EvmChain) -> (vec RelayTask) query;
+
+    /////////////////////////////////////////////////////
+    /// Forwarder endpoints
+    /////////////////////////////////////////////////////
+
+    submit_forwarding_update : (args : ForwardingUpdate) -> (Result);
+    get_forwarding_address : (receiver : IcpAccount) -> (variant { Ok : text; Err : text }) query;
+    get_forwarding_accounts : (chain : EvmChain, skip : nat64, count : nat64) -> (vec ForwardingAccount) query;
+    get_forwarding_transactions : (chain : EvmChain) -> (vec SignedForwardingTx) query;
+    get_forwarding_status: (arg: ForwardEvmToIcpArg) -> (variant { Ok : ForwardingResponse; Err : text }) query;
+
+    /////////////////////////////////////////////////////
+    /// Admin endpoints
+    /////////////////////////////////////////////////////
+
+    pause_task : (Task) -> (text);
+    pause_all_tasks : () -> (text);
+    resume_task : (Task) -> (text);
+    run_task : (Task) -> (text);
+    resume_all_paused_tasks : () -> (text);
+    schedule_all_tasks : () -> (text);
+    get_paused_tasks : () -> (vec Task) query;
+
+    pause_endpoint : (Endpoint) -> (text);
+    resume_endpoint : (Endpoint) -> (text);
+    resume_all_paused_endpoints : () -> (text);
+    get_paused_endpoints : () -> (vec Endpoint) query
+}

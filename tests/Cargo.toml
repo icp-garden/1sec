@@ -1,0 +1,30 @@
+[package]
+name = "tests"
+version.workspace = true
+edition.workspace = true
+
+[dev-dependencies]
+one_sec = { path = "../one_sec" }
+candid.workspace = true
+cargo_metadata.workspace = true
+evm_rpc_types.workspace = true
+hex.workspace = true
+ic-cdk.workspace = true
+ic-ledger-types.workspace = true
+icp-ledger.workspace = true
+ic-ethereum-types.workspace = true
+ic-icrc1-ledger.workspace = true
+icrc-ledger-types.workspace = true
+icrc-ledger-client-cdk.workspace = true
+lazy_static.workspace = true
+pocket-ic.workspace = true
+serde.workspace = true
+serde_bytes.workspace = true
+serde_cbor.workspace = true
+serde_json.workspace = true
+tokio.workspace = true
+alloy.workspace = true
+alloy-node-bindings.workspace = true
+reqwest.workspace = true
+minicbor.workspace = true
+futures.workspace = true

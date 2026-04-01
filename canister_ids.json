@@ -1,0 +1,29 @@
+{
+  "cbbtc_index": {
+    "ic": "fsgsm-uaaaa-aaaar-qbphq-cai"
+  },
+  "cbbtc_ledger": {
+    "ic": "io25z-dqaaa-aaaar-qbooq-cai"
+  },
+  "ck_unwrap": {
+    "ic": "5ikyc-4yaaa-aaaar-qbzka-cai"
+  },
+  "one_sec": {
+    "ic": "5okwm-giaaa-aaaar-qbn6a-cai"
+  },
+  "one_sec_dapp": {
+    "ic": "5jlqy-lqaaa-aaaar-qbn6q-cai"
+  },
+  "usdc_index": {
+    "ic": "f4e7e-pqaaa-aaaar-qbpgq-cai"
+  },
+  "usdc_ledger": {
+    "ic": "53nhb-haaaa-aaaar-qbn5q-cai"
+  },
+  "usdt_index": {
+    "ic": "fvhuy-zyaaa-aaaar-qbpha-cai"
+  },
+  "usdt_ledger": {
+    "ic": "ij33n-oiaaa-aaaar-qbooa-cai"
+  }
+}

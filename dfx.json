@@ -1,0 +1,148 @@
+{
+  "version": 1,
+  "dfx": "0.26.1",
+  "canisters": {
+    "one_sec": {
+      "package": "one_sec",
+      "candid": "one_sec/one_sec.did",
+      "specified_id": "5okwm-giaaa-aaaar-qbn6a-cai",
+      "type": "rust",
+      "gzip": true
+    },
+    "one_sec_staging": {
+      "package": "one_sec",
+      "candid": "one_sec/one_sec.did",
+      "specified_id": "zvjow-lyaaa-aaaar-qap7q-cai",
+      "type": "rust",
+      "gzip": true
+    },
+    "ck_unwrap": {
+      "package": "ck_unwrap",
+      "candid": "ck_unwrap/ck_unwrap.did",
+      "type": "rust",
+      "gzip": true
+    },
+    "one_sec_dapp": {
+      "source": [
+        "frontend/dist"
+      ],
+      "type": "assets",
+      "specified_id": "5jlqy-lqaaa-aaaar-qbn6q-cai",
+      "frontend": {
+        "entrypoint": "frontend/index.html"
+      }
+    },
+    "one_sec_dapp_staging": {
+      "source": [
+            "frontend/dist"
+          ],
+          "type": "assets",
+          "specified_id": "vy5lt-daaaa-aaaar-qblwa-cai",
+          "frontend": {
+            "entrypoint": "frontend/index.html"
+          }
+    }, 
+    "icp_ledger": {
+      "type": "pull",
+      "id": "ryjl3-tyaaa-aaaaa-aaaba-cai"
+    },
+    "internet_identity": {
+      "type": "custom",
+      "candid": "https://github.com/dfinity/internet-identity/releases/download/release-2024-02-23/internet_identity.did",
+      "wasm": "https://github.com/dfinity/internet-identity/releases/download/release-2024-02-23/internet_identity_dev.wasm.gz",
+      "init_arg": "(opt record { captcha_config = opt record { max_unsolved_captchas= 50:nat64; captcha_trigger = variant {Static = variant {CaptchaDisabled}}}})",
+      "remote": {
+        "id": {
+          "ic": "rdmx6-jaaaa-aaaaa-aaadq-cai"
+        }
+      },
+      "frontend": {},
+      "specified_id": "rdmx6-jaaaa-aaaaa-aaadq-cai"
+    },
+    "evm_rpc": {
+      "type": "pull",
+      "id": "7hfb6-caaaa-aaaar-qadga-cai"
+    },
+    "xrc": {
+      "type": "pull",
+      "id": "uf6dk-hyaaa-aaaaq-qaaaq-cai"
+    },
+    "usdc_ledger": {
+      "type": "custom",
+      "candid": "canisters/ledger.did",
+      "wasm": "canisters/ledger.wasm.gz",
+      "specified_id": "53nhb-haaaa-aaaar-qbn5q-cai"
+    },
+    "usdc_index": {
+      "type": "custom",
+      "candid": "canisters/index.did",
+      "wasm": "canisters/index.wasm.gz",
+      "specified_id": "f4e7e-pqaaa-aaaar-qbpgq-cai"
+    },
+    "usdc_ledger_staging": {
+      "type": "custom",
+      "candid": "canisters/ledger.did",
+      "wasm": "canisters/ledger.wasm.gz",
+      "specified_id": "7csws-aiaaa-aaaar-qaqpa-cai"
+    },
+    "usdt_ledger": {
+      "type": "custom",
+      "candid": "canisters/ledger.did",
+      "wasm": "canisters/ledger.wasm.gz",
+      "specified_id": "ij33n-oiaaa-aaaar-qbooa-cai"
+    },
+    "usdt_index": {
+      "type": "custom",
+      "candid": "canisters/index.did",
+      "wasm": "canisters/index.wasm.gz",
+      "specified_id": "fvhuy-zyaaa-aaaar-qbpha-cai"
+    },
+    "usdt_ledger_staging": {
+      "type": "custom",
+      "candid": "canisters/ledger.did",
+      "wasm": "canisters/ledger.wasm.gz",
+      "specified_id": "n4dku-tiaaa-aaaar-qboqa-cai"
+    },
+    "cbbtc_ledger": {
+      "type": "custom",
+      "candid": "canisters/ledger.did",
+      "wasm": "canisters/ledger.wasm.gz",
+      "specified_id": "io25z-dqaaa-aaaar-qbooq-cai"
+    },
+    "cbbtc_index": {
+      "type": "custom",
+      "candid": "canisters/index.did",
+      "wasm": "canisters/index.wasm.gz",
+      "specified_id": "fsgsm-uaaaa-aaaar-qbphq-cai"
+    },
+    "cbbtc_ledger_staging": {
+      "type": "custom",
+      "candid": "canisters/ledger.did",
+      "wasm": "canisters/ledger.wasm.gz",
+      "specified_id": "n3cma-6qaaa-aaaar-qboqq-cai"
+    },
+    "bob_ledger": {
+      "type": "custom",
+      "candid": "canisters/ledger.did",
+      "wasm": "canisters/ledger.wasm.gz",
+      "specified_id": "7pail-xaaaa-aaaas-aabmq-cai",
+      "init_arg": "(variant { Init = record { minting_account = record { owner = principal \"zvjow-lyaaa-aaaar-qap7q-cai\"; }; decimals = opt 6; max_memo_length = opt 80; transfer_fee = 100; token_symbol = \"BOB\"; token_name = \"BOB\"; feature_flags = opt record { icrc2 = true }; metadata = vec {}; initial_balances = vec {}; archive_options = record { num_blocks_to_archive = 1000; trigger_threshold = 2000; max_message_size_bytes = null; cycles_for_archive_creation = opt 100_000_000_000_000; node_max_memory_size_bytes = opt 3_221_225_472; controller_id = principal \"zvjow-lyaaa-aaaar-qap7q-cai\" } } })"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "networks": {
+    "local": {
+      "bind": "127.0.0.1:9123",
+      "type": "ephemeral",
+      "replica": {
+        "subnet_type": "system"
+      }
+    }
+  },
+  "output_env_file": "frontend/.env"
+}

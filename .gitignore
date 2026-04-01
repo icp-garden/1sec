@@ -1,0 +1,34 @@
+.dfx/
+.env
+target/
+tests/pocket-ic
+tests/logs
+
+# Various IDEs and Editors
+.vscode/
+.idea/
+**/*~
+
+# Mac OSX temporary files
+.DS_Store
+**/.DS_Store
+
+# frontend code
+node_modules/
+dist/
+.svelte-kit/
+
+frontend/.vite/
+
+deps/
+
+artifacts
+
+*.pem
+
+*.data
+
+relayer/logs/*
+/*.png
+.playwright-mcp
+.claude

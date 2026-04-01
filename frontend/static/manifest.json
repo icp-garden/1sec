@@ -1,0 +1,17 @@
+{
+	"name": "OneSec.to",
+	"short_name": "OneSec",
+	"start_url": ".",
+	"display": "standalone",
+	"theme_color": "#01e8ae",
+	"background_color": "#01e8ae",
+	"description": "Transfer assets anywhere.",
+	"orientation": "portrait-primary",
+	"prefer_related_applications": false,
+	"icons": [
+		{
+			"src": "/favicon_onesec.svg",
+			"type": "image/svg+xml"
+		}
+	]
+}

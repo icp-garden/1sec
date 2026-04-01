@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title>1Sec.to</title>
+		<meta
+			name="description"
+			content="1Sec.to introduces a new kind of bridging technology that moves beyond traditional intent or message passing. Send ICP and BTC to any chain with a single transaction."
+		/>
+		<meta content="1Sec.to" property="og:title" />
+		<meta property="og:type" content="website" />
+		<meta content="website" property="og:type" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta
+			name="keywords"
+			content="Bridge, ICP, ETH, Internet Computer Protocol, GalileoGateway, Ethereum, Base, Arbitrum, evm"
+		/>
+		<link rel="canonical" href="%sveltekit.assets%" />
+
+		<!-- Favicon -->
+		<link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+
+		<link href="/sitemap.xml" rel="sitemap" type="application/xml" />
+
+		<link rel="manifest" href="/manifest.json" crossorigin="anonymous" />
+
+		<!-- Twitter -->
+		<meta property="twitter:card" content="summary_large_image" />
+		<meta property="twitter:title" content="1Sec.to" />
+		<meta property="twitter:description" content="Decentralize ICP bridge" />
+		<meta property="twitter:image" content="%sveltekit.assets%/twitter-card-min.png" />
+
+		<script>
+			try {
+				const isDarkPreferred = true;
+
+				const currentTheme =
+					localStorage.nnsTheme === null ||
+					localStorage.nnsTheme === undefined ||
+					localStorage.nnsTheme === ''
+						? undefined
+						: JSON.parse(localStorage.nnsTheme);
+
+				document.documentElement.setAttribute(
+					'theme',
+					currentTheme ?? (isDarkPreferred ? 'dark' : 'light')
+				);
+			} catch (error) {
+				console.error('Error initializing theme', error);
+			}
+		</script>
+
+		%sveltekit.head%
+
+		<style>
+			html {
+				overflow: hidden;
+				height: 100%;
+			}
+
+			body {
+				overflow: auto;
+				height: 100%;
+				margin: 0;
+				background-size: cover;
+				background-attachment: fixed;
+				overflow-x: hidden;
+				display: flex;
+				font-size: 100%;
+			}
+
+			body::-webkit-scrollbar {
+				display: none;
+			}
+
+			body::-webkit-scrollbar-track {
+				display: none;
+			}
+
+			body::-webkit-scrollbar-thumb {
+				display: none;
+			}
+
+			body::-webkit-scrollbar-corner {
+				display: none;
+			}
+
+			.content {
+				display: flex;
+				width: 100dvw;
+				height: 100dvh;
+			}
+		</style>
+	</head>
+
+	<body data-sveltekit-preload-data="hover">
+		<div class="content">%sveltekit.body%</div>
+	</body>
+</html>

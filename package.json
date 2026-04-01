@@ -1,0 +1,14 @@
+{
+    "name": "one_sec_dapp",
+    "private": true,
+    "workspaces": [
+        "frontend"
+    ],
+    "scripts": {
+        "build": "cd frontend && npm run build",
+        "format": "cd frontend && npm run format",
+        "dev": "cd frontend && npm run dev",
+        "test": "cd frontend && npm run test",
+        "test:headed": "cd frontend && npm run test -- --project=chromium --headed"
+    }
+}

@@ -1,0 +1,2107 @@
+Å∏&xghttps://api.bitget.com/api/v/spot/market/history-candles?symbol=ETHUSDT&granularity=min&endTime=&limit=É»éÇddatexFri, 07 Feb 2025 12:38:32 GMTÇlcontent-typepapplication/jsonÇncontent-lengthc162Çjconnectionjkeep-aliveÇwx-mbx-used-remain-limitb19Çpx-xss-protectionm1; mode=blockÇvx-content-type-optionsgnosniffÇxaccess-control-allow-origina*Çxaccess-control-allow-methodsrGET, POST, OPTIONSÇocf-cache-statusgDYNAMICÇjset-cookiey__cf_bm=zcQuf4xeMuUF2C88fAn2qOTM8gVHjSoMm2bOw_qMfmk-1738931912-1.0.1.1-URDAcsbE10AbXvG9iGJcjBtxNQuhr10YB9BR1vX5vVJNpgNA4N5TdAbHV0fzRSMFMKo7w.CAHbdZG_9tgWd7QA; path=/; expires=Fri, 07-Feb-25 13:08:32 GMT; domain=.api.bitget.com; HttpOnly; Secure; SameSite=NoneÇox-frame-optionsjSAMEORIGINÇfserverjcloudflareÇfcf-rayt90e37001da35f8c3-ZRHX¢{"code":"00000","msg":"success","requestTime":1738931912103,"data":[["1738927560000","2753.57","2753.57","2751.69","2752.83","3.0279","8335.06822","8335.06822"]]}xghttps://api.bitget.com/api/v/spot/market/history-candles?symbol=ICPUSDT&granularity=min&endTime=&limit=É»éÇddatexFri, 07 Feb 2025 12:38:21 GMTÇlcontent-typepapplication/jsonÇncontent-lengthc149Çjconnectionjkeep-aliveÇwx-mbx-used-remain-limitb19Çpx-xss-protectionm1; mode=blockÇvx-content-type-optionsgnosniffÇxaccess-control-allow-origina*Çxaccess-control-allow-methodsrGET, POST, OPTIONSÇocf-cache-statusgDYNAMICÇjset-cookiey__cf_bm=NuYXCdAfAUc0gfQwMcz5nvvGlGd0gZ8F_uXAJzUx3co-1738931901-1.0.1.1-4kQ74CdWDuzBUsAQFIm6pPDSTrSZc9H2E7yZ49Fj0is90gcUx8JRgf81nCFtbwQSCm7PMAh2FEcULvoQxSZmfg; path=/; expires=Fri, 07-Feb-25 13:08:21 GMT; domain=.api.bitget.com; HttpOnly; Secure; SameSite=NoneÇox-frame-optionsjSAMEORIGINÇfserverjcloudflareÇfcf-rayt90e36fc09823f8cb-ZRHXï{"code":"00000","msg":"success","requestTime":1738931901675,"data":[["1738926780000","6.977","6.979","6.976","6.979","12.32","85.96799","85.96799"]]}xhhttps://api.bitget.com/api/v/spot/market/history-candles?symbol=USDCUSDT&granularity=min&endTime=&limit=É»éÇddatexThu, 20 Mar 2025 18:47:30 GMTÇlcontent-typepapplication/jsonÇncontent-lengthc167Çjconnectionjkeep-aliveÇwx-mbx-used-remain-limitb19Çpx-xss-protectionm1; mode=blockÇvx-content-type-optionsgnosniffÇxaccess-control-allow-origina*Çxaccess-control-allow-methodsrGET, POST, OPTIONSÇocf-cache-statusgDYNAMICÇjset-cookiey__cf_bm=l8nUt3RgSeouwFE86q9jineLvmnSaHTAKksP7GAmhSw-1742496450-1.0.1.1-laSHpMASexIS93L35eiySpZcfGkcZT1db9kkamkoivo0_gO..hsH3cnleM9MAdRU3sDly9WJ.0_EGE4gWWNo8W1i.4cRCYvXAb3FRf7F8oA; path=/; expires=Thu, 20-Mar-25 19:17:30 GMT; domain=.api.bitget.com; HttpOnly; Secure; SameSite=NoneÇox-frame-optionsjSAMEORIGINÇfserverjcloudflareÇfcf-rayt923760dc8dbbbc65-ZRHXß{"code":"00000","msg":"success","requestTime":1742496450149,"data":[["1738933140000","0.9997","0.9997","0.9996","0.9996","1339.9483","1339.41232068","1339.41232068"]]}xnhttps://api.crypto.com/exchange/v/public/get-candlestick?instrument_name=ETH_USDT&timeframe=m&start_ts=&count=É»ãÇddatexFri, 07 Feb 2025 12:38:32 GMTÇlcontent-typepapplication/jsonÇqtransfer-encodinggchunkedÇjconnectionjkeep-aliveÇfcf-rayt90e37003db2fbac6-ZRHÇocf-cache-statusgDYNAMICÇdvaryxEOrigin, Access-Control-Request-Method, Access-Control-Request-HeadersÇjset-cookiexˇ__cf_bm=vOOMg8RDh0z00lGBS0lWb66A.kls5_FmSREhw3BcXCM-1738931912-1.0.1.1-n0RIey9Jwt1Goa11l5u35Rp_KfeMbqZxDG7Gj89K6znsVcx.cMO1zZF9TjXde5gA3RVITwyZz3TMrEnZgRzNNg; path=/; expires=Fri, 07-Feb-25 13:08:32 GMT; domain=.crypto.com; HttpOnly; Secure; SameSite=NoneÇjset-cookiexê_cfuvid=rBvZzskTzSfO8Ub2e9ozQdsp07tQJg3T7WqG4zJrf18-1738931912562-0.0.1.1-604800000; path=/; domain=.crypto.com; HttpOnly; Secure; SameSite=NoneÇfserverjcloudflareÇgalt-svcsh3=":443"; ma=86400Y:{
+  "id" : -1,
+  "method" : "public/get-candlestick",
+  "code" : 0,
+  "result" : {
+    "interval" : "1m",
+    "data" : [ {
+      "o" : "2757.79",
+      "h" : "2760.68",
+      "l" : "2756.62",
+      "c" : "2758.51",
+      "v" : "317.4353",
+      "t" : 1738931880000
+    } ],
+    "instrument_name" : "ETH_USDT"
+  }
+}xnhttps://api.crypto.com/exchange/v/public/get-candlestick?instrument_name=ICP_USDT&timeframe=m&start_ts=&count=É»ãÇddatexFri, 07 Feb 2025 12:38:22 GMTÇlcontent-typepapplication/jsonÇqtransfer-encodinggchunkedÇjconnectionjkeep-aliveÇfcf-rayt90e36fc2ec53bc02-ZRHÇocf-cache-statusgDYNAMICÇdvaryxEOrigin, Access-Control-Request-Method, Access-Control-Request-HeadersÇjset-cookiexˇ__cf_bm=jhiFKMrTQjLA3e06Oyxt.ThxVe_AP7PYCa9PVln2cKQ-1738931902-1.0.1.1-qB4ptT7_Wq.zy0ekblxANrtl.YHRE9qT9JohoKwED4PyO0tG1q02xPuwhrsnalZCBTpIiQL_9eUiBFflgY3NlA; path=/; expires=Fri, 07-Feb-25 13:08:22 GMT; domain=.crypto.com; HttpOnly; Secure; SameSite=NoneÇjset-cookiexê_cfuvid=rvAyu95kjDKDFEyw4S613QLw.0YyF32G6bPty9mXQFU-1738931902177-0.0.1.1-604800000; path=/; domain=.crypto.com; HttpOnly; Secure; SameSite=NoneÇfserverjcloudflareÇgalt-svcsh3=":443"; ma=86400Y/{
+  "id" : -1,
+  "method" : "public/get-candlestick",
+  "code" : 0,
+  "result" : {
+    "interval" : "1m",
+    "data" : [ {
+      "o" : "6.9514",
+      "h" : "6.9514",
+      "l" : "6.9514",
+      "c" : "6.9514",
+      "v" : "0",
+      "t" : 1738931880000
+    } ],
+    "instrument_name" : "ICP_USDT"
+  }
+}xohttps://api.crypto.com/exchange/v/public/get-candlestick?instrument_name=USDC_USDT&timeframe=m&start_ts=&count=É»ãÇddatexThu, 20 Mar 2025 18:47:30 GMTÇlcontent-typepapplication/jsonÇqtransfer-encodinggchunkedÇjconnectionjkeep-aliveÇfcf-rayt923760de8d66dc8b-ZRHÇocf-cache-statusgDYNAMICÇdvaryxEOrigin, Access-Control-Request-Method, Access-Control-Request-HeadersÇjset-cookiey__cf_bm=Z0sPywYtpD0P9MSs3cOiIDJiu7dQ1hGLHEAq5w6.D9A-1742496450-1.0.1.1-oHYsTH4v9OQSIG6_Ls65wCg5vS21.wQDF8Tq9DjrbpLYIiVkRV8xpGo00Bo0zMQei4p9AEqDvHgBwmQb0Ytt9S2KtxmQqvGZgt9gQMc1Kb8; path=/; expires=Thu, 20-Mar-25 19:17:30 GMT; domain=.crypto.com; HttpOnly; Secure; SameSite=NoneÇjset-cookiexê_cfuvid=dXGIiGEjRbFbbkT8LY_eIw5_dxT0MhpYUAHdccavkeQ-1742496450622-0.0.1.1-604800000; path=/; domain=.crypto.com; HttpOnly; Secure; SameSite=NoneÇfserverjcloudflareÇgalt-svcsh3=":443"; ma=86400X•{
+  "id" : -1,
+  "method" : "public/get-candlestick",
+  "code" : 0,
+  "result" : {
+    "interval" : "1m",
+    "data" : [ ],
+    "instrument_name" : "USDC_USDT"
+  }
+}xThttps://api.exchange.coinbase.com/products/ICP-USDT/candles?granularity=&start=&end=É»óÇddatexFri, 07 Feb 2025 12:38:24 GMTÇlcontent-typexapplication/json; charset=utf-8Çqtransfer-encodinggchunkedÇjconnectionjkeep-aliveÇxaccess-control-allow-headersx7Content-Type, Accept, cb-session, cb-fp, cb-form-factorÇxaccess-control-allow-methodssGET,POST,DELETE,PUTÇxaccess-control-allow-origina*Çxaccess-control-expose-headersxcb-before, cb-after, cb-gdprÇvaccess-control-max-aged7200Çmcache-controlx$public, max-age=300, must-revalidateÇdetagx"W/"1e-Fy4iy73pvR96QYuJTjEtnFBPtfY"Çxstrict-transport-securityx#max-age=15552000; includeSubDomainsÇvx-content-type-optionsgnosniffÇvx-dns-prefetch-controlcoffÇrx-download-optionsfnoopenÇox-frame-optionsjSAMEORIGINÇpx-xss-protectionm1; mode=blockÇocf-cache-statuscHITÇjset-cookiey
+__cf_bm=GXJ3mYgVj5o8qG9iUAjRYVucnJPAr9kThM8_Yr11W24-1738931904-1.0.1.1-cAKgNGeMC0T4SpoPYN50q1nCnUzYowPC.d4RquEvBD7v3JHtuD7.AmNHZHHLu_LV4DobKZSD_V6xgZJDX5pFdw; path=/; expires=Fri, 07-Feb-25 13:08:24 GMT; domain=.exchange.coinbase.com; HttpOnly; Secure; SameSite=NoneÇireport-toy{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=DZcSBU1uxUOKNJiGKm6eiu%2F8b8iy6TvkdJYJO5QINfxx%2B%2FL1A7QsOd7v1RIFvUeiZyF%2BPwqGr2Oe2wNrMlAjNwOwgJYQ1LsfYnn65ILCYDvWWNn8F7ccQW2OziVEB99Myc6YxUTrzYsVQX0%3D"}],"group":"cf-nel","max_age":604800}Çcnelx?{"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}ÇfserverjcloudflareÇfcf-rayt90e36fd14a0724c0-ZRHB[]xUhttps://api.exchange.coinbase.com/products/USDC-USDT/candles?granularity=&start=&end=ÉîóÇddatexThu, 20 Mar 2025 18:47:30 GMTÇlcontent-typexapplication/json; charset=utf-8Çqtransfer-encodinggchunkedÇjconnectionjkeep-aliveÇxaccess-control-allow-headersx7Content-Type, Accept, cb-session, cb-fp, cb-form-factorÇxaccess-control-allow-methodssGET,POST,DELETE,PUTÇxaccess-control-allow-origina*Çxaccess-control-expose-headersxcb-before, cb-after, cb-gdprÇvaccess-control-max-aged7200Çmcache-controlhno-storeÇdetagx"W/"32-UTsiuoTZ0Q5sotaDON9YrAZQhbE"Çxstrict-transport-securityx#max-age=15552000; includeSubDomainsÇvx-content-type-optionsgnosniffÇvx-dns-prefetch-controlcoffÇrx-download-optionsfnoopenÇox-frame-optionsjSAMEORIGINÇpx-xss-protectionm1; mode=blockÇocf-cache-statusdMISSÇjset-cookiey__cf_bm=1.shRVBRRK8r1mKx.dtkykG7U71CECljKhgsUZ7OowY-1742496450-1.0.1.1-VYqSLICoKVXdczMnF6_CKWsYMZwd1zpM9qNL3wFdiPd8V7UE0L64JcPO25OHwOC9mL80ij5ENxJQAetgOXnKVcn6Je_8WZBJgT3BnIPioYU; path=/; expires=Thu, 20-Mar-25 19:17:30 GMT; domain=.exchange.coinbase.com; HttpOnly; Secure; SameSite=NoneÇireport-toxˇ{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=dhppk3gbssh5FtZ8fXn%2FlibCZTEqrIfFbYpyxHP0BA9NopEUJVxeEEjXwp3Sq6gwL1lrUAbOA4VX61Jcsysi%2FcuQRuwXL7xEgdYHTpstIfNogiKqZX4LmCPr1yMTgkdpuVE6Ra7MkJ4iVFk%3D"}],"group":"cf-nel","max_age":604800}Çcnelx?{"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}ÇfserverjcloudflareÇfcf-rayt923760e0b900be72-ZRHV{"message":"NotFound"}xYhttps://api.gateio.ws/api/v/spot/candlesticks?currency_pair=ETH_USDT&interval=m&from=&to=É»êÇddatexFri, 07 Feb 2025 12:38:33 GMTÇlcontent-typepapplication/jsonÇqtransfer-encodinggchunkedÇjconnectionjkeep-aliveÇfserveriopenrestyÇlx-request-id`Çx x-gate-ratelimit-requests-remainc199Çvx-gate-ratelimit-limitc200Çx x-gate-ratelimit-reset-timestampj1738931913Çjx-out-timep1738931913699510Çox-gate-trace-idx 67a5fec95ea37e136305095832ad8917Çix-in-timep1738931913692924Çxaccess-control-allow-methodsxGET,POST,OPTIONS,DELETE,PUTÇxaccess-control-allow-headersxWDNT,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-TypeÇvaccess-control-max-ageg1728000ÇdvaryfOriginX_[["1738927560","103504.05766900","2753.48","2753.48","2750.98","2753.44","37.60800000","true"]]xYhttps://api.gateio.ws/api/v/spot/candlesticks?currency_pair=ICP_USDT&interval=m&from=&to=É»êÇddatexFri, 07 Feb 2025 12:38:23 GMTÇlcontent-typepapplication/jsonÇqtransfer-encodinggchunkedÇjconnectionjkeep-aliveÇfserveriopenrestyÇlx-request-id`Çx x-gate-ratelimit-requests-remainc199Çvx-gate-ratelimit-limitc200Çx x-gate-ratelimit-reset-timestampj1738931903Çjx-out-timep1738931903221407Çox-gate-trace-idx 67a5febf1e12884ba511bc5aaebe3796Çix-in-timep1738931903216126Çxaccess-control-allow-methodsxGET,POST,OPTIONS,DELETE,PUTÇxaccess-control-allow-headersxWDNT,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-TypeÇvaccess-control-max-ageg1728000ÇdvaryfOriginXR[["1738926780","31.12188000","6.978","6.978","6.978","6.978","4.46000000","true"]]xZhttps://api.gateio.ws/api/v/spot/candlesticks?currency_pair=USDC_USDT&interval=m&from=&to=ÉêåÇddatexThu, 20 Mar 2025 18:47:31 GMTÇlcontent-typepapplication/jsonÇncontent-lengthc106Çjconnectionjkeep-aliveÇfserveriopenrestyÇlx-request-id`Çx x-gate-ratelimit-requests-remainc199Çvx-gate-ratelimit-limitc200Çx x-gate-ratelimit-reset-timestampj1742496451Çjx-out-timep1742496451788992Çox-gate-trace-idx 67dc62c377d531a0122bacad4b9afe96Çix-in-timep1742496451787003Xj{"label":"INVALID_PARAM_VALUE","message":"Candlestick too long ago. Maximum 10000 points ago are allowed"}xThttps://api.kucoin.com/api/v/market/candles?symbol=ETH-USDT&type=min&startAt=&endAt=É»îÇddatexFri, 07 Feb 2025 12:38:34 GMTÇlcontent-typepapplication/jsonÇncontent-lengthc112Çjconnectionjkeep-aliveÇjset-cookiex≤AWSALB=PBX6ji66MPKAY0fi6DSqet0F3aJNZlG+kYy3sfqNVO0CIZ7AVlfwhotmCNPLzxIn23KayZP1rgpBI46M3YEt4k25I1+luXE3hEvfKdJr0NPer1bk3dr6ggsaesuo; Expires=Fri, 14 Feb 2025 12:38:34 GMT; Path=/Çjset-cookiexÕAWSALBCORS=PBX6ji66MPKAY0fi6DSqet0F3aJNZlG+kYy3sfqNVO0CIZ7AVlfwhotmCNPLzxIn23KayZP1rgpBI46M3YEt4k25I1+luXE3hEvfKdJr0NPer1bk3dr6ggsaesuo; Expires=Fri, 14 Feb 2025 12:38:34 GMT; Path=/; SameSite=None; SecureÇjset-cookiexˇ__cf_bm=p4GcIIoQB2Qbba9h_mrb7HCpXCzHGi0y6OD43hxLqeI-1738931914-1.0.1.1-subSBq6sTbpnHTHBRyVEyKARPKM7rmPQP2EMINV5NWEaR_JkuvtT1359EQXc4EesGHXm58NvDFc4ceAle0eAdA; path=/; expires=Fri, 07-Feb-25 13:08:34 GMT; domain=.kucoin.com; HttpOnly; Secure; SameSite=NoneÇjset-cookiexê_cfuvid=0MAD3JknZPQWDPBhoNi6KlhRR5FxbhSVbfQZwQLYpYE-1738931914286-0.0.1.1-604800000; path=/; domain=.kucoin.com; HttpOnly; Secure; SameSite=NoneÇix-in-timer5-1738931914149310Çvgw-ratelimit-remainingd1994Çrgw-ratelimit-limitd2000Çrgw-ratelimit-resete19421Çjx-out-timer5-1738931914150625Çqx-result-biz-codef200000Çmcache-controlx"public,max-age=1,stale-if-error=20Çgweb-tagecacheÇnx-cache-statusdMISSÇocf-cache-statusgDYNAMICÇfserverjcloudflareÇfcf-rayt90e3700e98f3f857-ZRHXp{"code":"200000","data":[["1738927560","2753.64","2753.37","2753.64","2751.24","26.0605679","71722.742248568"]]}xThttps://api.kucoin.com/api/v/market/candles?symbol=ICP-USDT&type=min&startAt=&endAt=É»îÇddatexFri, 07 Feb 2025 12:38:23 GMTÇlcontent-typepapplication/jsonÇncontent-lengthb97Çjconnectionjkeep-aliveÇjset-cookiex≤AWSALB=lvnOeYJXajA0j4ChQaHw9RguBzRZ/Nz3BtV1+n4RWwGic2I4vjUuVkoWapSUpdkumMSRtm17ZQwAuwIXMXmRWH+c+aVPEmwP1WKakHlnDg3MYCu6tjEkgwKQcM64; Expires=Fri, 14 Feb 2025 12:38:23 GMT; Path=/Çjset-cookiexÕAWSALBCORS=lvnOeYJXajA0j4ChQaHw9RguBzRZ/Nz3BtV1+n4RWwGic2I4vjUuVkoWapSUpdkumMSRtm17ZQwAuwIXMXmRWH+c+aVPEmwP1WKakHlnDg3MYCu6tjEkgwKQcM64; Expires=Fri, 14 Feb 2025 12:38:23 GMT; Path=/; SameSite=None; SecureÇjset-cookiexˇ__cf_bm=jtgradv.uM_dLwfvgcAWtMh_PsUL6dXDceNayqDenJY-1738931903-1.0.1.1-GxsV4Ms5aIqefNtZ07fWivM.V_URGNn3EZit5bCXqVStYT6Q7pOqfLBGPDX4MbYjl0B3OzsKv.w16IcHJoTu1A; path=/; expires=Fri, 07-Feb-25 13:08:23 GMT; domain=.kucoin.com; HttpOnly; Secure; SameSite=NoneÇjset-cookiexê_cfuvid=Bjq0fqRUSbD9WkeSEcjRopOtZ_9CJrKuLIiAi2jpobI-1738931903682-0.0.1.1-604800000; path=/; domain=.kucoin.com; HttpOnly; Secure; SameSite=NoneÇix-in-timer5-1738931903569933Çvgw-ratelimit-remainingd1997Çrgw-ratelimit-limitd2000Çrgw-ratelimit-resete29999Çjx-out-timer5-1738931903571892Çqx-result-biz-codef200000Çmcache-controlx"public,max-age=1,stale-if-error=20Çgweb-tagecacheÇnx-cache-statusdMISSÇocf-cache-statusgDYNAMICÇfserverjcloudflareÇfcf-rayt90e36fcc8aeef437-ZRHXa{"code":"200000","data":[["1738926780","6.974","6.983","6.983","6.974","82.1718","573.6439865"]]}xUhttps://api.kucoin.com/api/v/market/candles?symbol=USDC-USDT&type=min&startAt=&endAt=É»ñÇddatexThu, 20 Mar 2025 18:47:32 GMTÇlcontent-typepapplication/jsonÇncontent-lengthb97Çjconnectionjkeep-aliveÇjset-cookiex‰AWSALBTG=La4EV0WZg3Cvwl40gsGRJD18Wj4BGC4ZFNptsd5u/SV1DyhFi/dVjkVx+txjk0zqFLkOCWEwNV3d/B9YaTCY3GxpdfNlKBC//Hy7RVWq3ceh3swBYY0E/tik2ED5Kiy03AT9CASyjp3cS1ucLLa316OBjBMV1UzTe4GfKXahTW/a; Expires=Thu, 27 Mar 2025 18:47:32 GMT; Path=/Çjset-cookiexˇAWSALBTGCORS=La4EV0WZg3Cvwl40gsGRJD18Wj4BGC4ZFNptsd5u/SV1DyhFi/dVjkVx+txjk0zqFLkOCWEwNV3d/B9YaTCY3GxpdfNlKBC//Hy7RVWq3ceh3swBYY0E/tik2ED5Kiy03AT9CASyjp3cS1ucLLa316OBjBMV1UzTe4GfKXahTW/a; Expires=Thu, 27 Mar 2025 18:47:32 GMT; Path=/; SameSite=None; SecureÇjset-cookiex≤AWSALB=p6ZyuBW32BogDsLWVcr69n5qE/tVZJRscRiHpSl8Isrkun4STJxmRALmWNMrJM0/EKJAfmh6WNZMIhDHAjzjL1FUj9QDiMLbfZp4p+lJYPBCRV57HH7o8u3+VGnm; Expires=Thu, 27 Mar 2025 18:47:32 GMT; Path=/Çjset-cookiexÕAWSALBCORS=p6ZyuBW32BogDsLWVcr69n5qE/tVZJRscRiHpSl8Isrkun4STJxmRALmWNMrJM0/EKJAfmh6WNZMIhDHAjzjL1FUj9QDiMLbfZp4p+lJYPBCRV57HH7o8u3+VGnm; Expires=Thu, 27 Mar 2025 18:47:32 GMT; Path=/; SameSite=None; SecureÇjset-cookiey__cf_bm=S6c_c.HZllCHDx5IT_G1aBIV6g8DKHwUq3t2Klfl9CI-1742496452-1.0.1.1-YpUYlUh6.I_6ORiluxNREgMqYpx_wmW0aIws1XLQ311KlGmSVHvZREF7YpZZb0YI5kz0V2zYPzassLXzDx7XqvlKn7gvjMwFftyY0c7x1tg; path=/; expires=Thu, 20-Mar-25 19:17:32 GMT; domain=.kucoin.com; HttpOnly; Secure; SameSite=NoneÇjset-cookiexê_cfuvid=w9vM71Eef8sJx0nJYTt503hw_SSt3yv1Zy4Jusij240-1742496452269-0.0.1.1-604800000; path=/; domain=.kucoin.com; HttpOnly; Secure; SameSite=NoneÇix-in-timer5-1742496452135966Çvgw-ratelimit-remainingd1997Çrgw-ratelimit-limitd2000Çrgw-ratelimit-resete29998Çjx-out-timer5-1742496452137504Çqx-result-biz-codef200000Çmcache-controlx"public,max-age=1,stale-if-error=20Çgweb-tagecacheÇnx-cache-statusdMISSÇocf-cache-statusgDYNAMICÇfserverjcloudflareÇfcf-rayt923760e8dc4bbb0c-ZRHXa{"code":"200000","data":[["1738933140","0.9997","0.9997","0.9997","0.9997","31.25","31.240625"]]}xVhttps://api.poloniex.com/markets/ETH_USDT/candles?interval=MINUTE_&startTime=&endTime=É»äÇddatexFri, 07 Feb 2025 12:38:34 GMTÇlcontent-typepapplication/jsonÇncontent-lengthc170Çjconnectionjkeep-aliveÇjweb-filtersskip-authenticationÇocf-cache-statusgDYNAMICÇxstrict-transport-securityx#max-age=15552000; includeSubDomainsÇvx-content-type-optionsgnosniffÇfserverjcloudflareÇfcf-rayt90e37010cbadbe72-ZRHX™[ [ "2750.34", "2753.25", "2753.16", "2752.62", "28507.94", "10.36024", "13356.93", "4.854049", 95, 1738927619474, "2751.66", "MINUTE_1", 1738927560000, 1738927619999 ] ]xVhttps://api.poloniex.com/markets/ICP_USDT/candles?interval=MINUTE_&startTime=&endTime=É»äÇddatexFri, 07 Feb 2025 12:38:24 GMTÇlcontent-typepapplication/jsonÇncontent-lengthc163Çjconnectionjkeep-aliveÇjweb-filtersskip-authenticationÇocf-cache-statusgDYNAMICÇxstrict-transport-securityx#max-age=15552000; includeSubDomainsÇvx-content-type-optionsgnosniffÇfserverjcloudflareÇfcf-rayt90e36fce8c8fbbf4-ZRHX£[ [ "7.136", "7.156", "7.156", "7.136", "2993.074", "419.32845", "1750.364", "245.20797", 132, 1738926840548, "7.137", "MINUTE_1", 1738926780000, 1738926839999 ] ]xWhttps://api.poloniex.com/markets/USDC_USDT/candles?interval=MINUTE_&startTime=&endTime=ÉêäÇddatexThu, 20 Mar 2025 18:47:32 GMTÇlcontent-typepapplication/jsonÇncontent-lengthb53Çjconnectionjkeep-aliveÇjweb-filtersskip-authenticationÇocf-cache-statusgDYNAMICÇxstrict-transport-securityx#max-age=15552000; includeSubDomainsÇvx-content-type-optionsgnosniffÇfserverjcloudflareÇfcf-rayt923760eb1a04be5f-ZRHX5{
+  "code" : 24101,
+  "message" : "Invalid symbol!"
+}xOhttps://api.pro.coinbase.com/products/ICP-USDT/candles?granularity=&start=&end=É˜ïÇddatexFri, 07 Feb 2025 12:10:03 GMTÇlcontent-typexapplication/json; charset=utf-8Çncontent-lengthb45Çjconnectionjkeep-aliveÇxaccess-control-allow-headersx7Content-Type, Accept, cb-session, cb-fp, cb-form-factorÇxaccess-control-allow-methodssGET,POST,DELETE,PUTÇxaccess-control-allow-origina*Çxaccess-control-expose-headersxcb-before, cb-after, cb-gdprÇvaccess-control-max-aged7200Çmcache-controlhno-storeÇdetagx"W/"2d-ks5EZhQY26pMgwn1OBo80gCV2vM"Çxstrict-transport-securityx#max-age=15552000; includeSubDomainsÇvx-content-type-optionsgnosniffÇvx-dns-prefetch-controlcoffÇrx-download-optionsfnoopenÇox-frame-optionsjSAMEORIGINÇpx-xss-protectionm1; mode=blockÇocf-cache-statusdMISSÇjset-cookiey__cf_bm=UFOCGM24PLbUKMthFxcyrJz0ot6FkRI8a0EBoWg9dDU-1738930203-1.0.1.1-bclZiyzq7YRnTuuHM8vmhBXF6v_tauNx55DvIBkDRxTUPhOmG.xqjsk7hvjfSVlZUs6CIbJu_K64ujGAFwjZig; path=/; expires=Fri, 07-Feb-25 12:40:03 GMT; domain=.pro.coinbase.com; HttpOnly; Secure; SameSite=NoneÇfserverjcloudflareÇfcf-rayt90e3464bcdfdbb0d-ZRHX-{"message":"Coinbase Pro API is deprecated."}x3https://cbu.uz/ru/arkhiv-kursov-valyut/json/all/--/É»íÇfserverenginxÇddatexFri, 07 Feb 2025 12:38:24 GMTÇlcontent-typepapplication/jsonÇqtransfer-encodinggchunkedÇjconnectionjkeep-aliveÇdvaryeHTTPSÇcp3pxepolicyref="/bitrix/p3p.xml", CP="NON DSP COR CUR ADM DEV PSA PSD OUR UNR BUS UNI COM NAV INT DEM STA"Çmx-powered-cmsx6Bitrix Site Manager (c8adcaa7ec7e7ae69696ea11d0fec79f)Çjset-cookiexSPHPSESSID=EvH7yLl7u8n8GdZ2mZ393OQ6D9o7CCIw; path=/; domain=cbu.uz; secure; HttpOnlyÇgexpiresxThu, 19 Nov 1981 08:52:00 GMTÇmcache-controlx#no-store, no-cache, must-revalidateÇfpragmahno-cacheÇox-frame-optionsjSAMEORIGINÇox-frame-optionsjSAMEORIGINÇwcontent-security-policywframe-ancestors 'self';Çxaccess-control-allow-origina*Çxaccess-control-allow-headerslContent-TypeÇvx-content-type-optionsgnosniffYdÃ[{"id":69,"Code":"840","Ccy":"USD","CcyNm_RU":"\u0414\u043e\u043b\u043b\u0430\u0440 \u0421\u0428\u0410","CcyNm_UZ":"AQSH dollari","CcyNm_UZC":"\u0410\u049a\u0428 \u0434\u043e\u043b\u043b\u0430\u0440\u0438","CcyNm_EN":"US Dollar","Nominal":"1","Rate":"12985.32","Diff":"-13.59","Date":"06.02.2025"},{"id":21,"Code":"978","Ccy":"EUR","CcyNm_RU":"\u0415\u0432\u0440\u043e","CcyNm_UZ":"EVRO","CcyNm_UZC":"E\u0412\u0420\u041e","CcyNm_EN":"Euro","Nominal":"1","Rate":"13511.23","Diff":"71.66","Date":"06.02.2025"},{"id":57,"Code":"643","Ccy":"RUB","CcyNm_RU":"\u0420\u043e\u0441\u0441\u0438\u0439\u0441\u043a\u0438\u0439 \u0440\u0443\u0431\u043b\u044c","CcyNm_UZ":"Rossiya rubli","CcyNm_UZC":"\u0420\u043e\u0441\u0441\u0438\u044f \u0440\u0443\u0431\u043b\u0438","CcyNm_EN":"Russian Ruble","Nominal":"1","Rate":"132.22","Diff":"0.93","Date":"06.02.2025"},{"id":22,"Code":"826","Ccy":"GBP","CcyNm_RU":"\u0424\u0443\u043d\u0442 \u0441\u0442\u0435\u0440\u043b\u0438\u043d\u0433\u043e\u0432","CcyNm_UZ":"Angliya funt sterlingi","CcyNm_UZC":"\u0410\u043d\u0433\u043b\u0438\u044f \u0444\u0443\u043d\u0442 \u0441\u0442\u0435\u0440\u043b\u0438\u043d\u0433\u0438","CcyNm_EN":"Pound Sterling","Nominal":"1","Rate":"16255.02","Diff":"103.87","Date":"06.02.2025"},{"id":33,"Code":"392","Ccy":"JPY","CcyNm_RU":"\u0418\u0435\u043d\u0430","CcyNm_UZ":"Yaponiya iyenasi","CcyNm_UZC":"\u042f\u043f\u043e\u043d\u0438\u044f \u0438\u0435\u043d\u0430\u0441\u0438","CcyNm_EN":"Japan Yen","Nominal":"1","Rate":"84.96","Diff":"1.28","Date":"06.02.2025"},{"id":6,"Code":"944","Ccy":"AZN","CcyNm_RU":"\u0410\u0437\u0435\u0440\u0431\u0430\u0439\u0434\u0436\u0430\u043d\u0441\u043a\u0438\u0439 \u043c\u0430\u043d\u0430\u0442","CcyNm_UZ":"Ozarbayjon manati","CcyNm_UZC":"\u041e\u0437\u0430\u0440\u0431\u0430\u0439\u0436\u043e\u043d \u043c\u0430\u043d\u0430\u0442\u0438","CcyNm_EN":"Azerbaijan Manat","Nominal":"1","Rate":"7638.42","Diff":"-8","Date":"06.02.2025"},{"id":7,"Code":"050","Ccy":"BDT","CcyNm_RU":"\u0411\u0430\u043d\u0433\u043b\u0430\u0434\u0435\u0448\u0441\u043a\u0430\u044f \u0442\u0430\u043a\u0430","CcyNm_UZ":"Bangladesh takasi","CcyNm_UZC":"\u0411\u0430\u043d\u0433\u043b\u0430\u0434\u0435\u0448 \u0442\u0430\u043a\u0430\u0441\u0438","CcyNm_EN":"Bangladesh Taka","Nominal":"1","Rate":"106.88","Diff":"0.29","Date":"06.02.2025"},{"id":8,"Code":"975","Ccy":"BGN","CcyNm_RU":"\u0411\u043e\u043b\u0433\u0430\u0440\u0441\u043a\u0438\u0439 \u043b\u0435\u0432","CcyNm_UZ":"Bolgariya levi","CcyNm_UZC":"\u0411\u043e\u043b\u0433\u0430\u0440\u0438\u044f \u043b\u0435\u0432\u0438","CcyNm_EN":"Bulgarian Lev","Nominal":"1","Rate":"6907.45","Diff":"36.26","Date":"06.02.2025"},{"id":9,"Code":"048","Ccy":"BHD","CcyNm_RU":"\u0411\u0430\u0445\u0440\u0435\u0439\u043d\u0441\u043a\u0438\u0439 \u0434\u0438\u043d\u0430\u0440","CcyNm_UZ":"Bahrayn dinori","CcyNm_UZC":"\u0411\u0430\u04b3\u0440\u0430\u0439\u043d \u0434\u0438\u043d\u043e\u0440\u0438","CcyNm_EN":"Bahraini Dinar","Nominal":"1","Rate":"34443.82","Diff":"-36.05","Date":"06.02.2025"},{"id":10,"Code":"096","Ccy":"BND","CcyNm_RU":"\u0411\u0440\u0443\u043d\u0435\u0439\u0441\u043a\u0438\u0439 \u0434\u043e\u043b\u043b\u0430\u0440","CcyNm_UZ":"Bruney dollari","CcyNm_UZC":"\u0411\u0440\u0443\u043d\u0435\u0439 \u0434\u043e\u043b\u043b\u0430\u0440\u0438","CcyNm_EN":"Brunei Dollar","Nominal":"1","Rate":"9618.76","Diff":"33.25","Date":"06.02.2025"},{"id":11,"Code":"986","Ccy":"BRL","CcyNm_RU":"\u0411\u0440\u0430\u0437\u0438\u043b\u044c\u0441\u043a\u0438\u0439 \u0440\u0435\u0430\u043b","CcyNm_UZ":"Braziliya reali","CcyNm_UZC":"\u0411\u0440\u0430\u0437\u0438\u043b\u0438\u044f \u0440\u0435\u0430\u043b\u0438","CcyNm_EN":"Brazilian Real","Nominal":"1","Rate":"2254.94","Diff":"16.41","Date":"06.02.2025"},{"id":12,"Code":"933","Ccy":"BYN","CcyNm_RU":"\u0411\u0435\u043b\u043e\u0440\u0443\u0441\u0441\u043a\u0438\u0439 \u0440\u0443\u0431\u043b\u044c","CcyNm_UZ":"Belorus rubli","CcyNm_UZC":"\u0411\u0435\u043b\u043e\u0440\u0443\u0441 \u0440\u0443\u0431\u043b\u0438","CcyNm_EN":"Belarusian Ruble","Nominal":"1","Rate":"3967.89","Diff":"-4.15","Date":"06.02.2025"},{"id":13,"Code":"124","Ccy":"CAD","CcyNm_RU":"\u041a\u0430\u043d\u0430\u0434\u0441\u043a\u0438\u0439 \u0434\u043e\u043b\u043b\u0430\u0440","CcyNm_UZ":"Kanada dollari","CcyNm_UZC":"\u041a\u0430\u043d\u0430\u0434\u0430 \u0434\u043e\u043b\u043b\u0430\u0440\u0438","CcyNm_EN":"Canadian Dollar","Nominal":"1","Rate":"9088.91","Diff":"78.16","Date":"06.02.2025"},{"id":14,"Code":"756","Ccy":"CHF","CcyNm_RU":"\u0428\u0432\u0435\u0439\u0446\u0430\u0440\u0441\u043a\u0438\u0439 \u0444\u0440\u0430\u043d\u043a","CcyNm_UZ":"Shveytsariya franki","CcyNm_UZC":"\u0428\u0432\u0435\u0439\u0446\u0430\u0440\u0438\u044f \u0444\u0440\u0430\u043d\u043a\u0438","CcyNm_EN":"Swiss Franc","Nominal":"1","Rate":"14386.57","Diff":"97.34","Date":"06.02.2025"},{"id":15,"Code":"156","Ccy":"CNY","CcyNm_RU":"\u042e\u0430\u043d\u044c \u0440\u0435\u043d\u043c\u0438\u043d\u0431\u0438","CcyNm_UZ":"Xitoy yuani","CcyNm_UZC":"\u0425\u0438\u0442\u043e\u0439 \u044e\u0430\u043d\u0438","CcyNm_EN":"Yuan Renminbi","Nominal":"1","Rate":"1785.81","Diff":"-6.8","Date":"06.02.2025"},{"id":16,"Code":"192","Ccy":"CUP","CcyNm_RU":"\u041a\u0443\u0431\u0438\u043d\u0441\u043a\u043e\u0435 \u043f\u0435\u0441\u043e","CcyNm_UZ":"Kuba pesosi","CcyNm_UZC":"\u041a\u0443\u0431\u0430 \u043f\u0435\u0441\u043e\u0441\u0438","CcyNm_EN":"Cuban Peso","Nominal":"1","Rate":"541.06","Diff":"-0.56","Date":"06.02.2025"},{"id":17,"Code":"203","Ccy":"CZK","CcyNm_RU":"\u0427\u0435\u0448\u0441\u043a\u0430\u044f \u043a\u0440\u043e\u043d\u0430","CcyNm_UZ":"Chexiya kronasi","CcyNm_UZC":"\u0427\u0435\u0445\u0438\u044f \u043a\u0440\u043e\u043d\u0430\u0441\u0438","CcyNm_EN":"Czech Koruna","Nominal":"1","Rate":"537.16","Diff":"3.65","Date":"06.02.2025"},{"id":18,"Code":"208","Ccy":"DKK","CcyNm_RU":"\u0414\u0430\u0442\u0441\u043a\u0430\u044f \u043a\u0440\u043e\u043d\u0430","CcyNm_UZ":"Daniya kronasi","CcyNm_UZC":"\u0414\u0430\u043d\u0438\u044f \u043a\u0440\u043e\u043d\u0430\u0441\u0438","CcyNm_EN":"Danish Krone","Nominal":"1","Rate":"1811.01","Diff":"9.76","Date":"06.02.2025"},{"id":19,"Code":"012","Ccy":"DZD","CcyNm_RU":"\u0410\u043b\u0436\u0438\u0440\u0441\u043a\u0438\u0439 \u0434\u0438\u043d\u0430\u0440","CcyNm_UZ":"Jazoir dinori","CcyNm_UZC":"\u0416\u0430\u0437\u043e\u0438\u0440 \u0434\u0438\u043d\u043e\u0440\u0438","CcyNm_EN":"Algerian Dinar","Nominal":"1","Rate":"96.06","Diff":"0.13","Date":"06.02.2025"},{"id":20,"Code":"818","Ccy":"EGP","CcyNm_RU":"\u0415\u0433\u0438\u043f\u0435\u0442\u0441\u043a\u0438\u0439 \u0444\u0443\u043d\u0442","CcyNm_UZ":"Misr funti","CcyNm_UZC":"\u041c\u0438\u0441\u0440 \u0444\u0443\u043d\u0442\u0438","CcyNm_EN":"Egyptian Pound","Nominal":"1","Rate":"258.02","Diff":"-0.15","Date":"06.02.2025"},{"id":2,"Code":"971","Ccy":"AFN","CcyNm_RU":"\u0410\u0444\u0433\u0430\u043d\u0438","CcyNm_UZ":"Afg\u2018oniston afg\u2018onisi","CcyNm_UZC":"\u0410\u0444\u0493\u043e\u043d\u0438\u0441\u0442\u043e\u043d \u0430\u0444\u0493\u043e\u043d\u0438\u0441\u0438","CcyNm_EN":"AF Afghani","Nominal":"1","Rate":"174.51","Diff":"0.4","Date":"06.02.2025"},{"id":4,"Code":"032","Ccy":"ARS","CcyNm_RU":"\u0410\u0440\u0433\u0435\u043d\u0442\u0438\u043d\u0441\u043a\u043e\u0435 \u043f\u0435\u0441\u043e","CcyNm_UZ":"Argentina pesosi","CcyNm_UZC":"\u0410\u0440\u0433\u0435\u043d\u0442\u0438\u043d\u0430 \u043f\u0435\u0441\u043e\u0441\u0438","CcyNm_EN":"Argentine Peso","Nominal":"1","Rate":"12.32","Diff":"-0.02","Date":"06.02.2025"},{"id":23,"Code":"981","Ccy":"GEL","CcyNm_RU":"\u0413\u0440\u0443\u0437\u0438\u043d\u0441\u043a\u0438\u0439 \u043b\u0430\u0440\u0438","CcyNm_UZ":"Gruziya larisi","CcyNm_UZC":"\u0413\u0440\u0443\u0437\u0438\u044f \u043b\u0430\u0440\u0438\u0441\u0438","CcyNm_EN":"Georgian Lari","Nominal":"1","Rate":"4616.18","Diff":"31.03","Date":"06.02.2025"},{"id":24,"Code":"344","Ccy":"HKD","CcyNm_RU":"\u0413\u043e\u043d\u0433\u043a\u043e\u043d\u0433\u0441\u043a\u0438\u0439 \u0434\u043e\u043b\u043b\u0430\u0440","CcyNm_UZ":"Gongkong dollari","CcyNm_UZC":"\u0413\u043e\u043d\u0433\u043a\u043e\u043d\u0433 \u0434\u043e\u043b\u043b\u0430\u0440\u0438","CcyNm_EN":"Hong Kong Dollar","Nominal":"1","Rate":"1667.35","Diff":"-1.64","Date":"06.02.2025"},{"id":25,"Code":"348","Ccy":"HUF","CcyNm_RU":"\u0412\u0435\u043d\u0433\u0435\u0440\u0441\u043a\u0438\u0439 \u0444\u043e\u0440\u0438\u043d\u0442","CcyNm_UZ":"Vengriya forinti","CcyNm_UZC":"\u0412\u0435\u043d\u0433\u0440\u0438\u044f \u0444\u043e\u0440\u0438\u043d\u0442\u0438","CcyNm_EN":"Hungarian Forint","Nominal":"1","Rate":"33.25","Diff":"0.31","Date":"06.02.2025"},{"id":26,"Code":"360","Ccy":"IDR","CcyNm_RU":"\u0420\u0443\u043f\u0438\u044f","CcyNm_UZ":"Indoneziya rupiyasi","CcyNm_UZC":"\u0418\u043d\u0434\u043e\u043d\u0435\u0437\u0438\u044f \u0440\u0443\u043f\u0438\u044f\u0441\u0438","CcyNm_EN":"Rupiah","Nominal":"10","Rate":"7.97","Diff":"0.02","Date":"06.02.2025"},{"id":27,"Code":"376","Ccy":"ILS","CcyNm_RU":"\u041d\u043e\u0432\u044b\u0439 \u0438\u0437\u0440\u0430\u0438\u043b\u044c\u0441\u043a\u0438\u0439 \u0448\u0435\u043a\u0435\u043b\u044c","CcyNm_UZ":"Isroil shekeli","CcyNm_UZC":"\u0418\u0441\u0440\u043e\u0438\u043b \u0448\u0435\u043a\u0435\u043b\u0438","CcyNm_EN":"New Israeli Sheqel","Nominal":"1","Rate":"3648.38","Diff":"11","Date":"06.02.2025"},{"id":28,"Code":"356","Ccy":"INR","CcyNm_RU":"\u0418\u043d\u0434\u0438\u0439\u0441\u043a\u0430\u044f \u0440\u0443\u043f\u0438\u044f","CcyNm_UZ":"Hindiston rupiyasi","CcyNm_UZC":"\u04b2\u0438\u043d\u0434\u0438\u0441\u0442\u043e\u043d \u0440\u0443\u043f\u0438\u044f\u0441\u0438","CcyNm_EN":"Indian Rupee","Nominal":"1","Rate":"148.46","Diff":"-0.82","Date":"06.02.2025"},{"id":29,"Code":"368","Ccy":"IQD","CcyNm_RU":"\u0418\u0440\u0430\u043a\u0441\u043a\u0438\u0439 \u0434\u0438\u043d\u0430\u0440","CcyNm_UZ":"Iroq dinori","CcyNm_UZC":"\u0418\u0440\u043e\u049b \u0434\u0438\u043d\u043e\u0440\u0438","CcyNm_EN":"Iraqi Dinar","Nominal":"1","Rate":"9.91","Diff":"-0.01","Date":"06.02.2025"},{"id":30,"Code":"364","Ccy":"IRR","CcyNm_RU":"\u0418\u0440\u0430\u043d\u0441\u043a\u0438\u0439 \u0440\u0438\u0430\u043b","CcyNm_UZ":"Eron riali","CcyNm_UZC":"\u042d\u0440\u043e\u043d \u0440\u0438\u0430\u043b\u0438","CcyNm_EN":"Iranian Rial","Nominal":"10","Rate":"3.09","Diff":"0","Date":"06.02.2025"},{"id":31,"Code":"352","Ccy":"ISK","CcyNm_RU":"\u0418\u0441\u043b\u0430\u043d\u0434\u0441\u043a\u0430\u044f \u043a\u0440\u043e\u043d\u0430","CcyNm_UZ":"Islandiya kronasi","CcyNm_UZC":"\u0418\u0441\u043b\u0430\u043d\u0434\u0438\u044f \u043a\u0440\u043e\u043d\u0430\u0441\u0438","CcyNm_EN":"Iceland Krona","Nominal":"1","Rate":"91.91","Diff":"0.36","Date":"06.02.2025"},{"id":32,"Code":"400","Ccy":"JOD","CcyNm_RU":"\u0418\u043e\u0440\u0434\u0430\u043d\u0441\u043a\u0438\u0439 \u0434\u0438\u043d\u0430\u0440","CcyNm_UZ":"Iordaniya dinori","CcyNm_UZC":"\u0418\u043e\u0440\u0434\u0430\u043d\u0438\u044f \u0434\u0438\u043d\u043e\u0440\u0438","CcyNm_EN":"Jordanian Dinar","Nominal":"1","Rate":"18296.91","Diff":"-19.15","Date":"06.02.2025"},{"id":5,"Code":"036","Ccy":"AUD","CcyNm_RU":"\u0410\u0432\u0441\u0442\u0440\u0430\u043b\u0438\u0439\u0441\u043a\u0438\u0439 \u0434\u043e\u043b\u043b\u0430\u0440","CcyNm_UZ":"Avstraliya dollari","CcyNm_UZC":"\u0410\u0432\u0441\u0442\u0440\u0430\u043b\u0438\u044f \u0434\u043e\u043b\u043b\u0430\u0440\u0438","CcyNm_EN":"Australian Dollar","Nominal":"1","Rate":"8153.48","Diff":"85.06","Date":"06.02.2025"},{"id":34,"Code":"417","Ccy":"KGS","CcyNm_RU":"\u041a\u0438\u0440\u0433\u0438\u0437\u0441\u043a\u0438\u0439 \u0441\u043e\u043c","CcyNm_UZ":"Qirg\u2018iz somi","CcyNm_UZC":"\u049a\u0438\u0440\u0493\u0438\u0437 \u0441\u043e\u043c\u0438","CcyNm_EN":"Kyrgyzstan Som","Nominal":"1","Rate":"148.44","Diff":"-0.16","Date":"06.02.2025"},{"id":35,"Code":"116","Ccy":"KHR","CcyNm_RU":"\u0420\u0438\u0435\u043b\u044c","CcyNm_UZ":"Kambodja riyeli","CcyNm_UZC":"\u041a\u0430\u043c\u0431\u043e\u0434\u0436\u0430 \u0440\u0438\u0435\u043b\u0438","CcyNm_EN":"Riel","Nominal":"1","Rate":"3.23","Diff":"0","Date":"06.02.2025"},{"id":36,"Code":"410","Ccy":"KRW","CcyNm_RU":"\u0412\u043e\u043d\u0430 \u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0438 \u041a\u043e\u0440\u0435\u044f","CcyNm_UZ":"Koreya Respublikasi voni","CcyNm_UZC":"\u041a\u043e\u0440\u0435\u044f \u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430\u0441\u0438 \u0432\u043e\u043d\u0438","CcyNm_EN":"The Korean Republic Won","Nominal":"1","Rate":"8.98","Diff":"0.06","Date":"06.02.2025"},{"id":37,"Code":"414","Ccy":"KWD","CcyNm_RU":"\u041a\u0443\u0432\u0435\u0439\u0442\u0441\u043a\u0438\u0439 \u0434\u0438\u043d\u0430\u0440","CcyNm_UZ":"Quvayt dinori","CcyNm_UZC":"\u049a\u0443\u0432\u0430\u0439\u0442 \u0434\u0438\u043d\u043e\u0440\u0438","CcyNm_EN":"Kuwaiti Dinar","Nominal":"1","Rate":"42078.16","Diff":"-3.13","Date":"06.02.2025"},{"id":38,"Code":"398","Ccy":"KZT","CcyNm_RU":"\u041a\u0430\u0437\u0430\u0445\u0441\u0442\u0430\u043d\u0441\u043a\u0438\u0439 \u0442\u0435\u043d\u0433\u0435","CcyNm_UZ":"Qozog\u2018iston tengesi","CcyNm_UZC":"\u049a\u043e\u0437\u043e\u0493\u0438\u0441\u0442\u043e\u043d \u0442\u0435\u043d\u0433\u0435\u0441\u0438","CcyNm_EN":"Kazakhstan Tenge","Nominal":"1","Rate":"25.18","Diff":"0.14","Date":"06.02.2025"},{"id":39,"Code":"418","Ccy":"LAK","CcyNm_RU":"\u041b\u0430\u043e\u0441\u0441\u043a\u0438\u0439 \u043a\u0438\u043f","CcyNm_UZ":"Laos kipisi","CcyNm_UZC":"\u041b\u0430\u043e\u0441 \u043a\u0438\u043f\u0438\u0441\u0438","CcyNm_EN":"Lao Kip","Nominal":"1","Rate":"0.60","Diff":"0","Date":"06.02.2025"},{"id":40,"Code":"422","Ccy":"LBP","CcyNm_RU":"\u041b\u0438\u0432\u0430\u043d\u0441\u043a\u0438\u0439 \u0444\u0443\u043d\u0442","CcyNm_UZ":"Livan funti","CcyNm_UZC":"\u041b\u0438\u0432\u0430\u043d \u0444\u0443\u043d\u0442\u0438","CcyNm_EN":"Lebanese Pound","Nominal":"1","Rate":"0.15","Diff":"0","Date":"06.02.2025"},{"id":41,"Code":"434","Ccy":"LYD","CcyNm_RU":"\u041b\u0438\u0432\u0438\u0439\u0441\u043a\u0438\u0439 \u0434\u0438\u043d\u0430\u0440","CcyNm_UZ":"Liviya dinori","CcyNm_UZC":"\u041b\u0438\u0432\u0438\u044f \u0434\u0438\u043d\u043e\u0440\u0438","CcyNm_EN":"Libyan Dinar","Nominal":"1","Rate":"2634.21","Diff":"3.06","Date":"06.02.2025"},{"id":42,"Code":"504","Ccy":"MAD","CcyNm_RU":"\u041c\u0430\u0440\u043e\u043a\u043a\u0430\u043d\u0441\u043a\u0438\u0439 \u0434\u0438\u0440\u0445\u0430\u043c","CcyNm_UZ":"Marokash dirhami","CcyNm_UZC":"\u041c\u0430\u0440\u043e\u043a\u0430\u0448 \u0434\u0438\u0440\u04b3\u0430\u043c\u0438","CcyNm_EN":"Moroccan Dirham","Nominal":"1","Rate":"1295.28","Diff":"4.76","Date":"06.02.2025"},{"id":43,"Code":"498","Ccy":"MDL","CcyNm_RU":"\u041c\u043e\u043b\u0434\u0430\u0432\u0441\u043a\u0438\u0439 \u043b\u0435\u0439","CcyNm_UZ":"Moldaviya leyi","CcyNm_UZC":"\u041c\u043e\u043b\u0434\u0430\u0432\u0438\u044f \u043b\u0435\u0439\u0438","CcyNm_EN":"Moldovan Leu","Nominal":"1","Rate":"693.66","Diff":"1.68","Date":"06.02.2025"},{"id":44,"Code":"104","Ccy":"MMK","CcyNm_RU":"\u041c\u044c\u044f\u043d\u043c\u0430\u043d\u0441\u043a\u0438\u0439 \u043a\u044c\u044f\u0442","CcyNm_UZ":"Myanma kyati","CcyNm_UZC":"\u041c\u044c\u044f\u043d\u043c\u0430 \u043a\u044c\u044f\u0442\u0438","CcyNm_EN":"Kyat","Nominal":"1","Rate":"6.18","Diff":"-0.01","Date":"06.02.2025"},{"id":45,"Code":"496","Ccy":"MNT","CcyNm_RU":"\u041c\u043e\u043d\u0433\u043e\u043b\u044c\u0441\u043a\u0438\u0439 \u0442\u0443\u0433p\u0438\u043a","CcyNm_UZ":"Mongoliya tugriki","CcyNm_UZC":"\u041c\u043e\u043d\u0433\u043e\u043b\u0438\u044f \u0442\u0443\u0433\u0440\u0438\u043a\u0438","CcyNm_EN":"Tugrik","Nominal":"1","Rate":"3.76","Diff":"-0.01","Date":"06.02.2025"},{"id":46,"Code":"484","Ccy":"MXN","CcyNm_RU":"\u041c\u0435\u043a\u0441\u0438\u043a\u0430\u043d\u0441\u043a\u043e\u0435 \u043f\u0435\u0441\u043e","CcyNm_UZ":"Meksika pesosi","CcyNm_UZC":"\u041c\u0435\u043a\u0441\u0438\u043a\u0430 \u043f\u0435\u0441\u043e\u0441\u0438","CcyNm_EN":"Mexican Peso","Nominal":"1","Rate":"631.39","Diff":"-4.95","Date":"06.02.2025"},{"id":47,"Code":"458","Ccy":"MYR","CcyNm_RU":"\u041c\u0430\u043b\u0430\u0439\u0437\u0438\u0439\u0441\u043a\u0438\u0439 \u0440\u0438\u043d\u0433\u0433\u0438\u0442","CcyNm_UZ":"Malayziya ringgiti","CcyNm_UZC":"\u041c\u0430\u043b\u0430\u0439\u0437\u0438\u044f \u0440\u0438\u043d\u0433\u0433\u0438\u0442\u0438","CcyNm_EN":"Malaysian Ringgit","Nominal":"1","Rate":"2936.19","Diff":"11.14","Date":"06.02.2025"},{"id":48,"Code":"578","Ccy":"NOK","CcyNm_RU":"\u041d\u043e\u0440\u0432\u0435\u0436\u0441\u043a\u0430\u044f \u043a\u0440\u043e\u043d\u0430","CcyNm_UZ":"Norvegiya kronasi","CcyNm_UZC":"\u041d\u043e\u0440\u0432\u0435\u0433\u0438\u044f \u043a\u0440\u043e\u043d\u0430\u0441\u0438","CcyNm_EN":"Norwegian Krone","Nominal":"1","Rate":"1160.46","Diff":"13.73","Date":"06.02.2025"},{"id":49,"Code":"554","Ccy":"NZD","CcyNm_RU":"\u041d\u043e\u0432\u043e\u0437\u0435\u043b\u0430\u043d\u0434\u0441\u043a\u0438\u0439 \u0434\u043e\u043b\u043b\u0430\u0440","CcyNm_UZ":"Yangi Zelandiya dollari","CcyNm_UZC":"\u042f\u043d\u0433\u0438 \u0417\u0435\u043b\u0430\u043d\u0434\u0438\u044f \u0434\u043e\u043b\u043b\u0430\u0440\u0438","CcyNm_EN":"New Zealand Dollar","Nominal":"1","Rate":"7379.56","Diff":"89.77","Date":"06.02.2025"},{"id":50,"Code":"512","Ccy":"OMR","CcyNm_RU":"\u041e\u043c\u0430\u043d\u0441\u043a\u0438\u0439 \u0440\u0438\u0430\u043b","CcyNm_UZ":"Ummon riali","CcyNm_UZC":"\u0423\u043c\u043c\u043e\u043d \u0440\u0438\u0430\u043b\u0438","CcyNm_EN":"Rial Omani","Nominal":"1","Rate":"33728.10","Diff":"-35.3","Date":"06.02.2025"},{"id":51,"Code":"608","Ccy":"PHP","CcyNm_RU":"\u0424\u0438\u043b\u0438\u043f\u043f\u0438\u043d\u0441\u043a\u043e\u0435 \u043f\u0435\u0441\u043e","CcyNm_UZ":"Filippin pesosi","CcyNm_UZC":"\u0424\u0438\u043b\u0438\u043f\u043f\u0438\u043d \u043f\u0435\u0441\u043e\u0441\u0438","CcyNm_EN":"Philippine Piso","Nominal":"1","Rate":"224.04","Diff":"0.88","Date":"06.02.2025"},{"id":52,"Code":"586","Ccy":"PKR","CcyNm_RU":"\u041f\u0430\u043a\u0438\u0441\u0442\u0430\u043d\u0441\u043a\u0430\u044f \u0440\u0443\u043f\u0438\u044f","CcyNm_UZ":"Pokiston rupiyasi","CcyNm_UZC":"\u041f\u043e\u043a\u0438\u0441\u0442\u043e\u043d \u0440\u0443\u043f\u0438\u044f\u0441\u0438","CcyNm_EN":"Pakistan Rupee","Nominal":"1","Rate":"46.57","Diff":"-0.03","Date":"06.02.2025"},{"id":53,"Code":"985","Ccy":"PLN","CcyNm_RU":"\u0417\u043b\u043e\u0442\u044b\u0439","CcyNm_UZ":"Polsha zlotiysi","CcyNm_UZC":"\u041f\u043e\u043b\u044c\u0448\u0430 \u0437\u043b\u043e\u0442\u0438\u0439\u0441\u0438","CcyNm_EN":"Polish Zloty","Nominal":"1","Rate":"3211.88","Diff":"31.64","Date":"06.02.2025"},{"id":54,"Code":"634","Ccy":"QAR","CcyNm_RU":"\u041a\u0430\u0442\u0430\u0440\u0441\u043a\u0438\u0439 \u0440\u0438\u0430\u043b","CcyNm_UZ":"Qatar riali","CcyNm_UZC":"\u049a\u0430\u0442\u0430\u0440 \u0440\u0438\u0430\u043b\u0438","CcyNm_EN":"Qatari Rial","Nominal":"1","Rate":"3561.72","Diff":"-3.73","Date":"06.02.2025"},{"id":55,"Code":"946","Ccy":"RON","CcyNm_RU":"\u0420\u0443\u043c\u044b\u043d\u0441\u043a\u0438\u0439 \u043b\u0435\u0439","CcyNm_UZ":"Ruminiya leyi","CcyNm_UZC":"\u0420\u0443\u043c\u0438\u043d\u0438\u044f \u043b\u0435\u0439\u0438","CcyNm_EN":"Romanian Leu","Nominal":"1","Rate":"2714.61","Diff":"14.21","Date":"06.02.2025"},{"id":56,"Code":"941","Ccy":"RSD","CcyNm_RU":"\u0421\u0435\u0440\u0431\u0441\u043a\u0438\u0439 \u0434\u0438\u043d\u0430\u0440","CcyNm_UZ":"Serbiya dinori","CcyNm_UZC":"\u0421\u0435\u0440\u0431\u0438\u044f \u0434\u0438\u043d\u043e\u0440\u0438","CcyNm_EN":"Serbian Dinar","Nominal":"1","Rate":"115.45","Diff":"0.61","Date":"06.02.2025"},{"id":3,"Code":"051","Ccy":"AMD","CcyNm_RU":"\u0410\u0440\u043c\u044f\u043d\u0441\u043a\u0438\u0439 \u0434\u0440\u0430\u043c","CcyNm_UZ":"Armaniston drami","CcyNm_UZC":"\u0410\u0440\u043c\u0430\u043d\u0438\u0441\u0442\u043e\u043d \u0434\u0440\u0430\u043c\u0438","CcyNm_EN":"Armenian Dram","Nominal":"1","Rate":"32.48","Diff":"-0.06","Date":"06.02.2025"},{"id":58,"Code":"682","Ccy":"SAR","CcyNm_RU":"\u0421\u0430\u0443\u0434\u043e\u0432\u0441\u043a\u0438\u0439 \u0440\u0438\u044f\u043b","CcyNm_UZ":"Saudiya\u00a0Arabistoni\u00a0riali","CcyNm_UZC":"\u0421\u0430\u0443\u0434\u0438\u044f\u00a0\u0410\u0440\u0430\u0431\u0438\u0441\u0442\u043e\u043d\u0438\u00a0\u0440\u0438\u0430\u043b\u0438","CcyNm_EN":"Saudi Riyal","Nominal":"1","Rate":"3462.11","Diff":"-3.53","Date":"06.02.2025"},{"id":59,"Code":"938","Ccy":"SDG","CcyNm_RU":"\u0421\u0443\u0434\u0430\u043d\u0441\u043a\u0438\u0439 \u0444\u0443\u043d\u0442","CcyNm_UZ":"Sudan funti","CcyNm_UZC":"\u0421\u0443\u0434\u0430\u043d \u0444\u0443\u043d\u0442\u0438","CcyNm_EN":"Sudanese Pound","Nominal":"1","Rate":"21.63","Diff":"-0.02","Date":"06.02.2025"},{"id":60,"Code":"752","Ccy":"SEK","CcyNm_RU":"\u0428\u0432\u0435\u0434\u0441\u043a\u0430\u044f \u043a\u0440\u043e\u043d\u0430","CcyNm_UZ":"Shvetsiya kronasi","CcyNm_UZC":"\u0428\u0432\u0435\u0446\u0438\u044f \u043a\u0440\u043e\u043d\u0430\u0441\u0438","CcyNm_EN":"Swedish Krona","Nominal":"1","Rate":"1188.73","Diff":"12.95","Date":"06.02.2025"},{"id":61,"Code":"702","Ccy":"SGD","CcyNm_RU":"\u0421\u0438\u043d\u0433\u0430\u043f\u0443\u0440\u0441\u043a\u0438\u0439 \u0434\u043e\u043b\u043b\u0430\u0440","CcyNm_UZ":"Singapur dollari","CcyNm_UZC":"\u0421\u0438\u043d\u0433\u0430\u043f\u0443\u0440 \u0434\u043e\u043b\u043b\u0430\u0440\u0438","CcyNm_EN":"Singapore Dollar","Nominal":"1","Rate":"9618.76","Diff":"33.25","Date":"06.02.2025"},{"id":62,"Code":"760","Ccy":"SYP","CcyNm_RU":"\u0421\u0438\u0440\u0438\u0439\u0441\u043a\u0438\u0439 \u0444\u0443\u043d\u0442","CcyNm_UZ":"Suriya funti","CcyNm_UZC":"\u0421\u0443\u0440\u0438\u044f \u0444\u0443\u043d\u0442\u0438","CcyNm_EN":"Syrian Pound","Nominal":"1","Rate":"1.00","Diff":"0","Date":"06.02.2025"},{"id":63,"Code":"764","Ccy":"THB","CcyNm_RU":"\u0411\u0430\u0442","CcyNm_UZ":"Tailand bati","CcyNm_UZC":"\u0422\u0430\u0438\u043b\u0430\u043d\u0434 \u0431\u0430\u0442\u0438","CcyNm_EN":"Baht","Nominal":"1","Rate":"386.81","Diff":"2.62","Date":"06.02.2025"},{"id":64,"Code":"972","Ccy":"TJS","CcyNm_RU":"\u0421\u043e\u043c\u043e\u043d\u0438","CcyNm_UZ":"Tojikiston somonisi","CcyNm_UZC":"\u0422\u043e\u0436\u0438\u043a\u0438\u0441\u0442\u043e\u043d \u0441\u043e\u043c\u043e\u043d\u0438\u0441\u0438","CcyNm_EN":"Tajikistan Somoni","Nominal":"1","Rate":"1189.68","Diff":"-2.88","Date":"06.02.2025"},{"id":65,"Code":"934","Ccy":"TMT","CcyNm_RU":"\u041d\u043e\u0432\u044b\u0439 \u0442\u0443\u0440\u043a\u043c\u0435\u043d\u0441\u043a\u0438\u0439 \u043c\u0430\u043d\u0430\u0442","CcyNm_UZ":"Turkmaniston manati","CcyNm_UZC":"\u0422\u0443\u0440\u043a\u043c\u0430\u043d\u0438\u0441\u0442\u043e\u043d \u043c\u0430\u043d\u0430\u0442\u0438","CcyNm_EN":"Turkmenistan New Manat","Nominal":"1","Rate":"3710.41","Diff":"-3.88","Date":"06.02.2025"},{"id":66,"Code":"788","Ccy":"TND","CcyNm_RU":"\u0422\u0443\u043d\u0438\u0441\u0441\u043a\u0438\u0439 \u0434\u0438\u043d\u0430\u0440","CcyNm_UZ":"Tunis dinori","CcyNm_UZC":"\u0422\u0443\u043d\u0438\u0441 \u0434\u0438\u043d\u043e\u0440\u0438","CcyNm_EN":"Tunisian Dinar","Nominal":"1","Rate":"4084.72","Diff":"17.09","Date":"06.02.2025"},{"id":67,"Code":"949","Ccy":"TRY","CcyNm_RU":"\u0422\u0443\u0440\u0435\u0446\u043a\u0430\u044f \u043b\u0438\u0440\u0430","CcyNm_UZ":"Turkiya lirasi","CcyNm_UZC":"\u0422\u0443\u0440\u043a\u0438\u044f \u043b\u0438\u0440\u0430\u0441\u0438","CcyNm_EN":"Turkish Lira","Nominal":"1","Rate":"361.36","Diff":"-0.2","Date":"06.02.2025"},{"id":68,"Code":"980","Ccy":"UAH","CcyNm_RU":"\u0413\u0440\u0438\u0432\u043d\u0430","CcyNm_UZ":"Ukraina grivnasi","CcyNm_UZC":"\u0423\u043a\u0440\u0430\u0438\u043d\u0430 \u0433\u0440\u0438\u0432\u043d\u0430\u0441\u0438","CcyNm_EN":"Ukrainian Hryvnia","Nominal":"1","Rate":"311.49","Diff":"0.38","Date":"06.02.2025"},{"id":1,"Code":"784","Ccy":"AED","CcyNm_RU":"\u0414\u0438\u0440\u0445\u0430\u043c \u041e\u0410\u042d","CcyNm_UZ":"BAA dirhami","CcyNm_UZC":"\u0411\u0410\u0410 \u0434\u0438\u0440\u04b3\u0430\u043c\u0438","CcyNm_EN":"UAE Dirham","Nominal":"1","Rate":"3535.34","Diff":"-3.7","Date":"06.02.2025"},{"id":70,"Code":"858","Ccy":"UYU","CcyNm_RU":"\u0423\u0440\u0443\u0433\u0432\u0430\u0439\u0441\u043a\u043e\u0435 \u043f\u0435\u0441\u043e","CcyNm_UZ":"Urugvay pesosi","CcyNm_UZC":"\u0423\u0440\u0443\u0433\u0432\u0430\u0439 \u043f\u0435\u0441\u043e\u0441\u0438","CcyNm_EN":"Peso Uruguayo","Nominal":"1","Rate":"298.41","Diff":"-2.94","Date":"06.02.2025"},{"id":71,"Code":"928","Ccy":"VES","CcyNm_RU":"\u0412\u0435\u043d\u0435\u0441\u0443\u044d\u043b\u044c\u0441\u043a\u0438\u0439 \u0431\u043e\u043b\u0438\u0432\u0430\u0440","CcyNm_UZ":"Venesuela bolivari","CcyNm_UZC":"\u0412\u0435\u043d\u0435\u0441\u0443\u044d\u043b\u0430 \u0431\u043e\u043b\u0438\u0432\u0430\u0440\u0438","CcyNm_EN":"Bol\u00edvar","Nominal":"1","Rate":"221.14","Diff":"-1.19","Date":"06.02.2025"},{"id":72,"Code":"704","Ccy":"VND","CcyNm_RU":"\u0414\u043e\u043d\u0433","CcyNm_UZ":"Vetnam dongi","CcyNm_UZC":"\u0412\u044c\u0435\u0442\u043d\u0430\u043c \u0434\u043e\u043d\u0433\u0438","CcyNm_EN":"Dong","Nominal":"10","Rate":"5.17","Diff":"0.01","Date":"06.02.2025"},{"id":73,"Code":"960","Ccy":"XDR","CcyNm_RU":"\u0421\u0414\u0420","CcyNm_UZ":"SDR","CcyNm_UZC":"\u0421\u0414\u0420","CcyNm_EN":"SDR","Nominal":"1","Rate":"16900.40","Diff":"32.24","Date":"06.02.2025"},{"id":74,"Code":"886","Ccy":"YER","CcyNm_RU":"\u0419\u0435\u043c\u0435\u043d\u0441\u043a\u0438\u0439 \u0440\u0438\u0430\u043b","CcyNm_UZ":"Yaman riali","CcyNm_UZC":"\u042f\u043c\u0430\u043d \u0440\u0438\u0430\u043b\u0438","CcyNm_EN":"Yemeni Rial","Nominal":"1","Rate":"52.27","Diff":"-0.05","Date":"06.02.2025"},{"id":75,"Code":"710","Ccy":"ZAR","CcyNm_RU":"\u0420\u044d\u043d\u0434","CcyNm_UZ":"Janubiy Afrika randi","CcyNm_UZC":"\u0416\u0430\u043d\u0443\u0431\u0438\u0439 \u0410\u0444\u0440\u0438\u043a\u0430 \u0440\u0430\u043d\u0434\u0438","CcyNm_EN":"Rand","Nominal":"1","Rate":"697.85","Diff":"4","Date":"06.02.2025"}]x'https://forex.cbm.gov.mm/api/history/--É»çÇddatexFri, 07 Feb 2025 12:38:25 GMTÇlcontent-typepapplication/jsonÇncontent-lengthc894Çjconnectionjkeep-aliveÇlx-powered-byjPHP/5.4.16Çjset-cookiex]ci_csrf_token=b226aaacbc0d857cefcd450015d15396; expires=Fri, 07-Feb-2025 14:35:56 GMT; path=/Çjset-cookieygci_session=a%3A4%3A%7Bs%3A10%3A%22session_id%22%3Bs%3A32%3A%228c6e7148c2d0fe035d57a6a391d258db%22%3Bs%3A10%3A%22ip_address%22%3Bs%3A15%3A%22192.168.101.222%22%3Bs%3A10%3A%22user_agent%22%3Bs%3A22%3A%22Exchange+Rate+Canister%22%3Bs%3A13%3A%22last_activity%22%3Bi%3A1738931756%3B%7Db90880335d61e8d3c686554419944cb3; expires=Fri, 07-Feb-2025 14:35:56 GMT; path=/Çocf-cache-statusgDYNAMICÇireport-toy{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=5qTrzIr6IRsNp2bL%2Bo3%2FMPXk%2FoXVZviiv4GUyWUgoX5%2FNXRoo2CKt56gK5avGXoYdy%2FKan6RC9H3da%2Bf%2BDVTrTmW5bBjUvv%2FUXJmebp2Y%2F8gNNhyf%2FeCkObHl7dG5qipmqU%3D"}],"group":"cf-nel","max_age":604800}Çcnelx<{"success_fraction":0,"report_to":"cf-nel","max_age":604800}ÇfserverjcloudflareÇfcf-rayt90e36fd63dccf8af-ZRHÇmserver-timingxƒcfL4;desc="?proto=TCP&rtt=3589&min_rtt=3412&rtt_var=1635&sent=5&recv=6&lost=0&retrans=0&sent_bytes=2823&recv_bytes=732&delivery_rate=861220&cwnd=252&unsent_bytes=0&cid=dbd614c70866227a&ts=558&x=0"Y~{
+  "info":"Central Bank of Myanmar",
+  "description":"Official Website of Central Bank of Myanmar",
+  "timestamp":1738800000,
+  "rates":{
+    "USD":"2100.00",
+    "VND":"8.31",
+    "THB":"62.10",
+    "SEK":"192.36",
+    "LKR":"7.04",
+    "ZAR":"112.72",
+    "RSD":"18.59",
+    "SAR":"559.90",
+    "RUB":"21.71",
+    "PHP":"36.11",
+    "PKR":"7.52",
+    "NOK":"186.25",
+    "NZD":"1187.24",
+    "NPR":"14.99",
+    "MYR":"473.45",
+    "LAK":"9.66",
+    "KWD":"6803.82",
+    "KRW":"144.82",
+    "KES":"16.25",
+    "ILS":"592.20",
+    "IDR":"12.86",
+    "INR":"23.98",
+    "HKD":"269.74",
+    "EGP":"41.75",
+    "DKK":"291.63",
+    "CZK":"86.51",
+    "CNY":"288.10",
+    "CAD":"1461.73",
+    "KHR":"52.28",
+    "BND":"1551.93",
+    "BRL":"361.79",
+    "BDT":"17.22",
+    "AUD":"1314.08",
+    "JPY":"1375.92",
+    "CHF":"2321.72",
+    "GBP":"2614.82",
+    "SGD":"1551.93",
+    "EUR":"2175.71"
+  }
+}xGhttps://nbg.gov.ge/gw/api/ct/monetarypolicy/currencies/en/json/?date=--É»ÖÇddatexFri, 07 Feb 2025 12:38:26 GMTÇlcontent-typexapplication/json; charset=utf-8Çncontent-lengthd8962Çjconnectionjkeep-aliveÇjset-cookiexëTS0147d5cf=01d86c96a595caa4cef5493e4506ea13a78bc616b9c5573c6daaf84192cd3f0d542be51f1b720cf1eeb2df5c13f8895550e8889060; Path=/; Domain=.nbg.gov.geY#[{"date":"2025-02-07T00:00:00.000Z","currencies":[{"code":"AED","quantity":10,"rateFormated":"7.6493","diffFormated":"0.0351","rate":7.6493,"name":"United Arab Emirates Dirhams","diff":-0.0351,"date":"2025-02-06T17:01:03.580Z","validFromDate":"2025-02-07T00:00:00.000Z"},{"code":"AMD","quantity":1000,"rateFormated":"7.0768","diffFormated":"0.0365","rate":7.0768,"name":"Armenian Dram","diff":-0.0365,"date":"2025-02-06T17:01:03.580Z","validFromDate":"2025-02-07T00:00:00.000Z"},{"code":"AUD","quantity":1,"rateFormated":"1.7599","diffFormated":"0.0140","rate":1.7599,"name":"Australian Dollar","diff":-0.0140,"date":"2025-02-06T17:01:03.580Z","validFromDate":"2025-02-07T00:00:00.000Z"},{"code":"AZN","quantity":1,"rateFormated":"1.6520","diffFormated":"0.0078","rate":1.6520,"name":"Azerbaijan Manat","diff":-0.0078,"date":"2025-02-06T17:01:03.580Z","validFromDate":"2025-02-07T00:00:00.000Z"},{"code":"BGN","quantity":1,"rateFormated":"1.4883","diffFormated":"0.0150","rate":1.4883,"name":"Bulgarian Lev","diff":-0.0150,"date":"2025-02-06T17:01:03.580Z","validFromDate":"2025-02-07T00:00:00.000Z"},{"code":"BRL","quantity":1,"rateFormated":"0.4840","diffFormated":"0.0061","rate":0.4840,"name":"Brazilian Real","diff":-0.0061,"date":"2025-02-06T17:01:03.580Z","validFromDate":"2025-02-07T00:00:00.000Z"},{"code":"BYN","quantity":1,"rateFormated":"0.8602","diffFormated":"0.0039","rate":0.8602,"name":"Belarusian Rouble","diff":-0.0039,"date":"2025-02-06T17:01:03.580Z","validFromDate":"2025-02-07T00:00:00.000Z"},{"code":"CAD","quantity":1,"rateFormated":"1.9567","diffFormated":"0.0203","rate":1.9567,"name":"Canadian Dollar","diff":-0.0203,"date":"2025-02-06T17:01:03.580Z","validFromDate":"2025-02-07T00:00:00.000Z"},{"code":"CHF","quantity":1,"rateFormated":"3.1030","diffFormated":"0.0288","rate":3.1030,"name":"Swiss Franc","diff":-0.0288,"date":"2025-02-06T17:01:03.580Z","validFromDate":"2025-02-07T00:00:00.000Z"},{"code":"CNY","quantity":10,"rateFormated":"3.8535","diffFormated":"0.0280","rate":3.8535,"name":"China Renminbi","diff":-0.0280,"date":"2025-02-06T17:01:03.580Z","validFromDate":"2025-02-07T00:00:00.000Z"},{"code":"CZK","quantity":10,"rateFormated":"1.1590","diffFormated":"0.0110","rate":1.1590,"name":"Czech Koruna","diff":-0.0110,"date":"2025-02-06T17:01:03.580Z","validFromDate":"2025-02-07T00:00:00.000Z"},{"code":"DKK","quantity":10,"rateFormated":"3.9019","diffFormated":"0.0416","rate":3.9019,"name":"Danish Krone","diff":-0.0416,"date":"2025-02-06T17:01:03.580Z","validFromDate":"2025-02-07T00:00:00.000Z"},{"code":"EGP","quantity":10,"rateFormated":"0.5587","diffFormated":"0.0022","rate":0.5587,"name":"Egyptian Pound","diff":-0.0022,"date":"2025-02-06T17:01:03.580Z","validFromDate":"2025-02-07T00:00:00.000Z"},{"code":"EUR","quantity":1,"rateFormated":"2.9106","diffFormated":"0.0312","rate":2.9106,"name":"Euro","diff":-0.0312,"date":"2025-02-06T17:01:03.580Z","validFromDate":"2025-02-07T00:00:00.000Z"},{"code":"GBP","quantity":1,"rateFormated":"3.4877","diffFormated":"0.0505","rate":3.4877,"name":"United Kingdom Pound","diff":-0.0505,"date":"2025-02-06T17:01:03.580Z","validFromDate":"2025-02-07T00:00:00.000Z"},{"code":"HKD","quantity":10,"rateFormated":"3.6082","diffFormated":"0.0170","rate":3.6082,"name":"Hong-Kong Dollar","diff":-0.0170,"date":"2025-02-06T17:01:03.580Z","validFromDate":"2025-02-07T00:00:00.000Z"},{"code":"HUF","quantity":100,"rateFormated":"0.7164","diffFormated":"0.0083","rate":0.7164,"name":"Hungarian Forint","diff":-0.0083,"date":"2025-02-06T17:01:03.580Z","validFromDate":"2025-02-07T00:00:00.000Z"},{"code":"ILS","quantity":10,"rateFormated":"7.9165","diffFormated":"0.0292","rate":7.9165,"name":"Israeli Shekel","diff":-0.0292,"date":"2025-02-06T17:01:03.580Z","validFromDate":"2025-02-07T00:00:00.000Z"},{"code":"INR","quantity":100,"rateFormated":"3.2078","diffFormated":"0.0191","rate":3.2078,"name":"Indian Rupee","diff":-0.0191,"date":"2025-02-06T17:01:03.580Z","validFromDate":"2025-02-07T00:00:00.000Z"},{"code":"IRR","quantity":10000,"rateFormated":"0.6689","diffFormated":"0.0031","rate":0.6689,"name":"Iranian Rial","diff":-0.0031,"date":"2025-02-06T17:01:03.580Z","validFromDate":"2025-02-07T00:00:00.000Z"},{"code":"ISK","quantity":100,"rateFormated":"1.9854","diffFormated":"0.0159","rate":1.9854,"name":"Iceland Krona","diff":-0.0159,"date":"2025-02-06T17:01:03.580Z","validFromDate":"2025-02-07T00:00:00.000Z"},{"code":"JPY","quantity":100,"rateFormated":"1.8411","diffFormated":"0.0081","rate":1.8411,"name":"Japanese Yen","diff":-0.0081,"date":"2025-02-06T17:01:03.580Z","validFromDate":"2025-02-07T00:00:00.000Z"},{"code":"KGS","quantity":100,"rateFormated":"3.2164","diffFormated":"0.0126","rate":3.2164,"name":"Kyrgyzstan Som","diff":-0.0126,"date":"2025-02-06T17:01:03.580Z","validFromDate":"2025-02-07T00:00:00.000Z"},{"code":"KRW","quantity":1000,"rateFormated":"1.9376","diffFormated":"0.0159","rate":1.9376,"name":"South Korean Won","diff":-0.0159,"date":"2025-02-06T17:01:03.580Z","validFromDate":"2025-02-07T00:00:00.000Z"},{"code":"KWD","quantity":1,"rateFormated":"9.1011","diffFormated":"0.0477","rate":9.1011,"name":"Kuwaiti Dinar","diff":-0.0477,"date":"2025-02-06T17:01:03.580Z","validFromDate":"2025-02-07T00:00:00.000Z"},{"code":"KZT","quantity":100,"rateFormated":"0.5461","diffFormated":"0.0003","rate":0.5461,"name":"Kazakhstan Tenge","diff":-0.0003,"date":"2025-02-06T17:01:03.580Z","validFromDate":"2025-02-07T00:00:00.000Z"},{"code":"MDL","quantity":10,"rateFormated":"1.4994","diffFormated":"0.0065","rate":1.4994,"name":"Moldova Lei","diff":-0.0065,"date":"2025-02-06T17:01:03.580Z","validFromDate":"2025-02-07T00:00:00.000Z"},{"code":"NOK","quantity":10,"rateFormated":"2.4978","diffFormated":"0.0256","rate":2.4978,"name":"Norwegian Krone","diff":-0.0256,"date":"2025-02-06T17:01:03.580Z","validFromDate":"2025-02-07T00:00:00.000Z"},{"code":"NZD","quantity":1,"rateFormated":"1.5899","diffFormated":"0.0158","rate":1.5899,"name":"New Zealand Dollar","diff":-0.0158,"date":"2025-02-06T17:01:03.580Z","validFromDate":"2025-02-07T00:00:00.000Z"},{"code":"PLN","quantity":10,"rateFormated":"6.9220","diffFormated":"0.0763","rate":6.9220,"name":"Polish Zloty","diff":-0.0763,"date":"2025-02-06T17:01:03.580Z","validFromDate":"2025-02-07T00:00:00.000Z"},{"code":"QAR","quantity":10,"rateFormated":"7.7068","diffFormated":"0.0356","rate":7.7068,"name":"Qatari Rial","diff":-0.0356,"date":"2025-02-06T17:01:03.580Z","validFromDate":"2025-02-07T00:00:00.000Z"},{"code":"RON","quantity":10,"rateFormated":"5.8485","diffFormated":"0.0628","rate":5.8485,"name":"Romanian Leu","diff":-0.0628,"date":"2025-02-06T17:01:03.580Z","validFromDate":"2025-02-07T00:00:00.000Z"},{"code":"RSD","quantity":100,"rateFormated":"2.4854","diffFormated":"0.0270","rate":2.4854,"name":"Serbian Dinar","diff":-0.0270,"date":"2025-02-06T17:01:03.580Z","validFromDate":"2025-02-07T00:00:00.000Z"},{"code":"RUB","quantity":100,"rateFormated":"2.8964","diffFormated":"0.0236","rate":2.8964,"name":"Russian Ruble","diff":0.0236,"date":"2025-02-06T17:01:03.580Z","validFromDate":"2025-02-07T00:00:00.000Z"},{"code":"SEK","quantity":10,"rateFormated":"2.5694","diffFormated":"0.0217","rate":2.5694,"name":"Swedish Krona","diff":-0.0217,"date":"2025-02-06T17:01:03.580Z","validFromDate":"2025-02-07T00:00:00.000Z"},{"code":"SGD","quantity":1,"rateFormated":"2.0757","diffFormated":"0.0170","rate":2.0757,"name":"Singapore Dollar","diff":-0.0170,"date":"2025-02-06T17:01:03.580Z","validFromDate":"2025-02-07T00:00:00.000Z"},{"code":"TJS","quantity":10,"rateFormated":"2.5633","diffFormated":"0.0230","rate":2.5633,"name":"Tajikistan Somoni","diff":-0.0230,"date":"2025-02-06T17:01:03.580Z","validFromDate":"2025-02-07T00:00:00.000Z"},{"code":"TMT","quantity":10,"rateFormated":"8.0271","diffFormated":"0.0369","rate":8.0271,"name":"Turkmenistan Manat","diff":-0.0369,"date":"2025-02-06T17:01:03.580Z","validFromDate":"2025-02-07T00:00:00.000Z"},{"code":"TRY","quantity":1,"rateFormated":"0.0783","diffFormated":"0.0003","rate":0.0783,"name":"Turkish Lira","diff":-0.0003,"date":"2025-02-06T17:01:03.580Z","validFromDate":"2025-02-07T00:00:00.000Z"},{"code":"UAH","quantity":10,"rateFormated":"0.6773","diffFormated":"0.0001","rate":0.6773,"name":"Ukraine Hryvna","diff":0.0001,"date":"2025-02-06T17:01:03.580Z","validFromDate":"2025-02-07T00:00:00.000Z"},{"code":"USD","quantity":1,"rateFormated":"2.8095","diffFormated":"0.0129","rate":2.8095,"name":"US Dollar","diff":-0.0129,"date":"2025-02-06T17:01:03.580Z","validFromDate":"2025-02-07T00:00:00.000Z"},{"code":"UZS","quantity":1000,"rateFormated":"0.2166","diffFormated":"0.0007","rate":0.2166,"name":"Uzbekistan Sum","diff":-0.0007,"date":"2025-02-06T17:01:03.580Z","validFromDate":"2025-02-07T00:00:00.000Z"},{"code":"ZAR","quantity":10,"rateFormated":"1.5104","diffFormated":"0.0087","rate":1.5104,"name":"South African Rand","diff":-0.0087,"date":"2025-02-06T17:01:03.580Z","validFromDate":"2025-02-07T00:00:00.000Z"}]}]xShttps://openapi.digifinex.com/v/kline?symbol=ETH_USDT&period=&start_time=&end_time=É»êÇddatexFri, 07 Feb 2025 12:38:36 GMTÇlcontent-typexapplication/json; charset=utf-8Çqtransfer-encodinggchunkedÇjconnectionjkeep-aliveÇdvaryoAccept-EncodingÇgexpiresxFri, 07 Feb 2025 12:38:35 GMTÇmcache-controlhno-cacheÇxaccess-control-allow-origina*Çxaccess-control-allow-methodsrGET, POST, OPTIONSÇxaccess-control-allow-headersxfDNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-TypeÇocf-cache-statusgDYNAMICÇjset-cookiey__cf_bm=Wa3RcgyW494R3Ia8MjdZPdtgr.X8wnyiL0iN4EPR0fw-1738931916-1.0.1.1-hDnE9tVz7Sa3jDJfjLOViLaENIu5vO06bE3w.u6rJM7wPJR_Pf6jp.TxH.Zxvd9OwRSdpQ0AlZPVY1pXH8e.9w; path=/; expires=Fri, 07-Feb-25 13:08:36 GMT; domain=.digifinex.com; HttpOnly; Secure; SameSite=NoneÇxstrict-transport-securityx#max-age=15552000; includeSubDomainsÇvx-content-type-optionsgnosniffÇfserverjcloudflareÇfcf-rayt90e3701528eef873-ZRHXE{"data":[[1738927560,48.0963,2753.44,2753.54,2751,2753.44]],"code":0}xShttps://openapi.digifinex.com/v/kline?symbol=ICP_USDT&period=&start_time=&end_time=É»êÇddatexFri, 07 Feb 2025 12:38:26 GMTÇlcontent-typexapplication/json; charset=utf-8Çqtransfer-encodinggchunkedÇjconnectionjkeep-aliveÇdvaryoAccept-EncodingÇgexpiresxFri, 07 Feb 2025 12:38:25 GMTÇmcache-controlhno-cacheÇxaccess-control-allow-origina*Çxaccess-control-allow-methodsrGET, POST, OPTIONSÇxaccess-control-allow-headersxfDNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-TypeÇocf-cache-statusgDYNAMICÇjset-cookiey__cf_bm=m7eMAUKume855kD0Z9G1FuLtaq.JF_s7N3PRKeHpg8I-1738931906-1.0.1.1-_5cnF5R_.UduNUFUU1oa2aObkFirCF.OPcVpBfPUWt8Yg.O_XSAK4LbBHk2csAVxA.3XHAeoNikth1FX6gGeYg; path=/; expires=Fri, 07-Feb-25 13:08:26 GMT; domain=.digifinex.com; HttpOnly; Secure; SameSite=NoneÇxstrict-transport-securityx#max-age=15552000; includeSubDomainsÇvx-content-type-optionsgnosniffÇfserverjcloudflareÇfcf-rayt90e36fdf0cf4f8af-ZRHX={"data":[[1738926780,2.19,6.979,6.979,6.973,6.973]],"code":0}xThttps://openapi.digifinex.com/v/kline?symbol=USDC_USDT&period=&start_time=&end_time=É»êÇddatexThu, 20 Mar 2025 18:47:33 GMTÇlcontent-typexapplication/json; charset=utf-8Çqtransfer-encodinggchunkedÇjconnectionjkeep-aliveÇdvaryoAccept-EncodingÇgexpiresxThu, 20 Mar 2025 18:47:31 GMTÇmcache-controlhno-cacheÇxaccess-control-allow-origina*Çxaccess-control-allow-methodsrGET, POST, OPTIONSÇxaccess-control-allow-headersxfDNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-TypeÇocf-cache-statusgDYNAMICÇjset-cookiey__cf_bm=TjWvG1pPPRC83q1tu.zOtGt0vgzdK9JgYUhAgcx6fC8-1742496453-1.0.1.1-CdkMQm8TM3EbyqRmeiQes2wgrAWYI0ENHVQ77hKiau7EfwCwJx6SopZmIp19ivIA4q88KijjN.lvvCiFQlxW8XIY8Ym5oHXd8ITmRKehEoo; path=/; expires=Thu, 20-Mar-25 19:17:33 GMT; domain=.digifinex.com; HttpOnly; Secure; SameSite=NoneÇxstrict-transport-securityx#max-age=15552000; includeSubDomainsÇvx-content-type-optionsgnosniffÇfserverjcloudflareÇfcf-rayt923760edb92f576e-ZRHXB{"code":0,"data":[[1738933140,4223,0.9996,0.9997,0.9996,0.9996]]}
+xphttps://tassidicambio.bancaditalia.it/terzevalute-wf-web/rest/v./dailyRates?referenceDate=--&currencyIsoCode=EURÉ»êÇddatexThu, 18 Apr 2024 09:14:30 GMTÇlcontent-typepapplication/jsonÇmcache-controlx#no-cache, no-store, must-revalidateÇfpragmahno-cacheÇxstrict-transport-securityx#max-age=31536000; includeSubDomainsÇvx-content-type-optionsgnosniffÇpx-xss-protectionm1; mode=blockÇox-frame-optionsjSAMEORIGINÇx!x-permitted-cross-domain-policiesdnoneÇoreferrer-policykno-referrerÇxcross-origin-embedder-policylrequire-corpÇxcross-origin-opener-policyksame-originÇxcross-origin-resource-policyksame-originÇrpermissions-policyy<accelerometer=(),autoplay=(),camera=(),display-capture=(),document-domain=(),encrypted-media=(),fullscreen=(),geolocation=(),gyroscope=(),magnetometer=(),microphone=(),midi=(),payment=(),picture-in-picture=(),publickey-credentials-get=(),screen-wake-lock=(),sync-xhr=(self),usb=(),web-share=(),xr-spatial-tracking=()Çjset-cookiex∑TS01d56941=011612bbe96063fda0675c15525bf193951bbbbd421c7654b261ea5f1b0b233dac606fd180abe313d28baef588e983c6b3f5996812; Path=/; Domain=.tassidicambio.bancaditalia.it; Secure; HttpOnly;Çqtransfer-encodinggchunkedYïï{"resultsInfo":{"totalRecords":172,"timezoneReference":"Le date sono riferite al fuso orario dell'Europa Centrale"},"rates":[{"country":"AFGHANISTAN","currency":"Afghani","isoCode":"AFN","uicCode":"115","avgRate":"76.7632","exchangeConvention":"Quantita' di valuta estera per 1 Euro","exchangeConventionCode":"C","referenceDate":"2025-02-06"},{"country":"ALBANIA","currency":"Lek","isoCode":"ALL","uicCode":"047","avgRate":"98.69","exchangeConvention":"Quantita' di valuta estera per 1 Euro","exchangeConventionCode":"C","referenceDate":"2025-02-06"},{"country":"ALGERIA","currency":"Dinaro Algerino","isoCode":"DZD","uicCode":"106","avgRate":"139.9579","exchangeConvention":"Quantita' di valuta estera per 1 Euro","exchangeConventionCode":"C","referenceDate":"2025-02-06"},{"country":"ANGOLA","currency":"Readjustado Kwanza","isoCode":"AOA","uicCode":"087","avgRate":"951.130","exchangeConvention":"Quantita' di valuta estera per 1 Euro","exchangeConventionCode":"C","referenceDate":"2025-02-06"},{"country":"ANTIGUA E BARBUDA","currency":"Dollaro Caraibi Est","isoCode":"XCD","uicCode":"137","avgRate":"2.7972","exchangeConvention":"Quantita' di valuta estera per 1 Euro","exchangeConventionCode":"C","referenceDate":"2025-02-06"},{"country":"ANTILLE OLANDESI","currency":"Fiorino Antille Olandesi","isoCode":"ANG","uicCode":"132","avgRate":"1.8544","exchangeConvention":"Quantita' di valuta estera per 1 Euro","exchangeConventionCode":"C","referenceDate":"2025-02-06"},{"country":"ARABIA SAUDITA","currency":"Riyal Saudita","isoCode":"SAR","uicCode":"075","avgRate":"3.8850","exchangeConvention":"Quantita' di valuta estera per 1 Euro","exchangeConventionCode":"C","referenceDate":"2025-02-06"},{"country":"ARGENTINA","currency":"Peso Argentina","isoCode":"ARS","uicCode":"216","avgRate":"1091.8731","exchangeConvention":"Quantita' di valuta estera per 1 Euro","exchangeConventionCode":"C","referenceDate":"2025-02-06"},{"country":"ARMENIA","currency":"Dram Armenia","isoCode":"AMD","uicCode":"246","avgRate":"411.34","exchangeConvention":"Quantita' di valuta estera per 1 Euro","exchangeConventionCode":"C","referenceDate":"2025-02-06"},{"country":"ARUBA","currency":"Fiorino Aruba","isoCode":"AWG","uicCode":"211","avgRate":"1.8544","exchangeConvention":"Quantita' di valuta estera per 1 Euro","exchangeConventionCode":"C","referenceDate":"2025-02-06"},{"country":"AUSTRALIA","currency":"Dollaro Australiano","isoCode":"AUD","uicCode":"109","avgRate":"1.6547","exchangeConvention":"Quantita' di valuta estera per 1 Euro","exchangeConventionCode":"C","referenceDate":"2025-02-06"},{"country":"AZERBAIGIAN","currency":"Manat Azerbaigian (nuovo)","isoCode":"AZN","uicCode":"271","avgRate":"1.7612","exchangeConvention":"Quantita' di valuta estera per 1 Euro","exchangeConventionCode":"C","referenceDate":"2025-02-06"},{"country":"BAHAMAS","currency":"Dollaro Bahama","isoCode":"BSD","uicCode":"135","avgRate":"1.0360","exchangeConvention":"Quantita' di valuta estera per 1 Euro","exchangeConventionCode":"C","referenceDate":"2025-02-06"},{"country":"BAHRAIN","currency":"Dinaro Bahrain","isoCode":"BHD","uicCode":"136","avgRate":"0.390","exchangeConvention":"Quantita' di valuta estera per 1 Euro","exchangeConventionCode":"C","referenceDate":"2025-02-06"},{"country":"BANGLADESH","currency":"Taka","isoCode":"BDT","uicCode":"174","avgRate":"126.3920","exchangeConvention":"Quantita' di valuta estera per 1 Euro","exchangeConventionCode":"C","referenceDate":"2025-02-06"},{"country":"BARBADOS","currency":"Dollaro Barbados","isoCode":"BBD","uicCode":"195","avgRate":"2.072000","exchangeConvention":"Quantita' di valuta estera per 1 Euro","exchangeConventionCode":"C","referenceDate":"2025-02-06"},{"country":"BELIZE","currency":"Dollaro Belize","isoCode":"BZD","uicCode":"152","avgRate":"2.0720","exchangeConvention":"Quantita' di valuta estera per 1 Euro","exchangeConventionCode":"C","referenceDate":"2025-02-06"},{"country":"BENIN","currency":"Franco CFA","isoCode":"XOF","uicCode":"209","avgRate":"655.957","exchangeConvention":"Quantita' di valuta estera per 1 Euro","exchangeConventionCode":"C","referenceDate":"2025-02-06"},{"country":"BERMUDA","currency":"Dollaro Bermuda","isoCode":"BMD","uicCode":"138","avgRate":"1.0360","exchangeConvention":"Quantita' di valuta estera per 1 Euro","exchangeConventionCode":"C","referenceDate":"2025-02-06"},{"country":"BHUTAN","currency":"Ngultrum","isoCode":"BTN","uicCode":"180","avgRate":"90.7600","exchangeConvention":"Quantita' di valuta estera per 1 Euro","exchangeConventionCode":"C","referenceDate":"2025-02-06"},{"country":"BIELORUSSIA","currency":"Rublo Bielorussia (nuovo)","isoCode":"BYN","uicCode":"280","avgRate":"N.D.","exchangeConvention":"Quantita' di valuta estera per 1 Euro","exchangeConventionCode":"C","referenceDate":"2025-02-06"},{"country":"BOLIVIA","currency":"Boliviano","isoCode":"BOB","uicCode":"074","avgRate":"7.1588","exchangeConvention":"Quantita' di valuta estera per 1 Euro","exchangeConventionCode":"C","referenceDate":"2025-02-06"},{"country":"BOSNIA ERZEGOVINA","currency":"Marco Convertibile","isoCode":"BAM","uicCode":"240","avgRate":"1.95583","exchangeConvention":"Quantita' di valuta estera per 1 Euro","exchangeConventionCode":"C","referenceDate":"2025-02-06"},{"country":"BOTSWANA","currency":"Pula","isoCode":"BWP","uicCode":"171","avgRate":"14.3689","exchangeConvention":"Quantita' di valuta estera per 1 Euro","exchangeConventionCode":"C","referenceDate":"2025-02-06"},{"country":"BRASILE","currency":"Real","isoCode":"BRL","uicCode":"234","avgRate":"6.0127","exchangeConvention":"Quantita' di valuta estera per 1 Euro","exchangeConventionCode":"C","referenceDate":"2025-02-06"},{"country":"BRUNEI DARUSSALAM","currency":"Dollaro Brunei","isoCode":"BND","uicCode":"139","avgRate":"1.4027","exchangeConvention":"Quantita' di valuta estera per 1 Euro","exchangeConventionCode":"C","referenceDate":"2025-02-06"},{"country":"BULGARIA","currency":"Nuovo Lev Bulgaria","isoCode":"BGN","uicCode":"262","avgRate":"1.9558","exchangeConvention":"Quantita' di valuta estera per 1 Euro","exchangeConventionCode":"C","referenceDate":"2025-02-06"},{"country":"BURKINA FASO","currency":"Franco CFA","isoCode":"XOF","uicCode":"209","avgRate":"655.957","exchangeConvention":"Quantita' di valuta estera per 1 Euro","exchangeConventionCode":"C","referenceDate":"2025-02-06"},{"country":"BURUNDI","currency":"Franco Burundi","isoCode":"BIF","uicCode":"140","avgRate":"3025.980","exchangeConvention":"Quantita' di valuta estera per 1 Euro","exchangeConventionCode":"C","referenceDate":"2025-02-06"},{"country":"CAMBOGIA","currency":"Riel Kampuchea","isoCode":"KHR","uicCode":"141","avgRate":"4163.32","exchangeConvention":"Quantita' di valuta estera per 1 Euro","exchangeConventionCode":"C","referenceDate":"2025-02-06"},{"country":"CAMERUN","currency":"Franco CFA","isoCode":"XAF","uicCode":"043","avgRate":"655.957","exchangeConvention":"Quantita' di valuta estera per 1 Euro","exchangeConventionCode":"C","referenceDate":"2025-02-06"},{"country":"CANADA","currency":"Dollaro Canadese","isoCode":"CAD","uicCode":"012","avgRate":"1.4865","exchangeConvention":"Quantita' di valuta estera per 1 Euro","exchangeConventionCode":"C","referenceDate":"2025-02-06"},{"country":"CAPO VERDE","currency":"Escudo Capo Verde","isoCode":"CVE","uicCode":"181","avgRate":"110.265","exchangeConvention":"Quantita' di valuta estera per 1 Euro","exchangeConventionCode":"C","referenceDate":"2025-02-06"},{"country":"CAYMAN (Isole)","currency":"Dollaro Isole Cayman","isoCode":"KYD","uicCode":"205","avgRate":"0.8495","exchangeConvention":"Quantita' di valuta estera per 1 Euro","exchangeConventionCode":"C","referenceDate":"2025-02-06"},{"country":"CECA (Repubblica)","currency":"Corona Ceca","isoCode":"CZK","uicCode":"223","avgRate":"25.1390","exchangeConvention":"Quantita' di valuta estera per 1 Euro","exchangeConventionCode":"C","referenceDate":"2025-02-06"},{"country":"CENTRAFRICANA (Repubblica)","currency":"Franco CFA","isoCode":"XAF","uicCode":"043","avgRate":"655.957","exchangeConvention":"Quantita' di valuta estera per 1 Euro","exchangeConventionCode":"C","referenceDate":"2025-02-06"},{"country":"CIAD","currency":"Franco CFA","isoCode":"XAF","uicCode":"043","avgRate":"655.957","exchangeConvention":"Quantita' di valuta estera per 1 Euro","exchangeConventionCode":"C","referenceDate":"2025-02-06"},{"country":"CILE","currency":"Peso Cileno","isoCode":"CLP","uicCode":"029","avgRate":"1005.77","exchangeConvention":"Quantita' di valuta estera per 1 Euro","exchangeConventionCode":"C","referenceDate":"2025-02-06"},{"country":"CINA (Repubblica Popolare di)","currency":"Renminbi(Yuan)","isoCode":"CNY","uicCode":"144","avgRate":"7.5511","exchangeConvention":"Quantita' di valuta estera per 1 Euro","exchangeConventionCode":"C","referenceDate":"2025-02-06"},{"country":"COLOMBIA","currency":"Peso Colombiano","isoCode":"COP","uicCode":"040","avgRate":"4324.97","exchangeConvention":"Quantita' di valuta estera per 1 Euro","exchangeConventionCode":"C","referenceDate":"2025-02-06"},{"country":"COMORE (Isole)","currency":"Franco Isole Comore","isoCode":"KMF","uicCode":"210","avgRate":"491.96775","exchangeConvention":"Quantita' di valuta estera per 1 Euro","exchangeConventionCode":"C","referenceDate":"2025-02-06"},{"country":"CONGO (Repubblica Democratica)","currency":"Franco Congolese","isoCode":"CDF","uicCode":"261","avgRate":"2954.4750","exchangeConvention":"Quantita' di valuta estera per 1 Euro","exchangeConventionCode":"C","referenceDate":"2025-02-06"},{"country":"CONGO (Repubblica del)","currency":"Franco CFA","isoCode":"XAF","uicCode":"043","avgRate":"655.957","exchangeConvention":"Quantita' di valuta estera per 1 Euro","exchangeConventionCode":"C","referenceDate":"2025-02-06"},{"country":"COREA DEL NORD","currency":"Won Nord","isoCode":"KPW","uicCode":"182","avgRate":"2.2792","exchangeConvention":"Quantita' di valuta estera per 1 Euro","exchangeConventionCode":"C","referenceDate":"2025-02-06"},{"country":"COREA DEL SUD","currency":"Won Sud","isoCode":"KRW","uicCode":"119","avgRate":"1502.98","exchangeConvention":"Quantita' di valuta estera per 1 Euro","exchangeConventionCode":"C","referenceDate":"2025-02-06"},{"country":"COSTA D AVORIO","currency":"Franco CFA","isoCode":"XOF","uicCode":"209","avgRate":"655.957","exchangeConvention":"Quantita' di valuta estera per 1 Euro","exchangeConventionCode":"C","referenceDate":"2025-02-06"},{"country":"COSTA RICA","currency":"Colon Costa Rica","isoCode":"CRC","uicCode":"077","avgRate":"527.1893","exchangeConvention":"Quantita' di valuta estera per 1 Euro","exchangeConventionCode":"C","referenceDate":"2025-02-06"},{"country":"CUBA","currency":"Peso Cubano","isoCode":"CUP","uicCode":"067","avgRate":"24.8640","exchangeConvention":"Quantita' di valuta estera per 1 Euro","exchangeConventionCode":"C","referenceDate":"2025-02-06"},{"country":"DANIMARCA","currency":"Corona Danese","isoCode":"DKK","uicCode":"007","avgRate":"7.4596","exchangeConvention":"Quantita' di valuta estera per 1 Euro","exchangeConventionCode":"C","referenceDate":"2025-02-06"},{"country":"DOMINICA","currency":"Dollaro Caraibi Est","isoCode":"XCD","uicCode":"137","avgRate":"2.7972","exchangeConvention":"Quantita' di valuta estera per 1 Euro","exchangeConventionCode":"C","referenceDate":"2025-02-06"},{"country":"DOMINICANA (Repubblica)","currency":"Peso Dominicano","isoCode":"DOP","uicCode":"116","avgRate":"64.2029","exchangeConvention":"Quantita' di valuta estera per 1 Euro","exchangeConventionCode":"C","referenceDate":"2025-02-06"},{"country":"EGITTO","currency":"Lira Egiziana","isoCode":"EGP","uicCode":"070","avgRate":"52.1194","exchangeConvention":"Quantita' di valuta estera per 1 Euro","exchangeConventionCode":"C","referenceDate":"2025-02-06"},{"country":"EL SALVADOR","currency":"Colon Salvadoregno","isoCode":"SVC","uicCode":"117","avgRate":"9.0650","exchangeConvention":"Quantita' di valuta estera per 1 Euro","exchangeConventionCode":"C","referenceDate":"2025-02-06"},{"country":"EMIRATI ARABI UNITI","currency":"Dirham Emirati Arabi","isoCode":"AED","uicCode":"187","avgRate":"3.8047","exchangeConvention":"Quantita' di valuta estera per 1 Euro","exchangeConventionCode":"C","referenceDate":"2025-02-06"},{"country":"ERITREA","currency":"Nakfa","isoCode":"ERN","uicCode":"243","avgRate":"15.9337","exchangeConvention":"Quantita' di valuta estera per 1 Euro","exchangeConventionCode":"C","referenceDate":"2025-02-06"},{"country":"ESWATINI (EX SWAZILAND)","currency":"Lilangeni","isoCode":"SZL","uicCode":"173","avgRate":"19.2822","exchangeConvention":"Quantita' di valuta estera per 1 Euro","exchangeConventionCode":"C","referenceDate":"2025-02-06"},{"country":"ETIOPIA","currency":"Birr","isoCode":"ETB","uicCode":"068","avgRate":"132.8126","exchangeConvention":"Quantita' di valuta estera per 1 Euro","exchangeConventionCode":"C","referenceDate":"2025-02-06"},{"country":"FALKLAND o MALVINE (Isole)","currency":"Sterlina Falkland","isoCode":"FKP","uicCode":"146","avgRate":"0.83688","exchangeConvention":"Quantita' di valuta estera per 1 Euro","exchangeConventionCode":"C","referenceDate":"2025-02-06"},{"country":"FIJI","currency":"Dollaro Fiji","isoCode":"FJD","uicCode":"147","avgRate":"2.4194","exchangeConvention":"Quantita' di valuta estera per 1 Euro","exchangeConventionCode":"C","referenceDate":"2025-02-06"},{"country":"FILIPPINE","currency":"Peso Filippino","isoCode":"PHP","uicCode":"066","avgRate":"60.2020","exchangeConvention":"Quantita' di valuta estera per 1 Euro","exchangeConventionCode":"C","referenceDate":"2025-02-06"},{"country":"FONDO MONETARIO INTERNAZIONALE","currency":"DSP","isoCode":"XDR","uicCode":"188","avgRate":"0.794160","exchangeConvention":"Quantita' di valuta estera per 1 Euro","exchangeConventionCode":"C","referenceDate":"2025-02-06"},{"country":"GABON","currency":"Franco CFA","isoCode":"XAF","uicCode":"043","avgRate":"655.957","exchangeConvention":"Quantita' di valuta estera per 1 Euro","exchangeConventionCode":"C","referenceDate":"2025-02-06"},{"country":"GAMBIA","currency":"Dalasi","isoCode":"GMD","uicCode":"193","avgRate":"72.26","exchangeConvention":"Quantita' di valuta estera per 1 Euro","exchangeConventionCode":"C","referenceDate":"2025-02-06"},{"country":"GEORGIA","currency":"Lari","isoCode":"GEL","uicCode":"230","avgRate":"2.9116","exchangeConvention":"Quantita' di valuta estera per 1 Euro","exchangeConventionCode":"C","referenceDate":"2025-02-06"},{"country":"GHANA","currency":"Nuovo Cedi Ghana","isoCode":"GHS","uicCode":"276","avgRate":"15.9548","exchangeConvention":"Quantita' di valuta estera per 1 Euro","exchangeConventionCode":"C","referenceDate":"2025-02-06"},{"country":"GIAMAICA","currency":"Dollaro Giamaicano","isoCode":"JMD","uicCode":"142","avgRate":"163.3335","exchangeConvention":"Quantita' di valuta estera per 1 Euro","exchangeConventionCode":"C","referenceDate":"2025-02-06"},{"country":"GIAPPONE","currency":"Yen Giapponese","isoCode":"JPY","uicCode":"071","avgRate":"157.9500","exchangeConvention":"Quantita' di valuta estera per 1 Euro","exchangeConventionCode":"C","referenceDate":"2025-02-06"},{"country":"GIBILTERRA","currency":"Sterlina Gibilterra","isoCode":"GIP","uicCode":"044","avgRate":"0.83688","exchangeConvention":"Quantita' di valuta estera per 1 Euro","exchangeConventionCode":"C","referenceDate":"2025-02-06"},{"country":"GIBUTI","currency":"Franco Gibuti","isoCode":"DJF","uicCode":"083","avgRate":"184.119","exchangeConvention":"Quantita' di valuta estera per 1 Euro","exchangeConventionCode":"C","referenceDate":"2025-02-06"},{"country":"GIORDANIA","currency":"Dinaro Giordano","isoCode":"JOD","uicCode":"089","avgRate":"0.7345","exchangeConvention":"Quantita' di valuta estera per 1 Euro","exchangeConventionCode":"C","referenceDate":"2025-02-06"},{"country":"GRENADA","currency":"Dollaro Caraibi Est","isoCode":"XCD","uicCode":"137","avgRate":"2.7972","exchangeConvention":"Quantita' di valuta estera per 1 Euro","exchangeConventionCode":"C","referenceDate":"2025-02-06"},{"country":"GUATEMALA","currency":"Quetzal","isoCode":"GTQ","uicCode":"078","avgRate":"8.0089","exchangeConvention":"Quantita' di valuta estera per 1 Euro","exchangeConventionCode":"C","referenceDate":"2025-02-06"},{"country":"GUINEA","currency":"Franco Guineano","isoCode":"GNF","uicCode":"129","avgRate":"8913.8139","exchangeConvention":"Quantita' di valuta estera per 1 Euro","exchangeConventionCode":"C","referenceDate":"2025-02-06"},{"country":"GUINEA BISSAU","currency":"Franco CFA","isoCode":"XOF","uicCode":"209","avgRate":"655.957","exchangeConvention":"Quantita' di valuta estera per 1 Euro","exchangeConventionCode":"C","referenceDate":"2025-02-06"},{"country":"GUINEA EQUATORIALE","currency":"Franco CFA","isoCode":"XAF","uicCode":"043","avgRate":"655.957","exchangeConvention":"Quantita' di valuta estera per 1 Euro","exchangeConventionCode":"C","referenceDate":"2025-02-06"},{"country":"GUYANA","currency":"Dollaro Guyana","isoCode":"GYD","uicCode":"149","avgRate":"216.7519","exchangeConvention":"Quantita' di valuta estera per 1 Euro","exchangeConventionCode":"C","referenceDate":"2025-02-06"},{"country":"HAITI","currency":"Gourde","isoCode":"HTG","uicCode":"151","avgRate":"134.9592","exchangeConvention":"Quantita' di valuta estera per 1 Euro","exchangeConventionCode":"C","referenceDate":"2025-02-06"},{"country":"HONDURAS","currency":"Lempira","isoCode":"HNL","uicCode":"118","avgRate":"26.3990","exchangeConvention":"Quantita' di valuta estera per 1 Euro","exchangeConventionCode":"C","referenceDate":"2025-02-06"},{"country":"HONG KONG (Cina)","currency":"Dollaro Hong Kong","isoCode":"HKD","uicCode":"103","avgRate":"8.0668","exchangeConvention":"Quantita' di valuta estera per 1 Euro","exchangeConventionCode":"C","referenceDate":"2025-02-06"},{"country":"INDIA","currency":"Rupia Indiana","isoCode":"INR","uicCode":"031","avgRate":"90.7600","exchangeConvention":"Quantita' di valuta estera per 1 Euro","exchangeConventionCode":"C","referenceDate":"2025-02-06"},{"country":"INDONESIA","currency":"Rupia Indonesiana","isoCode":"IDR","uicCode":"123","avgRate":"16943.78","exchangeConvention":"Quantita' di valuta estera per 1 Euro","exchangeConventionCode":"C","referenceDate":"2025-02-06"},{"country":"IRAN","currency":"Rial Iraniano","isoCode":"IRR","uicCode":"057","avgRate":"692311","exchangeConvention":"Quantita' di valuta estera per 1 Euro","exchangeConventionCode":"C","referenceDate":"2025-02-06"},{"country":"IRAQ","currency":"Dinaro Iracheno","isoCode":"IQD","uicCode":"093","avgRate":"1357.160","exchangeConvention":"Quantita' di valuta estera per 1 Euro","exchangeConventionCode":"C","referenceDate":"2025-02-06"},{"country":"ISLANDA","currency":"Corona Islanda","isoCode":"ISK","uicCode":"062","avgRate":"146.60","exchangeConvention":"Quantita' di valuta estera per 1 Euro","exchangeConventionCode":"C","referenceDate":"2025-02-06"},{"country":"ISRAELE","currency":"Shekel","isoCode":"ILS","uicCode":"203","avgRate":"3.6892","exchangeConvention":"Quantita' di valuta estera per 1 Euro","exchangeConventionCode":"C","referenceDate":"2025-02-06"},{"country":"KAZAKISTAN","currency":"Tenge Kazakistan","isoCode":"KZT","uicCode":"231","avgRate":"534.71","exchangeConvention":"Quantita' di valuta estera per 1 Euro","exchangeConventionCode":"C","referenceDate":"2025-02-06"},{"country":"KENYA","currency":"Scellino Keniota","isoCode":"KES","uicCode":"022","avgRate":"133.7722","exchangeConvention":"Quantita' di valuta estera per 1 Euro","exchangeConventionCode":"C","referenceDate":"2025-02-06"},{"country":"KIRGHIZISTAN","currency":"Som","isoCode":"KGS","uicCode":"225","avgRate":"90.5982","exchangeConvention":"Quantita' di valuta estera per 1 Euro","exchangeConventionCode":"C","referenceDate":"2025-02-06"},{"country":"KUWAIT","currency":"Dinaro Kuwait","isoCode":"KWD","uicCode":"102","avgRate":"0.3197","exchangeConvention":"Quantita' di valuta estera per 1 Euro","exchangeConventionCode":"C","referenceDate":"2025-02-06"},{"country":"LAOS","currency":"Lao Kip","isoCode":"LAK","uicCode":"154","avgRate":"21246","exchangeConvention":"Quantita' di valuta estera per 1 Euro","exchangeConventionCode":"C","referenceDate":"2025-02-06"},{"country":"LESOTHO","currency":"Loti","isoCode":"LSL","uicCode":"172","avgRate":"19.2822","exchangeConvention":"Quantita' di valuta estera per 1 Euro","exchangeConventionCode":"C","referenceDate":"2025-02-06"},{"country":"LIBANO","currency":"Lira Libanese","isoCode":"LBP","uicCode":"032","avgRate":"92722.00","exchangeConvention":"Quantita' di valuta estera per 1 Euro","exchangeConventionCode":"C","referenceDate":"2025-02-06"},{"country":"LIBERIA","currency":"Dollaro Liberia","isoCode":"LRD","uicCode":"155","avgRate":"204.3096","exchangeConvention":"Quantita' di valuta estera per 1 Euro","exchangeConventionCode":"C","referenceDate":"2025-02-06"},{"country":"LIBIA","currency":"Dinaro Libico","isoCode":"LYD","uicCode":"069","avgRate":"5.0902","exchangeConvention":"Quantita' di valuta estera per 1 Euro","exchangeConventionCode":"C","referenceDate":"2025-02-06"},{"country":"MACAO","currency":"Pataca","isoCode":"MOP","uicCode":"156","avgRate":"8.3088","exchangeConvention":"Quantita' di valuta estera per 1 Euro","exchangeConventionCode":"C","referenceDate":"2025-02-06"},{"country":"MACEDONIA","currency":"Dinaro Macedonia","isoCode":"MKD","uicCode":"236","avgRate":"61.3028","exchangeConvention":"Quantita' di valuta estera per 1 Euro","exchangeConventionCode":"C","referenceDate":"2025-02-06"},{"country":"MADAGASCAR","currency":"Ariary","isoCode":"MGA","uicCode":"268","avgRate":"4859.07","exchangeConvention":"Quantita' di valuta estera per 1 Euro","exchangeConventionCode":"C","referenceDate":"2025-02-06"},{"country":"MALAWI","currency":"Kwacha Malawi","isoCode":"MWK","uicCode":"157","avgRate":"1796.6372","exchangeConvention":"Quantita' di valuta estera per 1 Euro","exchangeConventionCode":"C","referenceDate":"2025-02-06"},{"country":"MALAYSIA","currency":"Ringgit","isoCode":"MYR","uicCode":"055","avgRate":"4.5947","exchangeConvention":"Quantita' di valuta estera per 1 Euro","exchangeConventionCode":"C","referenceDate":"2025-02-06"},{"country":"MALDIVE","currency":"Rufiyaa","isoCode":"MVR","uicCode":"158","avgRate":"15.9544","exchangeConvention":"Quantita' di valuta estera per 1 Euro","exchangeConventionCode":"C","referenceDate":"2025-02-06"},{"country":"MALI","currency":"Franco CFA","isoCode":"XOF","uicCode":"209","avgRate":"655.957","exchangeConvention":"Quantita' di valuta estera per 1 Euro","exchangeConventionCode":"C","referenceDate":"2025-02-06"},{"country":"MAROCCO","currency":"Dirham Marocco","isoCode":"MAD","uicCode":"084","avgRate":"10.381","exchangeConvention":"Quantita' di valuta estera per 1 Euro","exchangeConventionCode":"C","referenceDate":"2025-02-06"},{"country":"MAURITANIA","currency":"Ouguiya","isoCode":"MRU","uicCode":"282","avgRate":"41.305","exchangeConvention":"Quantita' di valuta estera per 1 Euro","exchangeConventionCode":"C","referenceDate":"2025-02-06"},{"country":"MAURITIUS","currency":"Rupia Mauritius","isoCode":"MUR","uicCode":"170","avgRate":"48.3712","exchangeConvention":"Quantita' di valuta estera per 1 Euro","exchangeConventionCode":"C","referenceDate":"2025-02-06"},{"country":"MESSICO","currency":"Peso Messicano","isoCode":"MXN","uicCode":"222","avgRate":"21.3713","exchangeConvention":"Quantita' di valuta estera per 1 Euro","exchangeConventionCode":"C","referenceDate":"2025-02-06"},{"country":"MOLDAVIA","currency":"Leu Moldavia","isoCode":"MDL","uicCode":"235","avgRate":"19.3791","exchangeConvention":"Quantita' di valuta estera per 1 Euro","exchangeConventionCode":"C","referenceDate":"2025-02-06"},{"country":"MONGOLIA","currency":"Tugrik","isoCode":"MNT","uicCode":"160","avgRate":"3579.10","exchangeConvention":"Quantita' di valuta estera per 1 Euro","exchangeConventionCode":"C","referenceDate":"2025-02-06"},{"country":"MOZAMBICO","currency":"Nuovo Metical Mozambico","isoCode":"MZN","uicCode":"272","avgRate":"66.15","exchangeConvention":"Quantita' di valuta estera per 1 Euro","exchangeConventionCode":"C","referenceDate":"2025-02-06"},{"country":"MYANMAR (Birmania)","currency":"Kyat","isoCode":"MMK","uicCode":"107","avgRate":"2175.6","exchangeConvention":"Quantita' di valuta estera per 1 Euro","exchangeConventionCode":"C","referenceDate":"2025-02-06"},{"country":"NAMIBIA","currency":"Dollaro Namibia","isoCode":"NAD","uicCode":"252","avgRate":"19.2822","exchangeConvention":"Quantita' di valuta estera per 1 Euro","exchangeConventionCode":"C","referenceDate":"2025-02-06"},{"country":"NEPAL","currency":"Rupia Nepalese","isoCode":"NPR","uicCode":"161","avgRate":"145.2160","exchangeConvention":"Quantita' di valuta estera per 1 Euro","exchangeConventionCode":"C","referenceDate":"2025-02-06"},{"country":"NICARAGUA","currency":"Cordoba Oro","isoCode":"NIO","uicCode":"120","avgRate":"38.1301","exchangeConvention":"Quantita' di valuta estera per 1 Euro","exchangeConventionCode":"C","referenceDate":"2025-02-06"},{"country":"NIGER","currency":"Franco CFA","isoCode":"XOF","uicCode":"209","avgRate":"655.957","exchangeConvention":"Quantita' di valuta estera per 1 Euro","exchangeConventionCode":"C","referenceDate":"2025-02-06"},{"country":"NIGERIA","currency":"Naira","isoCode":"NGN","uicCode":"081","avgRate":"1552.9847","exchangeConvention":"Quantita' di valuta estera per 1 Euro","exchangeConventionCode":"C","referenceDate":"2025-02-06"},{"country":"NORVEGIA","currency":"Corona Norvegese","isoCode":"NOK","uicCode":"008","avgRate":"11.6585","exchangeConvention":"Quantita' di valuta estera per 1 Euro","exchangeConventionCode":"C","referenceDate":"2025-02-06"},{"country":"NUOVA ZELANDA","currency":"Dollaro Neozelandese","isoCode":"NZD","uicCode":"113","avgRate":"1.8317","exchangeConvention":"Quantita' di valuta estera per 1 Euro","exchangeConventionCode":"C","referenceDate":"2025-02-06"},{"country":"OMAN","currency":"Rial Oman","isoCode":"OMR","uicCode":"184","avgRate":"0.3983","exchangeConvention":"Quantita' di valuta estera per 1 Euro","exchangeConventionCode":"C","referenceDate":"2025-02-06"},{"country":"PAKISTAN","currency":"Rupia Pakistana","isoCode":"PKR","uicCode":"026","avgRate":"289.0416","exchangeConvention":"Quantita' di valuta estera per 1 Euro","exchangeConventionCode":"C","referenceDate":"2025-02-06"},{"country":"PANAMA","currency":"Balboa","isoCode":"PAB","uicCode":"162","avgRate":"1.0360","exchangeConvention":"Quantita' di valuta estera per 1 Euro","exchangeConventionCode":"C","referenceDate":"2025-02-06"},{"country":"PAPUA NUOVA GUINEA","currency":"Kina","isoCode":"PGK","uicCode":"190","avgRate":"4.1892","exchangeConvention":"Quantita' di valuta estera per 1 Euro","exchangeConventionCode":"C","referenceDate":"2025-02-06"},{"country":"PARAGUAY","currency":"Guarani","isoCode":"PYG","uicCode":"101","avgRate":"8172.21","exchangeConvention":"Quantita' di valuta estera per 1 Euro","exchangeConventionCode":"C","referenceDate":"2025-02-06"},{"country":"PERU","currency":"Nuevo Sol","isoCode":"PEN","uicCode":"201","avgRate":"3.8500","exchangeConvention":"Quantita' di valuta estera per 1 Euro","exchangeConventionCode":"C","referenceDate":"2025-02-06"},{"country":"POLINESIA FRANCESE","currency":"Franco C.F.P.","isoCode":"XPF","uicCode":"105","avgRate":"119.3317","exchangeConvention":"Quantita' di valuta estera per 1 Euro","exchangeConventionCode":"C","referenceDate":"2025-02-06"},{"country":"POLONIA","currency":"Zloty","isoCode":"PLN","uicCode":"237","avgRate":"4.2065","exchangeConvention":"Quantita' di valuta estera per 1 Euro","exchangeConventionCode":"C","referenceDate":"2025-02-06"},{"country":"QATAR","currency":"Riyal Qatar","isoCode":"QAR","uicCode":"189","avgRate":"3.7710","exchangeConvention":"Quantita' di valuta estera per 1 Euro","exchangeConventionCode":"C","referenceDate":"2025-02-06"},{"country":"REGNO UNITO","currency":"Sterlina Gran Bretagna","isoCode":"GBP","uicCode":"002","avgRate":"0.83688","exchangeConvention":"Quantita' di valuta estera per 1 Euro","exchangeConventionCode":"C","referenceDate":"2025-02-06"},{"country":"ROMANIA","currency":"Nuovo Leu","isoCode":"RON","uicCode":"270","avgRate":"4.9767","exchangeConvention":"Quantita' di valuta estera per 1 Euro","exchangeConventionCode":"C","referenceDate":"2025-02-06"},{"country":"RUSSIA","currency":"Rublo Russia","isoCode":"RUB","uicCode":"244","avgRate":"N.D.","exchangeConvention":"Quantita' di valuta estera per 1 Euro","exchangeConventionCode":"C","referenceDate":"2025-02-06"},{"country":"RWANDA","currency":"Franco Ruanda","isoCode":"RWF","uicCode":"163","avgRate":"1445.8396","exchangeConvention":"Quantita' di valuta estera per 1 Euro","exchangeConventionCode":"C","referenceDate":"2025-02-06"},{"country":"SALOMONE ISOLE","currency":"Dollaro Isole Salomone","isoCode":"SBD","uicCode":"206","avgRate":"8.7797","exchangeConvention":"Quantita' di valuta estera per 1 Euro","exchangeConventionCode":"C","referenceDate":"2025-02-06"},{"country":"SAMOA OCCIDENTALI","currency":"Tala","isoCode":"WST","uicCode":"164","avgRate":"2.9325","exchangeConvention":"Quantita' di valuta estera per 1 Euro","exchangeConventionCode":"C","referenceDate":"2025-02-06"},{"country":"SANT ELENA","currency":"Sterlina S.Elena","isoCode":"SHP","uicCode":"207","avgRate":"0.83688","exchangeConvention":"Quantita' di valuta estera per 1 Euro","exchangeConventionCode":"C","referenceDate":"2025-02-06"},{"country":"SAO TOME e PRINCIPE","currency":"Dobra","isoCode":"STN","uicCode":"283","avgRate":"24.5000","exchangeConvention":"Quantita' di valuta estera per 1 Euro","exchangeConventionCode":"C","referenceDate":"2025-02-06"},{"country":"SENEGAL","currency":"Franco CFA","isoCode":"XOF","uicCode":"209","avgRate":"655.957","exchangeConvention":"Quantita' di valuta estera per 1 Euro","exchangeConventionCode":"C","referenceDate":"2025-02-06"},{"country":"SERBIA","currency":"Dinaro Serbo","isoCode":"RSD","uicCode":"274","avgRate":"116.7344","exchangeConvention":"Quantita' di valuta estera per 1 Euro","exchangeConventionCode":"C","referenceDate":"2025-02-06"},{"country":"SEYCHELLES","currency":"Rupia Seychelles","isoCode":"SCR","uicCode":"185","avgRate":"15.2439","exchangeConvention":"Quantita' di valuta estera per 1 Euro","exchangeConventionCode":"C","referenceDate":"2025-02-06"},{"country":"SIERRA LEONE","currency":"Leone","isoCode":"SLE","uicCode":"291","avgRate":"23.6732","exchangeConvention":"Quantita' di valuta estera per 1 Euro","exchangeConventionCode":"C","referenceDate":"2025-02-06"},{"country":"SINGAPORE","currency":"Dollaro Singapore","isoCode":"SGD","uicCode":"124","avgRate":"1.4027","exchangeConvention":"Quantita' di valuta estera per 1 Euro","exchangeConventionCode":"C","referenceDate":"2025-02-06"},{"country":"SIRIA","currency":"Lira Siriana","isoCode":"SYP","uicCode":"036","avgRate":"13535.3400","exchangeConvention":"Quantita' di valuta estera per 1 Euro","exchangeConventionCode":"C","referenceDate":"2025-02-06"},{"country":"SOMALIA","currency":"Scellino Somalo","isoCode":"SOS","uicCode":"065","avgRate":"591.9704","exchangeConvention":"Quantita' di valuta estera per 1 Euro","exchangeConventionCode":"C","referenceDate":"2025-02-06"},{"country":"SRI LANKA","currency":"Rupia Sri Lanka","isoCode":"LKR","uicCode":"058","avgRate":"309.6007","exchangeConvention":"Quantita' di valuta estera per 1 Euro","exchangeConventionCode":"C","referenceDate":"2025-02-06"},{"country":"ST. LUCIA","currency":"Dollaro Caraibi Est","isoCode":"XCD","uicCode":"137","avgRate":"2.7972","exchangeConvention":"Quantita' di valuta estera per 1 Euro","exchangeConventionCode":"C","referenceDate":"2025-02-06"},{"country":"ST. VINCENT E GRENADINES","currency":"Dollaro Caraibi Est","isoCode":"XCD","uicCode":"137","avgRate":"2.7972","exchangeConvention":"Quantita' di valuta estera per 1 Euro","exchangeConventionCode":"C","referenceDate":"2025-02-06"},{"country":"ST.KITTIS E NEVIS","currency":"Dollaro Caraibi Est","isoCode":"XCD","uicCode":"137","avgRate":"2.7972","exchangeConvention":"Quantita' di valuta estera per 1 Euro","exchangeConventionCode":"C","referenceDate":"2025-02-06"},{"country":"STATI UNITI","currency":"Dollaro USA","isoCode":"USD","uicCode":"001","avgRate":"1.0360","exchangeConvention":"Quantita' di valuta estera per 1 Euro","exchangeConventionCode":"C","referenceDate":"2025-02-06"},{"country":"SUD AFRICA","currency":"Rand","isoCode":"ZAR","uicCode":"082","avgRate":"19.2822","exchangeConvention":"Quantita' di valuta estera per 1 Euro","exchangeConventionCode":"C","referenceDate":"2025-02-06"},{"country":"SUD SUDAN","currency":"Sterlina Sud Sudan","isoCode":"SSP","uicCode":"279","avgRate":"4502.9747","exchangeConvention":"Quantita' di valuta estera per 1 Euro","exchangeConventionCode":"C","referenceDate":"2025-02-06"},{"country":"SUDAN","currency":"Sterlina Sudanese","isoCode":"SDG","uicCode":"275","avgRate":"622.1373","exchangeConvention":"Quantita' di valuta estera per 1 Euro","exchangeConventionCode":"C","referenceDate":"2025-02-06"},{"country":"SURINAME","currency":"Dollaro Suriname","isoCode":"SRD","uicCode":"266","avgRate":"36.357","exchangeConvention":"Quantita' di valuta estera per 1 Euro","exchangeConventionCode":"C","referenceDate":"2025-02-06"},{"country":"SVEZIA","currency":"Corona Svedese","isoCode":"SEK","uicCode":"009","avgRate":"11.3210","exchangeConvention":"Quantita' di valuta estera per 1 Euro","exchangeConventionCode":"C","referenceDate":"2025-02-06"},{"country":"SVIZZERA","currency":"Franco Svizzero","isoCode":"CHF","uicCode":"003","avgRate":"0.9385","exchangeConvention":"Quantita' di valuta estera per 1 Euro","exchangeConventionCode":"C","referenceDate":"2025-02-06"},{"country":"TAGIKISTAN","currency":"Somoni","isoCode":"TJS","uicCode":"264","avgRate":"11.3362","exchangeConvention":"Quantita' di valuta estera per 1 Euro","exchangeConventionCode":"C","referenceDate":"2025-02-06"},{"country":"TAIWAN","currency":"Dollaro Taiwan","isoCode":"TWD","uicCode":"143","avgRate":"34.0275","exchangeConvention":"Quantita' di valuta estera per 1 Euro","exchangeConventionCode":"C","referenceDate":"2025-02-06"},{"country":"TANZANIA","currency":"Scellino Tanzania","isoCode":"TZS","uicCode":"125","avgRate":"2648.5988","exchangeConvention":"Quantita' di valuta estera per 1 Euro","exchangeConventionCode":"C","referenceDate":"2025-02-06"},{"country":"THAILANDIA","currency":"Baht","isoCode":"THB","uicCode":"073","avgRate":"35.053","exchangeConvention":"Quantita' di valuta estera per 1 Euro","exchangeConventionCode":"C","referenceDate":"2025-02-06"},{"country":"TOGO","currency":"Franco CFA","isoCode":"XOF","uicCode":"209","avgRate":"655.957","exchangeConvention":"Quantita' di valuta estera per 1 Euro","exchangeConventionCode":"C","referenceDate":"2025-02-06"},{"country":"TONGA ISOLA","currency":"Pa Anga","isoCode":"TOP","uicCode":"167","avgRate":"2.5018","exchangeConvention":"Quantita' di valuta estera per 1 Euro","exchangeConventionCode":"C","referenceDate":"2025-02-06"},{"country":"TRINIDAD e TOBAGO","currency":"Dollaro Trinidad eTobago","isoCode":"TTD","uicCode":"166","avgRate":"7.0208","exchangeConvention":"Quantita' di valuta estera per 1 Euro","exchangeConventionCode":"C","referenceDate":"2025-02-06"},{"country":"TUNISIA","currency":"Dinaro Tunisino","isoCode":"TND","uicCode":"080","avgRate":"3.3057","exchangeConvention":"Quantita' di valuta estera per 1 Euro","exchangeConventionCode":"C","referenceDate":"2025-02-06"},{"country":"TURCHIA","currency":"Lira Turchia (nuova)","isoCode":"TRY","uicCode":"267","avgRate":"37.1866","exchangeConvention":"Quantita' di valuta estera per 1 Euro","exchangeConventionCode":"C","referenceDate":"2025-02-06"},{"country":"TURKMENISTAN","currency":"Manat Turkmenistan (nuovo)","isoCode":"TMT","uicCode":"278","avgRate":"3.6260","exchangeConvention":"Quantita' di valuta estera per 1 Euro","exchangeConventionCode":"C","referenceDate":"2025-02-06"},{"country":"UCRAINA","currency":"Hryvnia","isoCode":"UAH","uicCode":"241","avgRate":"42.9792","exchangeConvention":"Quantita' di valuta estera per 1 Euro","exchangeConventionCode":"C","referenceDate":"2025-02-06"},{"country":"UGANDA","currency":"Scellino Ugandese","isoCode":"UGX","uicCode":"126","avgRate":"3810.77","exchangeConvention":"Quantita' di valuta estera per 1 Euro","exchangeConventionCode":"C","referenceDate":"2025-02-06"},{"country":"UNGHERIA","currency":"Forint Ungherese","isoCode":"HUF","uicCode":"153","avgRate":"406.1000","exchangeConvention":"Quantita' di valuta estera per 1 Euro","exchangeConventionCode":"C","referenceDate":"2025-02-06"},{"country":"URUGUAY","currency":"Peso Uruguaiano","isoCode":"UYU","uicCode":"053","avgRate":"45.0585","exchangeConvention":"Quantita' di valuta estera per 1 Euro","exchangeConventionCode":"C","referenceDate":"2025-02-06"},{"country":"UZBEKISTAN","currency":"Sum Uzbekistan","isoCode":"UZS","uicCode":"232","avgRate":"13451.30","exchangeConvention":"Quantita' di valuta estera per 1 Euro","exchangeConventionCode":"C","referenceDate":"2025-02-06"},{"country":"VANUATU","currency":"Vatu","isoCode":"VUV","uicCode":"208","avgRate":"127.88","exchangeConvention":"Quantita' di valuta estera per 1 Euro","exchangeConventionCode":"C","referenceDate":"2025-02-06"},{"country":"VENEZUELA","currency":"Bolivar Soberano","isoCode":"VES","uicCode":"284","avgRate":"61.5241","exchangeConvention":"Quantita' di valuta estera per 1 Euro","exchangeConventionCode":"C","referenceDate":"2025-02-06"},{"country":"VIETNAM","currency":"Dong","isoCode":"VND","uicCode":"145","avgRate":"26123","exchangeConvention":"Quantita' di valuta estera per 1 Euro","exchangeConventionCode":"C","referenceDate":"2025-02-06"},{"country":"YEMEN","currency":"Rial","isoCode":"YER","uicCode":"122","avgRate":"257.48","exchangeConvention":"Quantita' di valuta estera per 1 Euro","exchangeConventionCode":"C","referenceDate":"2025-02-06"},{"country":"ZAMBIA","currency":"Kwacha Zambia","isoCode":"ZMW","uicCode":"148","avgRate":"29.0786","exchangeConvention":"Quantita' di valuta estera per 1 Euro","exchangeConventionCode":"C","referenceDate":"2025-02-06"},{"country":"ZIMBABWE","currency":"Dollaro Zimbabwese","isoCode":"ZWG","uicCode":"269","avgRate":"27.3522","exchangeConvention":"Quantita' di valuta estera per 1 Euro","exchangeConventionCode":"C","referenceDate":"2025-02-06"}]}xAhttps://www.backend-rates.bazg.admin.ch/api/xmldaily?d=&locale=enÉ»àÇlcontent-typexapplication/xml; charset=utf-8ÇddatexFri, 07 Feb 2025 12:38:27 GMTÇfserverfApacheÇqx-vcap-request-idx$cf1c1fe0-6b01-4ae2-5aeb-3d2ea861d569Çjset-cookiexlcookiesession1=678B77FC272A6B63E1CB57558DD4D154;Expires=Sat, 07 Feb 2026 12:38:27 GMT;Path=/;Secure;HttpOnlyÇxstrict-transport-securitypmax-age=15552000Çpx-xss-protectiona1Çncontent-lengthe16869YAÂ<?xml version="1.0" encoding="UTF-8"?>
+<wechselkurse xmlns="https://www.backend-rates.ezv.admin.ch/xmldaily" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.backend-rates.ezv.admin.ch/xmldaily https://www.backend-rates.ezv.admin.ch/dailyrates.xsd">
+  <datum>06.02.2025</datum>
+  <zeit>03:15:02</zeit>
+  <gueltigkeit>07.02.2025</gueltigkeit>
+  <devise code="eur">
+    <land_de>Europ√§ische W√§hrungsunion</land_de>
+    <land_fr>Union mon√©taire europ√©enne</land_fr>
+    <land_it>Unione Monetaria Europea</land_it>
+    <land_en>Euro Member</land_en>
+    <waehrung>1 EUR</waehrung>
+    <kurs>0.94737</kurs>
+  </devise>
+  <devise code="usd">
+    <land_de>USA</land_de>
+    <land_fr>USA</land_fr>
+    <land_it>USA</land_it>
+    <land_en>United States</land_en>
+    <waehrung>1 USD</waehrung>
+    <kurs>0.91142</kurs>
+  </devise>
+  <devise code="egp">
+    <land_de>√Ñgypten</land_de>
+    <land_fr>Egypte</land_fr>
+    <land_it>Egitto</land_it>
+    <land_en>Egypt</land_en>
+    <waehrung>100 EGP</waehrung>
+    <kurs>1.81284</kurs>
+  </devise>
+  <devise code="all">
+    <land_de>Albanien</land_de>
+    <land_fr>Albanie</land_fr>
+    <land_it>Albania</land_it>
+    <land_en>Albania</land_en>
+    <waehrung>100 ALL</waehrung>
+    <kurs>0.96407</kurs>
+  </devise>
+  <devise code="dzd">
+    <land_de>Algerien</land_de>
+    <land_fr>Alg√©rie</land_fr>
+    <land_it>Algeria</land_it>
+    <land_en>Algeria</land_en>
+    <waehrung>100 DZD</waehrung>
+    <kurs>0.68190</kurs>
+  </devise>
+  <devise code="ars">
+    <land_de>Argentinien</land_de>
+    <land_fr>Argentine</land_fr>
+    <land_it>Argentina</land_it>
+    <land_en>Argentina</land_en>
+    <waehrung>1 ARS</waehrung>
+    <kurs>0.00087</kurs>
+  </devise>
+  <devise code="azn">
+    <land_de>Aserbaidschan</land_de>
+    <land_fr>Azerba√Ødjan</land_fr>
+    <land_it>Azerbaigian</land_it>
+    <land_en>Azerbaijan New</land_en>
+    <waehrung>1 AZN</waehrung>
+    <kurs>0.53936</kurs>
+  </devise>
+  <devise code="etb">
+    <land_de>√Ñthiopien</land_de>
+    <land_fr>Ethiopie</land_fr>
+    <land_it>Etiopia</land_it>
+    <land_en>Ethiopia</land_en>
+    <waehrung>100 ETB</waehrung>
+    <kurs>0.72206</kurs>
+  </devise>
+  <devise code="aud">
+    <land_de>Australien</land_de>
+    <land_fr>Australie</land_fr>
+    <land_it>Australia</land_it>
+    <land_en>Australia</land_en>
+    <waehrung>1 AUD</waehrung>
+    <kurs>0.57199</kurs>
+  </devise>
+  <devise code="bhd">
+    <land_de>Bahrain</land_de>
+    <land_fr>Bahre√Øn</land_fr>
+    <land_it>Bahrein</land_it>
+    <land_en>Bahrain</land_en>
+    <waehrung>1 BHD</waehrung>
+    <kurs>2.43119</kurs>
+  </devise>
+  <devise code="bdt">
+    <land_de>Bangladesch</land_de>
+    <land_fr>Bangladesh</land_fr>
+    <land_it>Bangladesh</land_it>
+    <land_en>Bangladesh</land_en>
+    <waehrung>100 BDT</waehrung>
+    <kurs>0.75445</kurs>
+  </devise>
+  <devise code="bam">
+    <land_de>Bosnien-Herzegowina</land_de>
+    <land_fr>Bosnie-Herz√©govine</land_fr>
+    <land_it>Bosnia-Erzegovina</land_it>
+    <land_en>Bosnia and Herzegovina</land_en>
+    <waehrung>100 BAM</waehrung>
+    <kurs>48.48795</kurs>
+  </devise>
+  <devise code="brl">
+    <land_de>Brasilien</land_de>
+    <land_fr>Br√©sil</land_fr>
+    <land_it>Brasile</land_it>
+    <land_en>Brazil</land_en>
+    <waehrung>100 BRL</waehrung>
+    <kurs>15.70729</kurs>
+  </devise>
+  <devise code="bgn">
+    <land_de>Bulgarien</land_de>
+    <land_fr>Bulgarie</land_fr>
+    <land_it>Bulgaria</land_it>
+    <land_en>Bulgaria</land_en>
+    <waehrung>100 BGN</waehrung>
+    <kurs>48.49566</kurs>
+  </devise>
+  <devise code="clp">
+    <land_de>Chile</land_de>
+    <land_fr>Chili</land_fr>
+    <land_it>Cile</land_it>
+    <land_en>Chile</land_en>
+    <waehrung>1000 CLP</waehrung>
+    <kurs>0.93950</kurs>
+  </devise>
+  <devise code="cny">
+    <land_de>China</land_de>
+    <land_fr>Chine</land_fr>
+    <land_it>Cina</land_it>
+    <land_en>China Yuan</land_en>
+    <waehrung>100 CNY</waehrung>
+    <kurs>12.51885</kurs>
+  </devise>
+  <devise code="crc">
+    <land_de>Costa Rica</land_de>
+    <land_fr>Costa Rica</land_fr>
+    <land_it>Costa Rica</land_it>
+    <land_en>Costa Rica</land_en>
+    <waehrung>1000 CRC</waehrung>
+    <kurs>1.80144</kurs>
+  </devise>
+  <devise code="dkk">
+    <land_de>D√§nemark</land_de>
+    <land_fr>Danemark</land_fr>
+    <land_it>Danimarca</land_it>
+    <land_en>Denmark</land_en>
+    <waehrung>100 DKK</waehrung>
+    <kurs>12.70126</kurs>
+  </devise>
+  <devise code="dop">
+    <land_de>Dominikanische Rep.</land_de>
+    <land_fr>Dominicaine, R√©p.</land_fr>
+    <land_it>Dominicana, Rep.</land_it>
+    <land_en>Dominican Republic</land_en>
+    <waehrung>100 DOP</waehrung>
+    <kurs>1.48433</kurs>
+  </devise>
+  <devise code="gel">
+    <land_de>Georgien</land_de>
+    <land_fr>G√©orgie</land_fr>
+    <land_it>Georgia</land_it>
+    <land_en>Georgia</land_en>
+    <waehrung>100 GEL</waehrung>
+    <kurs>32.77692</kurs>
+  </devise>
+  <devise code="gbp">
+    <land_de>Grossbritannien</land_de>
+    <land_fr>Grande-Bretagne</land_fr>
+    <land_it>Gran Bretagna</land_it>
+    <land_en>United Kingdom</land_en>
+    <waehrung>1 GBP</waehrung>
+    <kurs>1.13869</kurs>
+  </devise>
+  <devise code="gtq">
+    <land_de>Guatemala</land_de>
+    <land_fr>Guatemala</land_fr>
+    <land_it>Guatemala</land_it>
+    <land_en>Guatemala</land_en>
+    <waehrung>100 GTQ</waehrung>
+    <kurs>12.04530</kurs>
+  </devise>
+  <devise code="hnl">
+    <land_de>Honduras</land_de>
+    <land_fr>Honduras</land_fr>
+    <land_it>Honduras</land_it>
+    <land_en>Honduras</land_en>
+    <waehrung>100 HNL</waehrung>
+    <kurs>3.64856</kurs>
+  </devise>
+  <devise code="hkd">
+    <land_de>Hong Kong</land_de>
+    <land_fr>Hong Kong</land_fr>
+    <land_it>Hong Kong</land_it>
+    <land_en>Hong Kong</land_en>
+    <waehrung>100 HKD</waehrung>
+    <kurs>11.70388</kurs>
+  </devise>
+  <devise code="inr">
+    <land_de>Indien</land_de>
+    <land_fr>Inde</land_fr>
+    <land_it>India</land_it>
+    <land_en>India</land_en>
+    <waehrung>100 INR</waehrung>
+    <kurs>1.04252</kurs>
+  </devise>
+  <devise code="idr">
+    <land_de>Indonesien</land_de>
+    <land_fr>Indon√©sie</land_fr>
+    <land_it>Indonesia</land_it>
+    <land_en>Indonesia</land_en>
+    <waehrung>10000 IDR</waehrung>
+    <kurs>0.55944</kurs>
+  </devise>
+  <devise code="isk">
+    <land_de>Island</land_de>
+    <land_fr>Islande</land_fr>
+    <land_it>Islanda</land_it>
+    <land_en>Iceland</land_en>
+    <waehrung>100 ISK</waehrung>
+    <kurs>0.64683</kurs>
+  </devise>
+  <devise code="ils">
+    <land_de>Israel</land_de>
+    <land_fr>Isra√´l</land_fr>
+    <land_it>Israele</land_it>
+    <land_en>Israel</land_en>
+    <waehrung>1 ILS</waehrung>
+    <kurs>0.25791</kurs>
+  </devise>
+  <devise code="jpy">
+    <land_de>Japan</land_de>
+    <land_fr>Japon</land_fr>
+    <land_it>Giappone</land_it>
+    <land_en>Japan</land_en>
+    <waehrung>100 JPY</waehrung>
+    <kurs>0.59855</kurs>
+  </devise>
+  <devise code="kyd">
+    <land_de>Kaiman-Inseln</land_de>
+    <land_fr>Ca√Ømanes, Iles</land_fr>
+    <land_it>Cayman, Isole</land_it>
+    <land_en>Cayman Islands</land_en>
+    <waehrung>1 KYD</waehrung>
+    <kurs>1.11162</kurs>
+  </devise>
+  <devise code="khr">
+    <land_de>Kambodscha</land_de>
+    <land_fr>Cambodge</land_fr>
+    <land_it>Cambogia</land_it>
+    <land_en>Cambodia</land_en>
+    <waehrung>10000 KHR</waehrung>
+    <kurs>2.32724</kurs>
+  </devise>
+  <devise code="cad">
+    <land_de>Kanada</land_de>
+    <land_fr>Canada</land_fr>
+    <land_it>Canada</land_it>
+    <land_en>Canada</land_en>
+    <waehrung>1 CAD</waehrung>
+    <kurs>0.63619</kurs>
+  </devise>
+  <devise code="kzt">
+    <land_de>Kasachstan</land_de>
+    <land_fr>Kazakhstan</land_fr>
+    <land_it>Kazakstan</land_it>
+    <land_en>Kazakhstan</land_en>
+    <waehrung>1000 KZT</waehrung>
+    <kurs>1.76297</kurs>
+  </devise>
+  <devise code="qar">
+    <land_de>Katar</land_de>
+    <land_fr>Qatar</land_fr>
+    <land_it>Qatar</land_it>
+    <land_en>Qatar</land_en>
+    <waehrung>100 QAR</waehrung>
+    <kurs>25.03846</kurs>
+  </devise>
+  <devise code="kes">
+    <land_de>Kenia</land_de>
+    <land_fr>Kenya</land_fr>
+    <land_it>Kenia</land_it>
+    <land_en>Kenya</land_en>
+    <waehrung>100 KES</waehrung>
+    <kurs>0.71230</kurs>
+  </devise>
+  <devise code="cop">
+    <land_de>Kolumbien</land_de>
+    <land_fr>Colombie</land_fr>
+    <land_it>Colombia</land_it>
+    <land_en>Colombia</land_en>
+    <waehrung>10000 COP</waehrung>
+    <kurs>2.18948</kurs>
+  </devise>
+  <devise code="hrk">
+    <land_de>Kroatien</land_de>
+    <land_fr>Croatie</land_fr>
+    <land_it>Croazia</land_it>
+    <land_en>Croatia</land_en>
+    <waehrung>100 HRK</waehrung>
+    <kurs>12.58682</kurs>
+  </devise>
+  <devise code="kwd">
+    <land_de>Kuwait</land_de>
+    <land_fr>Kowe√Øt</land_fr>
+    <land_it>Kuwait</land_it>
+    <land_en>Kuwait</land_en>
+    <waehrung>1 KWD</waehrung>
+    <kurs>2.96469</kurs>
+  </devise>
+  <devise code="lbp">
+    <land_de>Libanon</land_de>
+    <land_fr>Liban</land_fr>
+    <land_it>Libano</land_it>
+    <land_en>Lebanon</land_en>
+    <waehrung>10000 LBP</waehrung>
+    <kurs>0.10191</kurs>
+  </devise>
+  <devise code="lyd">
+    <land_de>Libyen</land_de>
+    <land_fr>Libye</land_fr>
+    <land_it>Libia</land_it>
+    <land_en>Libya</land_en>
+    <waehrung>1 LYD</waehrung>
+    <kurs>0.18620</kurs>
+  </devise>
+  <devise code="myr">
+    <land_de>Malaysia</land_de>
+    <land_fr>Malaisie</land_fr>
+    <land_it>Malaysia</land_it>
+    <land_en>Malaysia</land_en>
+    <waehrung>100 MYR</waehrung>
+    <kurs>20.61107</kurs>
+  </devise>
+  <devise code="mad">
+    <land_de>Marokko</land_de>
+    <land_fr>Maroc</land_fr>
+    <land_it>Marocco</land_it>
+    <land_en>Morocco</land_en>
+    <waehrung>1 MAD</waehrung>
+    <kurs>0.09100</kurs>
+  </devise>
+  <devise code="mur">
+    <land_de>Mauritius</land_de>
+    <land_fr>Maurice</land_fr>
+    <land_it>Maurizio</land_it>
+    <land_en>Mauritius</land_en>
+    <waehrung>100 MUR</waehrung>
+    <kurs>1.99944</kurs>
+  </devise>
+  <devise code="mxn">
+    <land_de>Mexiko</land_de>
+    <land_fr>Mexique</land_fr>
+    <land_it>Messico</land_it>
+    <land_en>Mexico</land_en>
+    <waehrung>1 MXN</waehrung>
+    <kurs>0.04433</kurs>
+  </devise>
+  <devise code="nzd">
+    <land_de>Neuseeland</land_de>
+    <land_fr>Nouvelle-Z√©lande</land_fr>
+    <land_it>Nuova Zelanda</land_it>
+    <land_en>New Zealand</land_en>
+    <waehrung>1 NZD</waehrung>
+    <kurs>0.51734</kurs>
+  </devise>
+  <devise code="ngn">
+    <land_de>Nigeria</land_de>
+    <land_fr>Nig√©ria</land_fr>
+    <land_it>Nigeria</land_it>
+    <land_en>Nigeria</land_en>
+    <waehrung>1000 NGN</waehrung>
+    <kurs>0.60841</kurs>
+  </devise>
+  <devise code="nok">
+    <land_de>Norwegen</land_de>
+    <land_fr>Norv√®ge</land_fr>
+    <land_it>Norvegia</land_it>
+    <land_en>Norway</land_en>
+    <waehrung>100 NOK</waehrung>
+    <kurs>8.12426</kurs>
+  </devise>
+  <devise code="omr">
+    <land_de>Oman</land_de>
+    <land_fr>Oman</land_fr>
+    <land_it>Oman</land_it>
+    <land_en>Oman</land_en>
+    <waehrung>1 OMR</waehrung>
+    <kurs>2.37259</kurs>
+  </devise>
+  <devise code="pkr">
+    <land_de>Pakistan</land_de>
+    <land_fr>Pakistan</land_fr>
+    <land_it>Pakistan</land_it>
+    <land_en>Pakistan</land_en>
+    <waehrung>100 PKR</waehrung>
+    <kurs>0.32683</kurs>
+  </devise>
+  <devise code="pab">
+    <land_de>Panama</land_de>
+    <land_fr>Panama</land_fr>
+    <land_it>Panama</land_it>
+    <land_en>Panama</land_en>
+    <waehrung>1 PAB</waehrung>
+    <kurs>0.93079</kurs>
+  </devise>
+  <devise code="pen">
+    <land_de>Peru</land_de>
+    <land_fr>P√©rou</land_fr>
+    <land_it>Per√π</land_it>
+    <land_en>Peru Nuevo</land_en>
+    <waehrung>100 PEN</waehrung>
+    <kurs>24.55418</kurs>
+  </devise>
+  <devise code="php">
+    <land_de>Philippinen</land_de>
+    <land_fr>Philippines</land_fr>
+    <land_it>Filippine</land_it>
+    <land_en>Philippines</land_en>
+    <waehrung>100 PHP</waehrung>
+    <kurs>1.57055</kurs>
+  </devise>
+  <devise code="pln">
+    <land_de>Polen</land_de>
+    <land_fr>Pologne</land_fr>
+    <land_it>Polonia</land_it>
+    <land_en>Poland</land_en>
+    <waehrung>100 PLN</waehrung>
+    <kurs>22.55915</kurs>
+  </devise>
+  <devise code="ron">
+    <land_de>Rum√§nien</land_de>
+    <land_fr>Roumanie</land_fr>
+    <land_it>Romania</land_it>
+    <land_en>Romania New</land_en>
+    <waehrung>100 RON</waehrung>
+    <kurs>19.06234</kurs>
+  </devise>
+  <devise code="rub">
+    <land_de>Russland</land_de>
+    <land_fr>Russie</land_fr>
+    <land_it>Russa</land_it>
+    <land_en>Russia</land_en>
+    <waehrung>100 RUB</waehrung>
+    <kurs>0.93022</kurs>
+  </devise>
+  <devise code="sar">
+    <land_de>Saudi-Arabien</land_de>
+    <land_fr>Arabie Saoudite</land_fr>
+    <land_it>Arabia Saudita</land_it>
+    <land_en>Saudi Arabia</land_en>
+    <waehrung>100 SAR</waehrung>
+    <kurs>24.30345</kurs>
+  </devise>
+  <devise code="sek">
+    <land_de>Schweden</land_de>
+    <land_fr>Su√®de</land_fr>
+    <land_it>Svezia</land_it>
+    <land_en>Sweden</land_en>
+    <waehrung>100 SEK</waehrung>
+    <kurs>8.35068</kurs>
+  </devise>
+  <devise code="rsd">
+    <land_de>Serbien</land_de>
+    <land_fr>Serbie</land_fr>
+    <land_it>Serbia</land_it>
+    <land_en>Serbia</land_en>
+    <waehrung>100 RSD</waehrung>
+    <kurs>0.80935</kurs>
+  </devise>
+  <devise code="sgd">
+    <land_de>Singapur</land_de>
+    <land_fr>Singapour</land_fr>
+    <land_it>Singapore</land_it>
+    <land_en>Singapore</land_en>
+    <waehrung>1 SGD</waehrung>
+    <kurs>0.67546</kurs>
+  </devise>
+  <devise code="lkr">
+    <land_de>Sri Lanka</land_de>
+    <land_fr>Sri Lanka</land_fr>
+    <land_it>Sri Lanka</land_it>
+    <land_en>Sri Lanka</land_en>
+    <waehrung>1000 LKR</waehrung>
+    <kurs>3.05051</kurs>
+  </devise>
+  <devise code="zar">
+    <land_de>S√ºdafrika</land_de>
+    <land_fr>Afrique du sud</land_fr>
+    <land_it>Africa del Sud</land_it>
+    <land_en>South Africa</land_en>
+    <waehrung>1 ZAR</waehrung>
+    <kurs>0.04915</kurs>
+  </devise>
+  <devise code="krw">
+    <land_de>S√ºd-Korea</land_de>
+    <land_fr>Cor√©e du Sud</land_fr>
+    <land_it>Corea del Sud</land_it>
+    <land_en>Korea (South)</land_en>
+    <waehrung>100 KRW</waehrung>
+    <kurs>0.06301</kurs>
+  </devise>
+  <devise code="twd">
+    <land_de>Taiwan</land_de>
+    <land_fr>Ta√Øwan</land_fr>
+    <land_it>Taiwan</land_it>
+    <land_en>Taiwan New</land_en>
+    <waehrung>100 TWD</waehrung>
+    <kurs>2.77770</kurs>
+  </devise>
+  <devise code="tzs">
+    <land_de>Tansania</land_de>
+    <land_fr>Tanzanie</land_fr>
+    <land_it>Tanzania</land_it>
+    <land_en>Tanzania</land_en>
+    <waehrung>1000 TZS</waehrung>
+    <kurs>0.36029</kurs>
+  </devise>
+  <devise code="thb">
+    <land_de>Thailand</land_de>
+    <land_fr>Tha√Ølande</land_fr>
+    <land_it>Thailandia</land_it>
+    <land_en>Thailand</land_en>
+    <waehrung>100 THB</waehrung>
+    <kurs>2.71206</kurs>
+  </devise>
+  <devise code="czk">
+    <land_de>Tschechien</land_de>
+    <land_fr>Tch√®que, R√©p.</land_fr>
+    <land_it>Ceca, Rep.</land_it>
+    <land_en>Czech Republic</land_en>
+    <waehrung>100 CZK</waehrung>
+    <kurs>3.76663</kurs>
+  </devise>
+  <devise code="tnd">
+    <land_de>Tunesien</land_de>
+    <land_fr>Tunisie</land_fr>
+    <land_it>Tunisia</land_it>
+    <land_en>Tunisia</land_en>
+    <waehrung>100 TND</waehrung>
+    <kurs>28.97962</kurs>
+  </devise>
+  <devise code="try">
+    <land_de>T√ºrkei</land_de>
+    <land_fr>Turquie</land_fr>
+    <land_it>Turchia</land_it>
+    <land_en>Turkey</land_en>
+    <waehrung>100 TRY</waehrung>
+    <kurs>2.53873</kurs>
+  </devise>
+  <devise code="uah">
+    <land_de>Ukraine</land_de>
+    <land_fr>Ukraine</land_fr>
+    <land_it>Ucraina</land_it>
+    <land_en>Ukraine</land_en>
+    <waehrung>100 UAH</waehrung>
+    <kurs>2.19332</kurs>
+  </devise>
+  <devise code="huf">
+    <land_de>Ungarn</land_de>
+    <land_fr>Hongrie</land_fr>
+    <land_it>Ungheria</land_it>
+    <land_en>Hungary</land_en>
+    <waehrung>1000 HUF</waehrung>
+    <kurs>2.33276</kurs>
+  </devise>
+  <devise code="uyu">
+    <land_de>Uruguay</land_de>
+    <land_fr>Uruguay</land_fr>
+    <land_it>Uruguay</land_it>
+    <land_en>Uruguay</land_en>
+    <waehrung>100 UYU</waehrung>
+    <kurs>2.10435</kurs>
+  </devise>
+  <devise code="ves">
+    <land_de>Venezuela</land_de>
+    <land_fr>Venezuela</land_fr>
+    <land_it>Venezuela</land_it>
+    <land_en>Venezuela</land_en>
+    <waehrung>100 VES</waehrung>
+    <kurs>1.53543</kurs>
+  </devise>
+  <devise code="aed">
+    <land_de>Vereinigte Arabische Emirate</land_de>
+    <land_fr>Emirats Arabes Unis</land_fr>
+    <land_it>Emirati Arabi Uniti</land_it>
+    <land_en>United Arab Emirates</land_en>
+    <waehrung>100 AED</waehrung>
+    <kurs>24.82029</kurs>
+  </devise>
+  <devise code="vnd">
+    <land_de>Viet Nam</land_de>
+    <land_fr>Vi√™t Nam</land_fr>
+    <land_it>Vietnam</land_it>
+    <land_en>Viet Nam</land_en>
+    <waehrung>10000 VND</waehrung>
+    <kurs>0.36168</kurs>
+  </devise>
+</wechselkurse>
+xbhttps://www.bankofcanada.ca/valet/observations/group/FX_RATES_DAILY/json?start_date=--&end_date=--É»çÇlcontent-typexapplication/json; charset=utf-8Çscontent-dispositionxDattachment; filename=FX_RATES_DAILY-sd-2025-02-05-ed-2025-02-05.jsonÇlx-valet-modealÇkx-generateds2025-02-07 11:15:23Çxaccess-control-allow-origina*Çgx-c60behci2886-kÇbrpbk1Çmcache-controlrpublic, max-age=30ÇgexpiresxFri, 07 Feb 2025 12:38:57 GMTÇddatexFri, 07 Feb 2025 12:38:27 GMTÇncontent-lengthd8563Çjconnectionjkeep-aliveÇfservercBoCY!s{
+    "groupDetail": {
+        "label": "Daily exchange rates",
+        "description": "Daily average exchange rates - published once each business day by 16:30 ET. All Bank of Canada exchange rates are indicative rates only.",
+        "link": null
+    },
+    "terms": {
+        "url": "https://www.bankofcanada.ca/terms/"
+    },
+    "seriesDetail": {
+        "FXAUDCAD": {
+            "label": "AUD/CAD",
+            "description": "Australian dollar to Canadian dollar daily exchange rate",
+            "dimension": {
+                "key": "d",
+                "name": "Date"
+            }
+        },
+        "FXBRLCAD": {
+            "label": "BRL/CAD",
+            "description": "Brazilian real to Canadian dollar daily exchange rate",
+            "dimension": {
+                "key": "d",
+                "name": "Date"
+            }
+        },
+        "FXCNYCAD": {
+            "label": "CNY/CAD",
+            "description": "Chinese renminbi to Canadian dollar daily exchange rate",
+            "dimension": {
+                "key": "d",
+                "name": "Date"
+            }
+        },
+        "FXEURCAD": {
+            "label": "EUR/CAD",
+            "description": "European euro to Canadian dollar daily exchange rate",
+            "dimension": {
+                "key": "d",
+                "name": "Date"
+            }
+        },
+        "FXHKDCAD": {
+            "label": "HKD/CAD",
+            "description": "Hong Kong dollar to Canadian dollar daily exchange rate",
+            "dimension": {
+                "key": "d",
+                "name": "Date"
+            }
+        },
+        "FXINRCAD": {
+            "label": "INR/CAD",
+            "description": "Indian rupee to Canadian dollar daily exchange rate",
+            "dimension": {
+                "key": "d",
+                "name": "Date"
+            }
+        },
+        "FXIDRCAD": {
+            "label": "IDR/CAD",
+            "description": "Indonesian rupiah to Canadian dollar daily exchange rate",
+            "dimension": {
+                "key": "d",
+                "name": "Date"
+            }
+        },
+        "FXJPYCAD": {
+            "label": "JPY/CAD",
+            "description": "Japanese yen to Canadian dollar daily exchange rate",
+            "dimension": {
+                "key": "d",
+                "name": "Date"
+            }
+        },
+        "FXMYRCAD": {
+            "label": "MYR/CAD",
+            "description": "Malaysian ringgit to Canadian dollar daily exchange rate",
+            "dimension": {
+                "key": "d",
+                "name": "Date"
+            }
+        },
+        "FXMXNCAD": {
+            "label": "MXN/CAD",
+            "description": "Mexican peso to Canadian dollar daily exchange rate",
+            "dimension": {
+                "key": "d",
+                "name": "Date"
+            }
+        },
+        "FXNZDCAD": {
+            "label": "NZD/CAD",
+            "description": "New Zealand dollar to Canadian dollar daily exchange rate",
+            "dimension": {
+                "key": "d",
+                "name": "Date"
+            }
+        },
+        "FXNOKCAD": {
+            "label": "NOK/CAD",
+            "description": "Norwegian krone to Canadian dollar daily exchange rate",
+            "dimension": {
+                "key": "d",
+                "name": "Date"
+            }
+        },
+        "FXPENCAD": {
+            "label": "PEN/CAD",
+            "description": "Peruvian new sol to Canadian dollar daily exchange rate",
+            "dimension": {
+                "key": "d",
+                "name": "Date"
+            }
+        },
+        "FXRUBCAD": {
+            "label": "RUB/CAD",
+            "description": "Russian ruble to Canadian dollar daily exchange rate",
+            "dimension": {
+                "key": "d",
+                "name": "Date"
+            }
+        },
+        "FXSARCAD": {
+            "label": "SAR/CAD",
+            "description": "Saudi riyal to Canadian dollar daily exchange rate",
+            "dimension": {
+                "key": "d",
+                "name": "Date"
+            }
+        },
+        "FXSGDCAD": {
+            "label": "SGD/CAD",
+            "description": "Singapore dollar to Canadian dollar daily exchange rate",
+            "dimension": {
+                "key": "d",
+                "name": "Date"
+            }
+        },
+        "FXZARCAD": {
+            "label": "ZAR/CAD",
+            "description": "South African rand to Canadian dollar daily exchange rate",
+            "dimension": {
+                "key": "d",
+                "name": "Date"
+            }
+        },
+        "FXKRWCAD": {
+            "label": "KRW/CAD",
+            "description": "South Korean won to Canadian dollar daily exchange rate",
+            "dimension": {
+                "key": "d",
+                "name": "Date"
+            }
+        },
+        "FXSEKCAD": {
+            "label": "SEK/CAD",
+            "description": "Swedish krona to Canadian dollar daily exchange rate",
+            "dimension": {
+                "key": "d",
+                "name": "Date"
+            }
+        },
+        "FXCHFCAD": {
+            "label": "CHF/CAD",
+            "description": "Swiss franc to Canadian dollar daily exchange rate",
+            "dimension": {
+                "key": "d",
+                "name": "Date"
+            }
+        },
+        "FXTWDCAD": {
+            "label": "TWD/CAD",
+            "description": "Taiwanese dollar to Canadian dollar daily exchange rate",
+            "dimension": {
+                "key": "d",
+                "name": "Date"
+            }
+        },
+        "FXTHBCAD": {
+            "label": "THB/CAD",
+            "description": "Thai baht to Canadian dollar daily exchange rate",
+            "dimension": {
+                "key": "d",
+                "name": "Date"
+            }
+        },
+        "FXTRYCAD": {
+            "label": "TRY/CAD",
+            "description": "Turkish lira to Canadian dollar daily exchange rate",
+            "dimension": {
+                "key": "d",
+                "name": "Date"
+            }
+        },
+        "FXGBPCAD": {
+            "label": "GBP/CAD",
+            "description": "UK pound sterling to Canadian dollar daily exchange rate",
+            "dimension": {
+                "key": "d",
+                "name": "Date"
+            }
+        },
+        "FXUSDCAD": {
+            "label": "USD/CAD",
+            "description": "US dollar to Canadian dollar daily exchange rate",
+            "dimension": {
+                "key": "d",
+                "name": "Date"
+            }
+        },
+        "FXVNDCAD": {
+            "label": "VND/CAD",
+            "description": "Vietnamese dong to Canadian dollar daily exchange rate",
+            "dimension": {
+                "key": "d",
+                "name": "Date"
+            }
+        }
+    },
+    "observations": [
+        {
+            "d": "2025-02-05",
+            "FXAUDCAD": {
+                "v": "0.8988"
+            },
+            "FXBRLCAD": {
+                "v": "0.2467"
+            },
+            "FXCNYCAD": {
+                "v": "0.1965"
+            },
+            "FXEURCAD": {
+                "v": "1.4889"
+            },
+            "FXHKDCAD": {
+                "v": "0.1836"
+            },
+            "FXINRCAD": {
+                "v": "0.01636"
+            },
+            "FXIDRCAD": {
+                "v": "0.000088"
+            },
+            "FXJPYCAD": {
+                "v": "0.009370"
+            },
+            "FXMXNCAD": {
+                "v": "0.06936"
+            },
+            "FXNZDCAD": {
+                "v": "0.8134"
+            },
+            "FXNOKCAD": {
+                "v": "0.1275"
+            },
+            "FXPENCAD": {
+                "v": "0.3845"
+            },
+            "FXRUBCAD": {
+                "v": "0.01460"
+            },
+            "FXSARCAD": {
+                "v": "0.3811"
+            },
+            "FXSGDCAD": {
+                "v": "1.0603"
+            },
+            "FXZARCAD": {
+                "v": "0.07704"
+            },
+            "FXKRWCAD": {
+                "v": "0.000990"
+            },
+            "FXSEKCAD": {
+                "v": "0.1312"
+            },
+            "FXCHFCAD": {
+                "v": "1.5861"
+            },
+            "FXTWDCAD": {
+                "v": "0.04353"
+            },
+            "FXTRYCAD": {
+                "v": "0.03980"
+            },
+            "FXGBPCAD": {
+                "v": "1.7887"
+            },
+            "FXUSDCAD": {
+                "v": "1.4295"
+            }
+        }
+    ]
+}x9https://www.cbbh.ba/CurrencyExchange/GetJson?date=--%%A%AÉ»åÇddatexFri, 07 Feb 2025 12:38:27 GMTÇlcontent-typexapplication/json; charset=utf-8Çncontent-lengthd3808Çjconnectionjkeep-aliveÇmcache-controlgprivateÇjset-cookiex<ASP.NET_SessionId=giys4xksbzy1lbn51ejqzhon; path=/; HttpOnlyÇsx-aspnetmvc-versionc5.2Çpx-aspnet-versioni4.0.30319Çlx-powered-bygASP.NETÇocf-cache-statusgDYNAMICÇfserverjcloudflareÇfcf-rayt90e36fe7dfe6bc54-ZRHY‡{
+  "CurrencyExchangeItems": [
+    {
+      "Country": "EMU",
+      "NumCode": "978",
+      "AlphaCode": "EUR",
+      "Units": "1",
+      "Buy": "1.955830",
+      "Middle": "1.955830",
+      "Sell": "1.955830",
+      "Star": null
+    },
+    {
+      "Country": "Australia",
+      "NumCode": "036",
+      "AlphaCode": "AUD",
+      "Units": "1",
+      "Buy": "1.179030",
+      "Middle": "1.181985",
+      "Sell": "1.184940",
+      "Star": null
+    },
+    {
+      "Country": "Canada",
+      "NumCode": "124",
+      "AlphaCode": "CAD",
+      "Units": "1",
+      "Buy": "1.312439",
+      "Middle": "1.315728",
+      "Sell": "1.319017",
+      "Star": null
+    },
+    {
+      "Country": "Czech R",
+      "NumCode": "203",
+      "AlphaCode": "CZK",
+      "Units": "1",
+      "Buy": "0.077606",
+      "Middle": "0.077801",
+      "Sell": "0.077996",
+      "Star": null
+    },
+    {
+      "Country": "Dennmark",
+      "NumCode": "208",
+      "AlphaCode": "DKK",
+      "Units": "1",
+      "Buy": "0.261535",
+      "Middle": "0.262190",
+      "Sell": "0.262845",
+      "Star": null
+    },
+    {
+      "Country": "Hungary",
+      "NumCode": "348",
+      "AlphaCode": "HUF",
+      "Units": "100",
+      "Buy": "0.480409",
+      "Middle": "0.481613",
+      "Sell": "0.482817",
+      "Star": null
+    },
+    {
+      "Country": "Japan",
+      "NumCode": "392",
+      "AlphaCode": "JPY",
+      "Units": "100",
+      "Buy": "1.235163",
+      "Middle": "1.238259",
+      "Sell": "1.241355",
+      "Star": null
+    },
+    {
+      "Country": "Norway",
+      "NumCode": "578",
+      "AlphaCode": "NOK",
+      "Units": "1",
+      "Buy": "0.167341",
+      "Middle": "0.167760",
+      "Sell": "0.168179",
+      "Star": null
+    },
+    {
+      "Country": "Sweden",
+      "NumCode": "752",
+      "AlphaCode": "SEK",
+      "Units": "1",
+      "Buy": "0.172329",
+      "Middle": "0.172761",
+      "Sell": "0.173193",
+      "Star": null
+    },
+    {
+      "Country": "Switzerland",
+      "NumCode": "756",
+      "AlphaCode": "CHF",
+      "Units": "1",
+      "Buy": "2.078786",
+      "Middle": "2.083996",
+      "Sell": "2.089206",
+      "Star": null
+    },
+    {
+      "Country": "Turkey",
+      "NumCode": "949",
+      "AlphaCode": "TRY",
+      "Units": "1",
+      "Buy": "0.052464",
+      "Middle": "0.052595",
+      "Sell": "0.052726",
+      "Star": null
+    },
+    {
+      "Country": "G.Britain",
+      "NumCode": "826",
+      "AlphaCode": "GBP",
+      "Units": "1",
+      "Buy": "2.331207",
+      "Middle": "2.337050",
+      "Sell": "2.342893",
+      "Star": null
+    },
+    {
+      "Country": "USA",
+      "NumCode": "840",
+      "AlphaCode": "USD",
+      "Units": "1",
+      "Buy": "1.883147",
+      "Middle": "1.887867",
+      "Sell": "1.892587",
+      "Star": null
+    },
+    {
+      "Country": "Russia",
+      "NumCode": "643",
+      "AlphaCode": "RUB",
+      "Units": "1",
+      "Buy": "0.019422",
+      "Middle": "0.019471",
+      "Sell": "0.019520",
+      "Star": null
+    },
+    {
+      "Country": "China",
+      "NumCode": "156",
+      "AlphaCode": "CNY",
+      "Units": "1",
+      "Buy": "0.258365",
+      "Middle": "0.259013",
+      "Sell": "0.259661",
+      "Star": null
+    },
+    {
+      "Country": "Serbia",
+      "NumCode": "941",
+      "AlphaCode": "RSD",
+      "Units": "100",
+      "Buy": "1.666107",
+      "Middle": "1.670283",
+      "Sell": "1.674459",
+      "Star": null
+    },
+    {
+      "Country": "IMF",
+      "NumCode": "960",
+      "AlphaCode": "XDR",
+      "Units": "1",
+      "Buy": "",
+      "Middle": "2.454273",
+      "Sell": "",
+      "Star": null
+    }
+  ],
+  "Date": "2025-02-07T00:00:00",
+  "Comments": [],
+  "Number": 26
+}x=https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xmlÉ»çÇfserverimyracloudÇddatexFri, 07 Feb 2025 12:38:28 GMTÇlcontent-typehtext/xmlÇqtransfer-encodinggchunkedÇjconnectionjkeep-aliveÇox-frame-optionsjSAMEORIGINÇxstrict-transport-securityx#max-age=63072000; includeSubDomainsÇmlast-modifiedxThu, 06 Feb 2025 14:56:49 GMTÇpx-xss-protectionm1; mode=blockÇscontent-dispositionkattachment;ÇgexpiresxThu, 06 Feb 2025 15:02:10 GMTÇmcache-controlkmax-age=300Çex-cdna1Y2<?xml version="1.0" encoding="UTF-8"?>
+<gesmes:Envelope xmlns:gesmes="http://www.gesmes.org/xml/2002-08-01" xmlns="http://www.ecb.int/vocabulary/2002-08-01/eurofxref">
+	<gesmes:subject>Reference rates</gesmes:subject>
+	<gesmes:Sender>
+		<gesmes:name>European Central Bank</gesmes:name>
+	</gesmes:Sender>
+	<Cube>
+		<Cube time='2025-02-06'>
+			<Cube currency='USD' rate='1.0360'/>
+			<Cube currency='JPY' rate='157.95'/>
+			<Cube currency='BGN' rate='1.9558'/>
+			<Cube currency='CZK' rate='25.139'/>
+			<Cube currency='DKK' rate='7.4596'/>
+			<Cube currency='GBP' rate='0.83688'/>
+			<Cube currency='HUF' rate='406.10'/>
+			<Cube currency='PLN' rate='4.2065'/>
+			<Cube currency='RON' rate='4.9767'/>
+			<Cube currency='SEK' rate='11.3210'/>
+			<Cube currency='CHF' rate='0.9385'/>
+			<Cube currency='ISK' rate='146.60'/>
+			<Cube currency='NOK' rate='11.6585'/>
+			<Cube currency='TRY' rate='37.1866'/>
+			<Cube currency='AUD' rate='1.6547'/>
+			<Cube currency='BRL' rate='6.0127'/>
+			<Cube currency='CAD' rate='1.4865'/>
+			<Cube currency='CNY' rate='7.5511'/>
+			<Cube currency='HKD' rate='8.0668'/>
+			<Cube currency='IDR' rate='16943.78'/>
+			<Cube currency='ILS' rate='3.6892'/>
+			<Cube currency='INR' rate='90.7600'/>
+			<Cube currency='KRW' rate='1502.98'/>
+			<Cube currency='MXN' rate='21.3713'/>
+			<Cube currency='MYR' rate='4.5947'/>
+			<Cube currency='NZD' rate='1.8317'/>
+			<Cube currency='PHP' rate='60.202'/>
+			<Cube currency='SGD' rate='1.4027'/>
+			<Cube currency='THB' rate='35.053'/>
+			<Cube currency='ZAR' rate='19.2822'/>
+		</Cube>
+	</Cube>
+</gesmes:Envelope>xZhttps://www.mexc.com/open/api/v/market/kline?symbol=ETH_USDT&interval=m&start_time=&limit=É»ëÇlcontent-typexapplication/json;charset=UTF-8Çwcontent-security-policyx‰frame-ancestors 'self' *.mexc.me *.mexc.com *.mexceu.com *.mexc.kr *.mexc.co sensors.xiaoxiame.com *.365huo.xyz *.mexc.fm *.mexc.in *.mexc.us *.greentreeone.com *.gdiii.xyz *.mcaketech.com *.mexc.ae *.mexc.cl *.mexc.ee *.mexc.geÇvx-content-type-optionsgnosniffÇncontent-lengthb97ÇgexpiresxFri, 07 Feb 2025 12:38:36 GMTÇmcache-controlxmax-age=0, no-cache, no-storeÇfpragmahno-cacheÇddatexFri, 07 Feb 2025 12:38:36 GMTÇjconnectionjkeep-aliveÇmserver-timingtcdn-cache; desc=MISSÇmserver-timingmedge; dur=218Çmserver-timingmorigin; dur=9Çmserver-timingxFak_p; desc="1738931916370_1346589375_39512934_22715_7038_3_17_-";dur=1Çxaccess-control-expose-headersgx-cacheÇgx-cachewNotCacheable from childÇxstrict-transport-securityomax-age=2628000Çjakamai-grnx0.bf524350.1738931916.25aeb66Xa{"code":200,"data":[[1738927560,"2753.25","2753.49","2753.49","2750.99","90.92716","250252.93"]]}xZhttps://www.mexc.com/open/api/v/market/kline?symbol=ICP_USDT&interval=m&start_time=&limit=É»ëÇlcontent-typexapplication/json;charset=UTF-8Çwcontent-security-policyx‰frame-ancestors 'self' *.mexc.me *.mexc.com *.mexceu.com *.mexc.kr *.mexc.co sensors.xiaoxiame.com *.365huo.xyz *.mexc.fm *.mexc.in *.mexc.us *.greentreeone.com *.gdiii.xyz *.mcaketech.com *.mexc.ae *.mexc.cl *.mexc.ee *.mexc.geÇvx-content-type-optionsgnosniffÇncontent-lengthb84ÇgexpiresxFri, 07 Feb 2025 12:38:28 GMTÇmcache-controlxmax-age=0, no-cache, no-storeÇfpragmahno-cacheÇddatexFri, 07 Feb 2025 12:38:28 GMTÇjconnectionjkeep-aliveÇmserver-timingtcdn-cache; desc=MISSÇmserver-timingmedge; dur=221Çmserver-timingmorigin; dur=8Çmserver-timingxFak_p; desc="1738931908158_2917035221_51384362_22929_6993_3_19_-";dur=1Çxaccess-control-expose-headersgx-cacheÇgx-cachewNotCacheable from childÇxstrict-transport-securityomax-age=2628000Çjakamai-grnx0.d56cdead.1738931908.310102aXT{"code":200,"data":[[1738926780,"6.977","6.977","6.979","6.977","122.38","853.93"]]}x[https://www.mexc.com/open/api/v/market/kline?symbol=USDC_USDT&interval=m&start_time=&limit=É»ëÇlcontent-typexapplication/json;charset=UTF-8Çwcontent-security-policyx‰frame-ancestors 'self' *.mexc.me *.mexc.com *.mexceu.com *.mexc.kr *.mexc.co sensors.xiaoxiame.com *.365huo.xyz *.mexc.fm *.mexc.in *.mexc.us *.greentreeone.com *.gdiii.xyz *.mcaketech.com *.mexc.ae *.mexc.cl *.mexc.ee *.mexc.geÇvx-content-type-optionsgnosniffÇncontent-lengthb22ÇgexpiresxThu, 20 Mar 2025 18:47:33 GMTÇmcache-controlxmax-age=0, no-cache, no-storeÇfpragmahno-cacheÇddatexThu, 20 Mar 2025 18:47:33 GMTÇjconnectionjkeep-aliveÇmserver-timingtcdn-cache; desc=MISSÇmserver-timingmedge; dur=220Çmserver-timingmorigin; dur=8Çmserver-timingxHak_p; desc="1742496453100_1346589367_527239170_22864_12042_1_18_-";dur=1Çxaccess-control-expose-headersgx-cacheÇgx-cachewNotCacheable from childÇxstrict-transport-securityomax-age=2628000Çjakamai-grnx0.b7524350.1742496453.1f6d0802V{"code":200,"data":[]}xFhttps://www.nrb.org.np/api/forex/v/rates?from=--&to=--&per_page=&page=É»äÇddatexFri, 07 Feb 2025 12:38:23 GMTÇfserverfApacheÇxaccess-control-allow-origina*Çlx-robots-taggnoindexÇdlinkx7<https://www.nrb.org.np/api/>; rel="https://api.w.org/"Çvx-content-type-optionsgnosniffÇxaccess-control-expose-headersxX-WP-Total, X-WP-TotalPagesÇxaccess-control-allow-headersxAuthorization, Content-TypeÇqtransfer-encodinggchunkedÇlcontent-typexapplication/json; charset=UTF-8Y	Q{"status":{"code":200},"errors":{"validation":null},"params":{"date":null,"from":"2025-02-06","to":"2025-02-06","post_type":null,"per_page":"100","page":"1","slug":null,"q":null},"data":{"payload":[{"date":"2025-02-06","published_on":"2025-02-06 00:00:02","modified_on":"2025-02-05 17:23:47","rates":[{"currency":{"iso3":"INR","name":"Indian Rupee","unit":100},"buy":"160.00","sell":"160.15"},{"currency":{"iso3":"USD","name":"U.S. Dollar","unit":1},"buy":"139.65","sell":"140.25"},{"currency":{"iso3":"EUR","name":"European Euro","unit":1},"buy":"145.49","sell":"146.11"},{"currency":{"iso3":"GBP","name":"UK Pound Sterling","unit":1},"buy":"175.11","sell":"175.87"},{"currency":{"iso3":"CHF","name":"Swiss Franc","unit":1},"buy":"154.81","sell":"155.47"},{"currency":{"iso3":"AUD","name":"Australian Dollar","unit":1},"buy":"87.76","sell":"88.14"},{"currency":{"iso3":"CAD","name":"Canadian Dollar","unit":1},"buy":"97.72","sell":"98.14"},{"currency":{"iso3":"SGD","name":"Singapore Dollar","unit":1},"buy":"103.52","sell":"103.97"},{"currency":{"iso3":"JPY","name":"Japanese Yen","unit":10},"buy":"9.14","sell":"9.18"},{"currency":{"iso3":"CNY","name":"Chinese Yuan","unit":1},"buy":"19.20","sell":"19.28"},{"currency":{"iso3":"SAR","name":"Saudi Arabian Riyal","unit":1},"buy":"37.23","sell":"37.39"},{"currency":{"iso3":"QAR","name":"Qatari Riyal","unit":1},"buy":"38.30","sell":"38.47"},{"currency":{"iso3":"THB","name":"Thai Baht","unit":1},"buy":"4.16","sell":"4.18"},{"currency":{"iso3":"AED","name":"UAE Dirham","unit":1},"buy":"38.02","sell":"38.18"},{"currency":{"iso3":"MYR","name":"Malaysian Ringgit","unit":1},"buy":"31.58","sell":"31.71"},{"currency":{"iso3":"KRW","name":"South Korean Won","unit":100},"buy":"9.67","sell":"9.71"},{"currency":{"iso3":"SEK","name":"Swedish Kroner","unit":1},"buy":"12.81","sell":"12.87"},{"currency":{"iso3":"DKK","name":"Danish Kroner","unit":1},"buy":"19.50","sell":"19.59"},{"currency":{"iso3":"HKD","name":"Hong Kong Dollar","unit":1},"buy":"17.93","sell":"18.01"},{"currency":{"iso3":"KWD","name":"Kuwaity Dinar","unit":1},"buy":"452.66","sell":"454.60"},{"currency":{"iso3":"BHD","name":"Bahrain Dinar","unit":1},"buy":"370.41","sell":"372.01"},{"currency":{"iso3":"OMR","name":"Omani Rial","unit":1},"buy":"362.69","sell":"364.25"}]}]},"pagination":{"page":1,"pages":1,"per_page":100,"total":1,"links":{"prev":null,"next":null}}}xUhttps://www.okx.com/api/v/market/history-candles?instId=ETH-USDT&bar=m&before=&after=É»òÇddatexFri, 07 Feb 2025 12:38:36 GMTÇlcontent-typepapplication/jsonÇqtransfer-encodinggchunkedÇjconnectionjkeep-aliveÇdvaryoAccept-EncodingÇdvaryfOriginÇhb-localeeen_USÇhok-afterm1738927500000Çiok-beforem1738927560000Çvx-content-type-optionsgnosniffÇvx-content-type-optionsgnosniffÇpx-xss-protectionm1; mode=blockÇpx-xss-protectionm1; mode=blockÇmcache-controlx.no-cache, no-store, max-age=0, must-revalidateÇfpragmahno-cacheÇgexpiresa0Çxstrict-transport-securityx$max-age=31536000 ; includeSubDomainsÇxstrict-transport-securityx#max-age=31536000; includeSubDomainsÇox-frame-optionsjSAMEORIGINÇox-frame-optionsdDENYÇwcontent-security-policyvframe-ancestors 'self'Çjx-brokerida0Çocf-cache-statusgDYNAMICÇjset-cookiex¸__cf_bm=gRHv1iadro8kbq_b6pcg_OXqoTB57iDgm0fLKOMZWX0-1738931916-1.0.1.1-IkWctgjwbOLCIa_7Hyw2R8sJ1Pm4evfEDExbeIOu9yFPcGIaHlp.PgwXxttOlUhGI8Mnzus8V_UFyLz8DB0VMQ; path=/; expires=Fri, 07-Feb-25 13:08:36 GMT; domain=.okx.com; HttpOnly; Secure; SameSite=NoneÇfserverjcloudflareÇfcf-rayt90e3701f78b9b130-ZRHX˙{"code":"0","msg":"","data":[["1738927560000","2753.12","2753.81","2750.99","2753.81","59.701222","164313.10591824","164313.10591824","1"],["1738927500000","2753.95","2754.08","2753.01","2753.12","56.097314","154470.19849738","154470.19849738","1"]]}xUhttps://www.okx.com/api/v/market/history-candles?instId=ICP-USDT&bar=m&before=&after=É»òÇddatexFri, 07 Feb 2025 12:38:30 GMTÇlcontent-typepapplication/jsonÇqtransfer-encodinggchunkedÇjconnectionjkeep-aliveÇdvaryoAccept-EncodingÇdvaryfOriginÇhb-localeeen_USÇhok-afterm1738926720000Çiok-beforem1738926780000Çvx-content-type-optionsgnosniffÇvx-content-type-optionsgnosniffÇpx-xss-protectionm1; mode=blockÇpx-xss-protectionm1; mode=blockÇmcache-controlx.no-cache, no-store, max-age=0, must-revalidateÇfpragmahno-cacheÇgexpiresa0Çox-frame-optionsjSAMEORIGINÇox-frame-optionsdDENYÇwcontent-security-policyvframe-ancestors 'self'Çjx-brokerida0Çxstrict-transport-securityx#max-age=31536000; includeSubDomainsÇocf-cache-statusgDYNAMICÇjset-cookiex¸__cf_bm=.AnsucB9UgFF3B39L5aPNKVTaSLI1PSg6OTbwFQUzsA-1738931910-1.0.1.1-ckiilcfS4PJ27bvJrJZp28UwiGzobSnGGRnvXaDYvsaorPU4sDWD77D8X4sWBdzdDZg34SbguNAw1EH4YDNsbQ; path=/; expires=Fri, 07-Feb-25 13:08:30 GMT; domain=.okx.com; HttpOnly; Secure; SameSite=NoneÇfserverjcloudflareÇfcf-rayt90e36ff94ffff84f-ZRHXº{"code":"0","msg":"","data":[["1738926780000","6.979","6.979","6.979","6.979","0","0","0","1"],["1738926720000","6.979","6.979","6.979","6.979","4.83667","33.75511993","33.75511993","1"]]}xVhttps://www.okx.com/api/v/market/history-candles?instId=USDC-USDT&bar=m&before=&after=É»òÇddatexThu, 20 Mar 2025 18:47:33 GMTÇlcontent-typepapplication/jsonÇqtransfer-encodinggchunkedÇjconnectionjkeep-aliveÇdvaryoAccept-EncodingÇdvaryfOriginÇhb-localeeen_USÇhok-afterm1738933080000Çiok-beforem1738933140000Çvx-content-type-optionsgnosniffÇvx-content-type-optionsgnosniffÇpx-xss-protectionm1; mode=blockÇpx-xss-protectionm1; mode=blockÇmcache-controlx.no-cache, no-store, max-age=0, must-revalidateÇfpragmahno-cacheÇgexpiresa0Çox-frame-optionsjSAMEORIGINÇox-frame-optionsdDENYÇwcontent-security-policyvframe-ancestors 'self'Çjx-brokerida0Çxstrict-transport-securityx#max-age=31536000; includeSubDomainsÇocf-cache-statusgDYNAMICÇjset-cookiey__cf_bm=VKj9WPnKHU8H1deDeLz8ewsHjKDe_rS3QkEa3kAh7Z8-1742496453-1.0.1.1-YUZVubvuA3eCSyK9QGh5EqIrgHVtHSl1YOeeIfLt_cFCMtFXwDih4_BtKFSQJSpdGfw217QtTfzKIyDASby2gtScrNF9TyvCc2N_3wDMhMM; path=/; expires=Thu, 20-Mar-25 19:17:33 GMT; domain=.okx.com; HttpOnly; Secure; SameSite=NoneÇfserverjcloudflareÇfcf-rayt923760f1ed44a83a-ZRHXˆ{"code":"0","msg":"","data":[["1738933140000","0.9999","0.9999","0.9998","0.9998","2067.722111","2067.3363283511","2067.3363283511","1"],["1738933080000","0.9999","0.9999","0.9998","0.9999","4993.536785","4993.0027369411","4993.0027369411","1"]]}x4https://www.rba.gov.au/rss/rss-cb-exchange-rates.xmlÉ»éÇfserverfApacheÇox-frame-optionsjSAMEORIGINÇmlast-modifiedxFri, 07 Feb 2025 05:22:23 GMTÇmaccept-rangesebytesÇncontent-lengthe38790Çmcache-controljmax-age=30ÇgexpiresxFri, 07 Feb 2025 12:39:01 GMTÇlresponsetimeeD=217Çox-ua-compatiblegIE=EdgeÇpx-xss-protectionm1; mode=blockÇlcontent-typehtext/xmlÇxstrict-transport-securityx#max-age=16070400; includeSubDomainsÇddatexFri, 07 Feb 2025 12:38:31 GMTÇjconnectionjkeep-aliveYóÜ<?xml version="1.0" encoding="UTF-8"?>
+
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rba="https://www.rba.gov.au/statistics/frequency/exchange-rates.html" xmlns:cb="http://www.cbwiki.net/wiki/index.php/Specification_1.2/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://purl.org/rss/1.0/" xsi:schemaLocation="http://www.w3.org/1999/02/22-rdf-syntax-ns# rdf.xsd">
+  <channel rdf:about="https://www.rba.gov.au/rss/rss-cb-exchange-rates.xml">
+    <title>Reserve Bank of Australia | Exchange Rates</title>
+    <link>https://www.rba.gov.au/statistics/frequency/exchange-rates.html</link>
+    <description>The rate shown for the US dollar is a representative mid-point determined by the Reserve Bank on the basis of quotations in the interbank foreign exchange market at 4.00 pm Australian Eastern Standard Time on the day concerned. Rates shown for most other currencies are calculated by crossing the rate for the US dollar with mid-points of buying and selling rates quoted at the same time. These rates are indications of market value only and may differ from those quoted by foreign exchange dealers.</description>
+    <image rdf:resource="https://www.rba.gov.au/images/logo-rba/rss-rba-logo.gif"/>
+    <items>
+      <rdf:Seq>
+        <rdf:li rdf:resource="https://www.rba.gov.au/statistics/frequency/exchange-rates.html#USD"/>
+        <rdf:li rdf:resource="https://www.rba.gov.au/statistics/frequency/exchange-rates.html#CNY"/>
+        <rdf:li rdf:resource="https://www.rba.gov.au/statistics/frequency/exchange-rates.html#JPY"/>
+        <rdf:li rdf:resource="https://www.rba.gov.au/statistics/frequency/exchange-rates.html#EUR"/>
+        <rdf:li rdf:resource="https://www.rba.gov.au/statistics/frequency/exchange-rates.html#KRW"/>
+        <rdf:li rdf:resource="https://www.rba.gov.au/statistics/frequency/exchange-rates.html#INR"/>
+        <rdf:li rdf:resource="https://www.rba.gov.au/statistics/frequency/exchange-rates.html#SGD"/>
+        <rdf:li rdf:resource="https://www.rba.gov.au/statistics/frequency/exchange-rates.html#NZD"/>
+        <rdf:li rdf:resource="https://www.rba.gov.au/statistics/frequency/exchange-rates.html#GBP"/>
+        <rdf:li rdf:resource="https://www.rba.gov.au/statistics/frequency/exchange-rates.html#THB"/>
+        <rdf:li rdf:resource="https://www.rba.gov.au/statistics/frequency/exchange-rates.html#MYR"/>
+        <rdf:li rdf:resource="https://www.rba.gov.au/statistics/frequency/exchange-rates.html#IDR"/>
+        <rdf:li rdf:resource="https://www.rba.gov.au/statistics/frequency/exchange-rates.html#TWD"/>
+        <rdf:li rdf:resource="https://www.rba.gov.au/statistics/frequency/exchange-rates.html#VND"/>
+        <rdf:li rdf:resource="https://www.rba.gov.au/statistics/frequency/exchange-rates.html#HKD"/>
+        <rdf:li rdf:resource="https://www.rba.gov.au/statistics/frequency/exchange-rates.html#PHP"/>
+        <rdf:li rdf:resource="https://www.rba.gov.au/statistics/frequency/exchange-rates.html#CAD"/>
+        <rdf:li rdf:resource="https://www.rba.gov.au/statistics/frequency/exchange-rates.html#CHF"/>
+        <rdf:li rdf:resource="https://www.rba.gov.au/statistics/frequency/exchange-rates.html#TWI_4pm"/>
+        <rdf:li rdf:resource="https://www.rba.gov.au/statistics/frequency/exchange-rates.html#SDR"/>
+      </rdf:Seq>
+    </items>
+    <dcterms:license>https://www.rba.gov.au/disclaimer/index.html</dcterms:license>
+    <dc:date>2025-02-07T16:30:00+11:00</dc:date>
+    <dc:publisher>Reserve Bank of Australia</dc:publisher>
+    <dc:language>en</dc:language>
+  </channel>
+  <image rdf:about="https://www.rba.gov.au/images/logo-rba/rss-rba-logo.gif">
+    <title>Reserve Bank of Australia | Exchange Rates</title>
+    <url>https://www.rba.gov.au/images/logo-rba/rss-rba-logo.gif</url>
+    <link>https://www.rba.gov.au/statistics/frequency/exchange-rates.html</link>
+  </image>
+  <item rdf:about="https://www.rba.gov.au/statistics/frequency/exchange-rates.html#USD">
+    <title xml:lang="en">AU: 0.6284 USD = 1 AUD 2025-02-07 RBA 4.00 pm Eastern Australian time</title>
+    <link>https://www.rba.gov.au/statistics/frequency/exchange-rates.html#USD</link>
+    <description>AUD/USD representative rate as at 4.00 pm Eastern Australian time on 07 Feb 2025</description>
+    <dc:date>2025-02-07T16:30:00+11:00</dc:date>
+    <dc:language>en</dc:language>
+    <dcterms:audience>general</dcterms:audience>
+    <cb:statistics rdf:parseType="Resource">
+      <rdf:type rdf:resource="http://www.cbwiki.net/wiki/index.php/RSS-CB_1.2_RDF_Schema#Exchange-Rates"/>
+      <cb:country>AU</cb:country>
+      <cb:institutionAbbrev>RBA</cb:institutionAbbrev>
+      <cb:exchangeRate rdf:parseType="Resource">
+        <rdf:type rdf:resource="http://www.cbwiki.net/wiki/index.php/RSS-CB_1.2_RDF_Schema#Exchange-Rates"/>
+        <cb:observation rdf:parseType="Resource">
+          <rdf:type rdf:resource="http://www.cbwiki.net/wiki/index.php/RSS-CB_1.2_RDF_Schema#Exchange-Rates"/>
+          <cb:value>0.6284</cb:value>
+          <cb:unit>AUD</cb:unit>
+          <cb:decimals>4</cb:decimals>
+        </cb:observation>
+        <cb:baseCurrency>AUD</cb:baseCurrency>
+        <cb:targetCurrency>USD</cb:targetCurrency>
+        <cb:rateType>4.00 pm foreign exchange rates</cb:rateType>
+        <cb:observationPeriod rdf:parseType="Resource">
+          <rdf:type rdf:resource="http://www.cbwiki.net/wiki/index.php/RSS-CB_1.2_RDF_Schema#Exchange-Rates"/>
+          <cb:frequency>daily</cb:frequency>
+          <cb:period>2025-02-07</cb:period>
+        </cb:observationPeriod>
+      </cb:exchangeRate>
+    </cb:statistics>
+  </item>
+  <item rdf:about="https://www.rba.gov.au/statistics/frequency/exchange-rates.html#CNY">
+    <title xml:lang="en">AU: 4.5781 CNY = 1 AUD 2025-02-07 RBA 4.00 pm Eastern Australian time</title>
+    <link>https://www.rba.gov.au/statistics/frequency/exchange-rates.html#CNY</link>
+    <description>AUD/CNY representative rate as at 4.00 pm Eastern Australian time on 07 Feb 2025</description>
+    <dc:date>2025-02-07T16:30:00+11:00</dc:date>
+    <dc:language>en</dc:language>
+    <dcterms:audience>general</dcterms:audience>
+    <cb:statistics rdf:parseType="Resource">
+      <rdf:type rdf:resource="http://www.cbwiki.net/wiki/index.php/RSS-CB_1.2_RDF_Schema#Exchange-Rates"/>
+      <cb:country>AU</cb:country>
+      <cb:institutionAbbrev>RBA</cb:institutionAbbrev>
+      <cb:exchangeRate rdf:parseType="Resource">
+        <rdf:type rdf:resource="http://www.cbwiki.net/wiki/index.php/RSS-CB_1.2_RDF_Schema#Exchange-Rates"/>
+        <cb:observation rdf:parseType="Resource">
+          <rdf:type rdf:resource="http://www.cbwiki.net/wiki/index.php/RSS-CB_1.2_RDF_Schema#Exchange-Rates"/>
+          <cb:value>4.5781</cb:value>
+          <cb:unit>AUD</cb:unit>
+          <cb:decimals>4</cb:decimals>
+        </cb:observation>
+        <cb:baseCurrency>AUD</cb:baseCurrency>
+        <cb:targetCurrency>CNY</cb:targetCurrency>
+        <cb:rateType>4.00 pm foreign exchange rates</cb:rateType>
+        <cb:observationPeriod rdf:parseType="Resource">
+          <rdf:type rdf:resource="http://www.cbwiki.net/wiki/index.php/RSS-CB_1.2_RDF_Schema#Exchange-Rates"/>
+          <cb:frequency>daily</cb:frequency>
+          <cb:period>2025-02-07</cb:period>
+        </cb:observationPeriod>
+      </cb:exchangeRate>
+    </cb:statistics>
+  </item>
+  <item rdf:about="https://www.rba.gov.au/statistics/frequency/exchange-rates.html#JPY">
+    <title xml:lang="en">AU: 95.32 JPY = 1 AUD 2025-02-07 RBA 4.00 pm Eastern Australian time</title>
+    <link>https://www.rba.gov.au/statistics/frequency/exchange-rates.html#JPY</link>
+    <description>AUD/JPY representative rate as at 4.00 pm Eastern Australian time on 07 Feb 2025</description>
+    <dc:date>2025-02-07T16:30:00+11:00</dc:date>
+    <dc:language>en</dc:language>
+    <dcterms:audience>general</dcterms:audience>
+    <cb:statistics rdf:parseType="Resource">
+      <rdf:type rdf:resource="http://www.cbwiki.net/wiki/index.php/RSS-CB_1.2_RDF_Schema#Exchange-Rates"/>
+      <cb:country>AU</cb:country>
+      <cb:institutionAbbrev>RBA</cb:institutionAbbrev>
+      <cb:exchangeRate rdf:parseType="Resource">
+        <rdf:type rdf:resource="http://www.cbwiki.net/wiki/index.php/RSS-CB_1.2_RDF_Schema#Exchange-Rates"/>
+        <cb:observation rdf:parseType="Resource">
+          <rdf:type rdf:resource="http://www.cbwiki.net/wiki/index.php/RSS-CB_1.2_RDF_Schema#Exchange-Rates"/>
+          <cb:value>95.32</cb:value>
+          <cb:unit>AUD</cb:unit>
+          <cb:decimals>2</cb:decimals>
+        </cb:observation>
+        <cb:baseCurrency>AUD</cb:baseCurrency>
+        <cb:targetCurrency>JPY</cb:targetCurrency>
+        <cb:rateType>4.00 pm foreign exchange rates</cb:rateType>
+        <cb:observationPeriod rdf:parseType="Resource">
+          <rdf:type rdf:resource="http://www.cbwiki.net/wiki/index.php/RSS-CB_1.2_RDF_Schema#Exchange-Rates"/>
+          <cb:frequency>daily</cb:frequency>
+          <cb:period>2025-02-07</cb:period>
+        </cb:observationPeriod>
+      </cb:exchangeRate>
+    </cb:statistics>
+  </item>
+  <item rdf:about="https://www.rba.gov.au/statistics/frequency/exchange-rates.html#EUR">
+    <title xml:lang="en">AU: 0.6054 EUR = 1 AUD 2025-02-07 RBA 4.00 pm Eastern Australian time</title>
+    <link>https://www.rba.gov.au/statistics/frequency/exchange-rates.html#EUR</link>
+    <description>AUD/EUR representative rate as at 4.00 pm Eastern Australian time on 07 Feb 2025</description>
+    <dc:date>2025-02-07T16:30:00+11:00</dc:date>
+    <dc:language>en</dc:language>
+    <dcterms:audience>general</dcterms:audience>
+    <cb:statistics rdf:parseType="Resource">
+      <rdf:type rdf:resource="http://www.cbwiki.net/wiki/index.php/RSS-CB_1.2_RDF_Schema#Exchange-Rates"/>
+      <cb:country>AU</cb:country>
+      <cb:institutionAbbrev>RBA</cb:institutionAbbrev>
+      <cb:exchangeRate rdf:parseType="Resource">
+        <rdf:type rdf:resource="http://www.cbwiki.net/wiki/index.php/RSS-CB_1.2_RDF_Schema#Exchange-Rates"/>
+        <cb:observation rdf:parseType="Resource">
+          <rdf:type rdf:resource="http://www.cbwiki.net/wiki/index.php/RSS-CB_1.2_RDF_Schema#Exchange-Rates"/>
+          <cb:value>0.6054</cb:value>
+          <cb:unit>AUD</cb:unit>
+          <cb:decimals>4</cb:decimals>
+        </cb:observation>
+        <cb:baseCurrency>AUD</cb:baseCurrency>
+        <cb:targetCurrency>EUR</cb:targetCurrency>
+        <cb:rateType>4.00 pm foreign exchange rates</cb:rateType>
+        <cb:observationPeriod rdf:parseType="Resource">
+          <rdf:type rdf:resource="http://www.cbwiki.net/wiki/index.php/RSS-CB_1.2_RDF_Schema#Exchange-Rates"/>
+          <cb:frequency>daily</cb:frequency>
+          <cb:period>2025-02-07</cb:period>
+        </cb:observationPeriod>
+      </cb:exchangeRate>
+    </cb:statistics>
+  </item>
+  <item rdf:about="https://www.rba.gov.au/statistics/frequency/exchange-rates.html#KRW">
+    <title xml:lang="en">AU: 909.42 KRW = 1 AUD 2025-02-07 RBA 4.00 pm Eastern Australian time</title>
+    <link>https://www.rba.gov.au/statistics/frequency/exchange-rates.html#KRW</link>
+    <description>AUD/KRW representative rate as at 4.00 pm Eastern Australian time on 07 Feb 2025</description>
+    <dc:date>2025-02-07T16:30:00+11:00</dc:date>
+    <dc:language>en</dc:language>
+    <dcterms:audience>general</dcterms:audience>
+    <cb:statistics rdf:parseType="Resource">
+      <rdf:type rdf:resource="http://www.cbwiki.net/wiki/index.php/RSS-CB_1.2_RDF_Schema#Exchange-Rates"/>
+      <cb:country>AU</cb:country>
+      <cb:institutionAbbrev>RBA</cb:institutionAbbrev>
+      <cb:exchangeRate rdf:parseType="Resource">
+        <rdf:type rdf:resource="http://www.cbwiki.net/wiki/index.php/RSS-CB_1.2_RDF_Schema#Exchange-Rates"/>
+        <cb:observation rdf:parseType="Resource">
+          <rdf:type rdf:resource="http://www.cbwiki.net/wiki/index.php/RSS-CB_1.2_RDF_Schema#Exchange-Rates"/>
+          <cb:value>909.42</cb:value>
+          <cb:unit>AUD</cb:unit>
+          <cb:decimals>2</cb:decimals>
+        </cb:observation>
+        <cb:baseCurrency>AUD</cb:baseCurrency>
+        <cb:targetCurrency>KRW</cb:targetCurrency>
+        <cb:rateType>4.00 pm foreign exchange rates</cb:rateType>
+        <cb:observationPeriod rdf:parseType="Resource">
+          <rdf:type rdf:resource="http://www.cbwiki.net/wiki/index.php/RSS-CB_1.2_RDF_Schema#Exchange-Rates"/>
+          <cb:frequency>daily</cb:frequency>
+          <cb:period>2025-02-07</cb:period>
+        </cb:observationPeriod>
+      </cb:exchangeRate>
+    </cb:statistics>
+  </item>
+  <item rdf:about="https://www.rba.gov.au/statistics/frequency/exchange-rates.html#INR">
+    <title xml:lang="en">AU: 54.97 INR = 1 AUD 2025-02-07 RBA 4.00 pm Eastern Australian time</title>
+    <link>https://www.rba.gov.au/statistics/frequency/exchange-rates.html#INR</link>
+    <description>AUD/INR representative rate as at 4.00 pm Eastern Australian time on 07 Feb 2025</description>
+    <dc:date>2025-02-07T16:30:00+11:00</dc:date>
+    <dc:language>en</dc:language>
+    <dcterms:audience>general</dcterms:audience>
+    <cb:statistics rdf:parseType="Resource">
+      <rdf:type rdf:resource="http://www.cbwiki.net/wiki/index.php/RSS-CB_1.2_RDF_Schema#Exchange-Rates"/>
+      <cb:country>AU</cb:country>
+      <cb:institutionAbbrev>RBA</cb:institutionAbbrev>
+      <cb:exchangeRate rdf:parseType="Resource">
+        <rdf:type rdf:resource="http://www.cbwiki.net/wiki/index.php/RSS-CB_1.2_RDF_Schema#Exchange-Rates"/>
+        <cb:observation rdf:parseType="Resource">
+          <rdf:type rdf:resource="http://www.cbwiki.net/wiki/index.php/RSS-CB_1.2_RDF_Schema#Exchange-Rates"/>
+          <cb:value>54.97</cb:value>
+          <cb:unit>AUD</cb:unit>
+          <cb:decimals>2</cb:decimals>
+        </cb:observation>
+        <cb:baseCurrency>AUD</cb:baseCurrency>
+        <cb:targetCurrency>INR</cb:targetCurrency>
+        <cb:rateType>4.00 pm foreign exchange rates</cb:rateType>
+        <cb:observationPeriod rdf:parseType="Resource">
+          <rdf:type rdf:resource="http://www.cbwiki.net/wiki/index.php/RSS-CB_1.2_RDF_Schema#Exchange-Rates"/>
+          <cb:frequency>daily</cb:frequency>
+          <cb:period>2025-02-07</cb:period>
+        </cb:observationPeriod>
+      </cb:exchangeRate>
+    </cb:statistics>
+  </item>
+  <item rdf:about="https://www.rba.gov.au/statistics/frequency/exchange-rates.html#SGD">
+    <title xml:lang="en">AU: 0.8493 SGD = 1 AUD 2025-02-07 RBA 4.00 pm Eastern Australian time</title>
+    <link>https://www.rba.gov.au/statistics/frequency/exchange-rates.html#SGD</link>
+    <description>AUD/SGD representative rate as at 4.00 pm Eastern Australian time on 07 Feb 2025</description>
+    <dc:date>2025-02-07T16:30:00+11:00</dc:date>
+    <dc:language>en</dc:language>
+    <dcterms:audience>general</dcterms:audience>
+    <cb:statistics rdf:parseType="Resource">
+      <rdf:type rdf:resource="http://www.cbwiki.net/wiki/index.php/RSS-CB_1.2_RDF_Schema#Exchange-Rates"/>
+      <cb:country>AU</cb:country>
+      <cb:institutionAbbrev>RBA</cb:institutionAbbrev>
+      <cb:exchangeRate rdf:parseType="Resource">
+        <rdf:type rdf:resource="http://www.cbwiki.net/wiki/index.php/RSS-CB_1.2_RDF_Schema#Exchange-Rates"/>
+        <cb:observation rdf:parseType="Resource">
+          <rdf:type rdf:resource="http://www.cbwiki.net/wiki/index.php/RSS-CB_1.2_RDF_Schema#Exchange-Rates"/>
+          <cb:value>0.8493</cb:value>
+          <cb:unit>AUD</cb:unit>
+          <cb:decimals>4</cb:decimals>
+        </cb:observation>
+        <cb:baseCurrency>AUD</cb:baseCurrency>
+        <cb:targetCurrency>SGD</cb:targetCurrency>
+        <cb:rateType>4.00 pm foreign exchange rates</cb:rateType>
+        <cb:observationPeriod rdf:parseType="Resource">
+          <rdf:type rdf:resource="http://www.cbwiki.net/wiki/index.php/RSS-CB_1.2_RDF_Schema#Exchange-Rates"/>
+          <cb:frequency>daily</cb:frequency>
+          <cb:period>2025-02-07</cb:period>
+        </cb:observationPeriod>
+      </cb:exchangeRate>
+    </cb:statistics>
+  </item>
+  <item rdf:about="https://www.rba.gov.au/statistics/frequency/exchange-rates.html#NZD">
+    <title xml:lang="en">AU: 1.1067 NZD = 1 AUD 2025-02-07 RBA 4.00 pm Eastern Australian time</title>
+    <link>https://www.rba.gov.au/statistics/frequency/exchange-rates.html#NZD</link>
+    <description>AUD/NZD representative rate as at 4.00 pm Eastern Australian time on 07 Feb 2025</description>
+    <dc:date>2025-02-07T16:30:00+11:00</dc:date>
+    <dc:language>en</dc:language>
+    <dcterms:audience>general</dcterms:audience>
+    <cb:statistics rdf:parseType="Resource">
+      <rdf:type rdf:resource="http://www.cbwiki.net/wiki/index.php/RSS-CB_1.2_RDF_Schema#Exchange-Rates"/>
+      <cb:country>AU</cb:country>
+      <cb:institutionAbbrev>RBA</cb:institutionAbbrev>
+      <cb:exchangeRate rdf:parseType="Resource">
+        <rdf:type rdf:resource="http://www.cbwiki.net/wiki/index.php/RSS-CB_1.2_RDF_Schema#Exchange-Rates"/>
+        <cb:observation rdf:parseType="Resource">
+          <rdf:type rdf:resource="http://www.cbwiki.net/wiki/index.php/RSS-CB_1.2_RDF_Schema#Exchange-Rates"/>
+          <cb:value>1.1067</cb:value>
+          <cb:unit>AUD</cb:unit>
+          <cb:decimals>4</cb:decimals>
+        </cb:observation>
+        <cb:baseCurrency>AUD</cb:baseCurrency>
+        <cb:targetCurrency>NZD</cb:targetCurrency>
+        <cb:rateType>4.00 pm foreign exchange rates</cb:rateType>
+        <cb:observationPeriod rdf:parseType="Resource">
+          <rdf:type rdf:resource="http://www.cbwiki.net/wiki/index.php/RSS-CB_1.2_RDF_Schema#Exchange-Rates"/>
+          <cb:frequency>daily</cb:frequency>
+          <cb:period>2025-02-07</cb:period>
+        </cb:observationPeriod>
+      </cb:exchangeRate>
+    </cb:statistics>
+  </item>
+  <item rdf:about="https://www.rba.gov.au/statistics/frequency/exchange-rates.html#GBP">
+    <title xml:lang="en">AU: 0.5056 GBP = 1 AUD 2025-02-07 RBA 4.00 pm Eastern Australian time</title>
+    <link>https://www.rba.gov.au/statistics/frequency/exchange-rates.html#GBP</link>
+    <description>AUD/GBP representative rate as at 4.00 pm Eastern Australian time on 07 Feb 2025</description>
+    <dc:date>2025-02-07T16:30:00+11:00</dc:date>
+    <dc:language>en</dc:language>
+    <dcterms:audience>general</dcterms:audience>
+    <cb:statistics rdf:parseType="Resource">
+      <rdf:type rdf:resource="http://www.cbwiki.net/wiki/index.php/RSS-CB_1.2_RDF_Schema#Exchange-Rates"/>
+      <cb:country>AU</cb:country>
+      <cb:institutionAbbrev>RBA</cb:institutionAbbrev>
+      <cb:exchangeRate rdf:parseType="Resource">
+        <rdf:type rdf:resource="http://www.cbwiki.net/wiki/index.php/RSS-CB_1.2_RDF_Schema#Exchange-Rates"/>
+        <cb:observation rdf:parseType="Resource">
+          <rdf:type rdf:resource="http://www.cbwiki.net/wiki/index.php/RSS-CB_1.2_RDF_Schema#Exchange-Rates"/>
+          <cb:value>0.5056</cb:value>
+          <cb:unit>AUD</cb:unit>
+          <cb:decimals>4</cb:decimals>
+        </cb:observation>
+        <cb:baseCurrency>AUD</cb:baseCurrency>
+        <cb:targetCurrency>GBP</cb:targetCurrency>
+        <cb:rateType>4.00 pm foreign exchange rates</cb:rateType>
+        <cb:observationPeriod rdf:parseType="Resource">
+          <rdf:type rdf:resource="http://www.cbwiki.net/wiki/index.php/RSS-CB_1.2_RDF_Schema#Exchange-Rates"/>
+          <cb:frequency>daily</cb:frequency>
+          <cb:period>2025-02-07</cb:period>
+        </cb:observationPeriod>
+      </cb:exchangeRate>
+    </cb:statistics>
+  </item>
+  <item rdf:about="https://www.rba.gov.au/statistics/frequency/exchange-rates.html#THB">
+    <title xml:lang="en">AU: 21.16 THB = 1 AUD 2025-02-07 RBA 4.00 pm Eastern Australian time</title>
+    <link>https://www.rba.gov.au/statistics/frequency/exchange-rates.html#THB</link>
+    <description>AUD/THB representative rate as at 4.00 pm Eastern Australian time on 07 Feb 2025</description>
+    <dc:date>2025-02-07T16:30:00+11:00</dc:date>
+    <dc:language>en</dc:language>
+    <dcterms:audience>general</dcterms:audience>
+    <cb:statistics rdf:parseType="Resource">
+      <rdf:type rdf:resource="http://www.cbwiki.net/wiki/index.php/RSS-CB_1.2_RDF_Schema#Exchange-Rates"/>
+      <cb:country>AU</cb:country>
+      <cb:institutionAbbrev>RBA</cb:institutionAbbrev>
+      <cb:exchangeRate rdf:parseType="Resource">
+        <rdf:type rdf:resource="http://www.cbwiki.net/wiki/index.php/RSS-CB_1.2_RDF_Schema#Exchange-Rates"/>
+        <cb:observation rdf:parseType="Resource">
+          <rdf:type rdf:resource="http://www.cbwiki.net/wiki/index.php/RSS-CB_1.2_RDF_Schema#Exchange-Rates"/>
+          <cb:value>21.16</cb:value>
+          <cb:unit>AUD</cb:unit>
+          <cb:decimals>2</cb:decimals>
+        </cb:observation>
+        <cb:baseCurrency>AUD</cb:baseCurrency>
+        <cb:targetCurrency>THB</cb:targetCurrency>
+        <cb:rateType>4.00 pm foreign exchange rates</cb:rateType>
+        <cb:observationPeriod rdf:parseType="Resource">
+          <rdf:type rdf:resource="http://www.cbwiki.net/wiki/index.php/RSS-CB_1.2_RDF_Schema#Exchange-Rates"/>
+          <cb:frequency>daily</cb:frequency>
+          <cb:period>2025-02-07</cb:period>
+        </cb:observationPeriod>
+      </cb:exchangeRate>
+    </cb:statistics>
+  </item>
+  <item rdf:about="https://www.rba.gov.au/statistics/frequency/exchange-rates.html#MYR">
+    <title xml:lang="en">AU: 2.7907 MYR = 1 AUD 2025-02-07 RBA 4.00 pm Eastern Australian time</title>
+    <link>https://www.rba.gov.au/statistics/frequency/exchange-rates.html#MYR</link>
+    <description>AUD/MYR representative rate as at 4.00 pm Eastern Australian time on 07 Feb 2025</description>
+    <dc:date>2025-02-07T16:30:00+11:00</dc:date>
+    <dc:language>en</dc:language>
+    <dcterms:audience>general</dcterms:audience>
+    <cb:statistics rdf:parseType="Resource">
+      <rdf:type rdf:resource="http://www.cbwiki.net/wiki/index.php/RSS-CB_1.2_RDF_Schema#Exchange-Rates"/>
+      <cb:country>AU</cb:country>
+      <cb:institutionAbbrev>RBA</cb:institutionAbbrev>
+      <cb:exchangeRate rdf:parseType="Resource">
+        <rdf:type rdf:resource="http://www.cbwiki.net/wiki/index.php/RSS-CB_1.2_RDF_Schema#Exchange-Rates"/>
+        <cb:observation rdf:parseType="Resource">
+          <rdf:type rdf:resource="http://www.cbwiki.net/wiki/index.php/RSS-CB_1.2_RDF_Schema#Exchange-Rates"/>
+          <cb:value>2.7907</cb:value>
+          <cb:unit>AUD</cb:unit>
+          <cb:decimals>4</cb:decimals>
+        </cb:observation>
+        <cb:baseCurrency>AUD</cb:baseCurrency>
+        <cb:targetCurrency>MYR</cb:targetCurrency>
+        <cb:rateType>4.00 pm foreign exchange rates</cb:rateType>
+        <cb:observationPeriod rdf:parseType="Resource">
+          <rdf:type rdf:resource="http://www.cbwiki.net/wiki/index.php/RSS-CB_1.2_RDF_Schema#Exchange-Rates"/>
+          <cb:frequency>daily</cb:frequency>
+          <cb:period>2025-02-07</cb:period>
+        </cb:observationPeriod>
+      </cb:exchangeRate>
+    </cb:statistics>
+  </item>
+  <item rdf:about="https://www.rba.gov.au/statistics/frequency/exchange-rates.html#IDR">
+    <title xml:lang="en">AU: 10259 IDR = 1 AUD 2025-02-07 RBA 4.00 pm Eastern Australian time</title>
+    <link>https://www.rba.gov.au/statistics/frequency/exchange-rates.html#IDR</link>
+    <description>AUD/IDR representative rate as at 4.00 pm Eastern Australian time on 07 Feb 2025</description>
+    <dc:date>2025-02-07T16:30:00+11:00</dc:date>
+    <dc:language>en</dc:language>
+    <dcterms:audience>general</dcterms:audience>
+    <cb:statistics rdf:parseType="Resource">
+      <rdf:type rdf:resource="http://www.cbwiki.net/wiki/index.php/RSS-CB_1.2_RDF_Schema#Exchange-Rates"/>
+      <cb:country>AU</cb:country>
+      <cb:institutionAbbrev>RBA</cb:institutionAbbrev>
+      <cb:exchangeRate rdf:parseType="Resource">
+        <rdf:type rdf:resource="http://www.cbwiki.net/wiki/index.php/RSS-CB_1.2_RDF_Schema#Exchange-Rates"/>
+        <cb:observation rdf:parseType="Resource">
+          <rdf:type rdf:resource="http://www.cbwiki.net/wiki/index.php/RSS-CB_1.2_RDF_Schema#Exchange-Rates"/>
+          <cb:value>10259</cb:value>
+          <cb:unit>AUD</cb:unit>
+          <cb:decimals>0</cb:decimals>
+        </cb:observation>
+        <cb:baseCurrency>AUD</cb:baseCurrency>
+        <cb:targetCurrency>IDR</cb:targetCurrency>
+        <cb:rateType>4.00 pm foreign exchange rates</cb:rateType>
+        <cb:observationPeriod rdf:parseType="Resource">
+          <rdf:type rdf:resource="http://www.cbwiki.net/wiki/index.php/RSS-CB_1.2_RDF_Schema#Exchange-Rates"/>
+          <cb:frequency>daily</cb:frequency>
+          <cb:period>2025-02-07</cb:period>
+        </cb:observationPeriod>
+      </cb:exchangeRate>
+    </cb:statistics>
+  </item>
+  <item rdf:about="https://www.rba.gov.au/statistics/frequency/exchange-rates.html#TWD">
+    <title xml:lang="en">AU: 20.61 TWD = 1 AUD 2025-02-07 RBA 4.00 pm Eastern Australian time</title>
+    <link>https://www.rba.gov.au/statistics/frequency/exchange-rates.html#TWD</link>
+    <description>AUD/TWD representative rate as at 4.00 pm Eastern Australian time on 07 Feb 2025</description>
+    <dc:date>2025-02-07T16:30:00+11:00</dc:date>
+    <dc:language>en</dc:language>
+    <dcterms:audience>general</dcterms:audience>
+    <cb:statistics rdf:parseType="Resource">
+      <rdf:type rdf:resource="http://www.cbwiki.net/wiki/index.php/RSS-CB_1.2_RDF_Schema#Exchange-Rates"/>
+      <cb:country>AU</cb:country>
+      <cb:institutionAbbrev>RBA</cb:institutionAbbrev>
+      <cb:exchangeRate rdf:parseType="Resource">
+        <rdf:type rdf:resource="http://www.cbwiki.net/wiki/index.php/RSS-CB_1.2_RDF_Schema#Exchange-Rates"/>
+        <cb:observation rdf:parseType="Resource">
+          <rdf:type rdf:resource="http://www.cbwiki.net/wiki/index.php/RSS-CB_1.2_RDF_Schema#Exchange-Rates"/>
+          <cb:value>20.61</cb:value>
+          <cb:unit>AUD</cb:unit>
+          <cb:decimals>2</cb:decimals>
+        </cb:observation>
+        <cb:baseCurrency>AUD</cb:baseCurrency>
+        <cb:targetCurrency>TWD</cb:targetCurrency>
+        <cb:rateType>4.00 pm foreign exchange rates</cb:rateType>
+        <cb:observationPeriod rdf:parseType="Resource">
+          <rdf:type rdf:resource="http://www.cbwiki.net/wiki/index.php/RSS-CB_1.2_RDF_Schema#Exchange-Rates"/>
+          <cb:frequency>daily</cb:frequency>
+          <cb:period>2025-02-07</cb:period>
+        </cb:observationPeriod>
+      </cb:exchangeRate>
+    </cb:statistics>
+  </item>
+  <item rdf:about="https://www.rba.gov.au/statistics/frequency/exchange-rates.html#VND">
+    <title xml:lang="en">AU: 15917 VND = 1 AUD 2025-02-07 RBA 4.00 pm Eastern Australian time</title>
+    <link>https://www.rba.gov.au/statistics/frequency/exchange-rates.html#VND</link>
+    <description>AUD/VND representative rate as at 4.00 pm Eastern Australian time on 07 Feb 2025</description>
+    <dc:date>2025-02-07T16:30:00+11:00</dc:date>
+    <dc:language>en</dc:language>
+    <dcterms:audience>general</dcterms:audience>
+    <cb:statistics rdf:parseType="Resource">
+      <rdf:type rdf:resource="http://www.cbwiki.net/wiki/index.php/RSS-CB_1.2_RDF_Schema#Exchange-Rates"/>
+      <cb:country>AU</cb:country>
+      <cb:institutionAbbrev>RBA</cb:institutionAbbrev>
+      <cb:exchangeRate rdf:parseType="Resource">
+        <rdf:type rdf:resource="http://www.cbwiki.net/wiki/index.php/RSS-CB_1.2_RDF_Schema#Exchange-Rates"/>
+        <cb:observation rdf:parseType="Resource">
+          <rdf:type rdf:resource="http://www.cbwiki.net/wiki/index.php/RSS-CB_1.2_RDF_Schema#Exchange-Rates"/>
+          <cb:value>15917</cb:value>
+          <cb:unit>AUD</cb:unit>
+          <cb:decimals>0</cb:decimals>
+        </cb:observation>
+        <cb:baseCurrency>AUD</cb:baseCurrency>
+        <cb:targetCurrency>VND</cb:targetCurrency>
+        <cb:rateType>4.00 pm foreign exchange rates</cb:rateType>
+        <cb:observationPeriod rdf:parseType="Resource">
+          <rdf:type rdf:resource="http://www.cbwiki.net/wiki/index.php/RSS-CB_1.2_RDF_Schema#Exchange-Rates"/>
+          <cb:frequency>daily</cb:frequency>
+          <cb:period>2025-02-07</cb:period>
+        </cb:observationPeriod>
+      </cb:exchangeRate>
+    </cb:statistics>
+  </item>
+  <item rdf:about="https://www.rba.gov.au/statistics/frequency/exchange-rates.html#HKD">
+    <title xml:lang="en">AU: 4.8928 HKD = 1 AUD 2025-02-07 RBA 4.00 pm Eastern Australian time</title>
+    <link>https://www.rba.gov.au/statistics/frequency/exchange-rates.html#HKD</link>
+    <description>AUD/HKD representative rate as at 4.00 pm Eastern Australian time on 07 Feb 2025</description>
+    <dc:date>2025-02-07T16:30:00+11:00</dc:date>
+    <dc:language>en</dc:language>
+    <dcterms:audience>general</dcterms:audience>
+    <cb:statistics rdf:parseType="Resource">
+      <rdf:type rdf:resource="http://www.cbwiki.net/wiki/index.php/RSS-CB_1.2_RDF_Schema#Exchange-Rates"/>
+      <cb:country>AU</cb:country>
+      <cb:institutionAbbrev>RBA</cb:institutionAbbrev>
+      <cb:exchangeRate rdf:parseType="Resource">
+        <rdf:type rdf:resource="http://www.cbwiki.net/wiki/index.php/RSS-CB_1.2_RDF_Schema#Exchange-Rates"/>
+        <cb:observation rdf:parseType="Resource">
+          <rdf:type rdf:resource="http://www.cbwiki.net/wiki/index.php/RSS-CB_1.2_RDF_Schema#Exchange-Rates"/>
+          <cb:value>4.8928</cb:value>
+          <cb:unit>AUD</cb:unit>
+          <cb:decimals>4</cb:decimals>
+        </cb:observation>
+        <cb:baseCurrency>AUD</cb:baseCurrency>
+        <cb:targetCurrency>HKD</cb:targetCurrency>
+        <cb:rateType>4.00 pm foreign exchange rates</cb:rateType>
+        <cb:observationPeriod rdf:parseType="Resource">
+          <rdf:type rdf:resource="http://www.cbwiki.net/wiki/index.php/RSS-CB_1.2_RDF_Schema#Exchange-Rates"/>
+          <cb:frequency>daily</cb:frequency>
+          <cb:period>2025-02-07</cb:period>
+        </cb:observationPeriod>
+      </cb:exchangeRate>
+    </cb:statistics>
+  </item>
+  <item rdf:about="https://www.rba.gov.au/statistics/frequency/exchange-rates.html#PHP">
+    <title xml:lang="en">AU: 36.43 PHP = 1 AUD 2025-02-07 RBA 4.00 pm Eastern Australian time</title>
+    <link>https://www.rba.gov.au/statistics/frequency/exchange-rates.html#PHP</link>
+    <description>AUD/PHP representative rate as at 4.00 pm Eastern Australian time on 07 Feb 2025</description>
+    <dc:date>2025-02-07T16:30:00+11:00</dc:date>
+    <dc:language>en</dc:language>
+    <dcterms:audience>general</dcterms:audience>
+    <cb:statistics rdf:parseType="Resource">
+      <rdf:type rdf:resource="http://www.cbwiki.net/wiki/index.php/RSS-CB_1.2_RDF_Schema#Exchange-Rates"/>
+      <cb:country>AU</cb:country>
+      <cb:institutionAbbrev>RBA</cb:institutionAbbrev>
+      <cb:exchangeRate rdf:parseType="Resource">
+        <rdf:type rdf:resource="http://www.cbwiki.net/wiki/index.php/RSS-CB_1.2_RDF_Schema#Exchange-Rates"/>
+        <cb:observation rdf:parseType="Resource">
+          <rdf:type rdf:resource="http://www.cbwiki.net/wiki/index.php/RSS-CB_1.2_RDF_Schema#Exchange-Rates"/>
+          <cb:value>36.43</cb:value>
+          <cb:unit>AUD</cb:unit>
+          <cb:decimals>2</cb:decimals>
+        </cb:observation>
+        <cb:baseCurrency>AUD</cb:baseCurrency>
+        <cb:targetCurrency>PHP</cb:targetCurrency>
+        <cb:rateType>4.00 pm foreign exchange rates</cb:rateType>
+        <cb:observationPeriod rdf:parseType="Resource">
+          <rdf:type rdf:resource="http://www.cbwiki.net/wiki/index.php/RSS-CB_1.2_RDF_Schema#Exchange-Rates"/>
+          <cb:frequency>daily</cb:frequency>
+          <cb:period>2025-02-07</cb:period>
+        </cb:observationPeriod>
+      </cb:exchangeRate>
+    </cb:statistics>
+  </item>
+  <item rdf:about="https://www.rba.gov.au/statistics/frequency/exchange-rates.html#CAD">
+    <title xml:lang="en">AU: 0.8999 CAD = 1 AUD 2025-02-07 RBA 4.00 pm Eastern Australian time</title>
+    <link>https://www.rba.gov.au/statistics/frequency/exchange-rates.html#CAD</link>
+    <description>AUD/CAD representative rate as at 4.00 pm Eastern Australian time on 07 Feb 2025</description>
+    <dc:date>2025-02-07T16:30:00+11:00</dc:date>
+    <dc:language>en</dc:language>
+    <dcterms:audience>general</dcterms:audience>
+    <cb:statistics rdf:parseType="Resource">
+      <rdf:type rdf:resource="http://www.cbwiki.net/wiki/index.php/RSS-CB_1.2_RDF_Schema#Exchange-Rates"/>
+      <cb:country>AU</cb:country>
+      <cb:institutionAbbrev>RBA</cb:institutionAbbrev>
+      <cb:exchangeRate rdf:parseType="Resource">
+        <rdf:type rdf:resource="http://www.cbwiki.net/wiki/index.php/RSS-CB_1.2_RDF_Schema#Exchange-Rates"/>
+        <cb:observation rdf:parseType="Resource">
+          <rdf:type rdf:resource="http://www.cbwiki.net/wiki/index.php/RSS-CB_1.2_RDF_Schema#Exchange-Rates"/>
+          <cb:value>0.8999</cb:value>
+          <cb:unit>AUD</cb:unit>
+          <cb:decimals>4</cb:decimals>
+        </cb:observation>
+        <cb:baseCurrency>AUD</cb:baseCurrency>
+        <cb:targetCurrency>CAD</cb:targetCurrency>
+        <cb:rateType>4.00 pm foreign exchange rates</cb:rateType>
+        <cb:observationPeriod rdf:parseType="Resource">
+          <rdf:type rdf:resource="http://www.cbwiki.net/wiki/index.php/RSS-CB_1.2_RDF_Schema#Exchange-Rates"/>
+          <cb:frequency>daily</cb:frequency>
+          <cb:period>2025-02-07</cb:period>
+        </cb:observationPeriod>
+      </cb:exchangeRate>
+    </cb:statistics>
+  </item>
+  <item rdf:about="https://www.rba.gov.au/statistics/frequency/exchange-rates.html#CHF">
+    <title xml:lang="en">AU: 0.5695 CHF = 1 AUD 2025-02-07 RBA 4.00 pm Eastern Australian time</title>
+    <link>https://www.rba.gov.au/statistics/frequency/exchange-rates.html#CHF</link>
+    <description>AUD/CHF representative rate as at 4.00 pm Eastern Australian time on 07 Feb 2025</description>
+    <dc:date>2025-02-07T16:30:00+11:00</dc:date>
+    <dc:language>en</dc:language>
+    <dcterms:audience>general</dcterms:audience>
+    <cb:statistics rdf:parseType="Resource">
+      <rdf:type rdf:resource="http://www.cbwiki.net/wiki/index.php/RSS-CB_1.2_RDF_Schema#Exchange-Rates"/>
+      <cb:country>AU</cb:country>
+      <cb:institutionAbbrev>RBA</cb:institutionAbbrev>
+      <cb:exchangeRate rdf:parseType="Resource">
+        <rdf:type rdf:resource="http://www.cbwiki.net/wiki/index.php/RSS-CB_1.2_RDF_Schema#Exchange-Rates"/>
+        <cb:observation rdf:parseType="Resource">
+          <rdf:type rdf:resource="http://www.cbwiki.net/wiki/index.php/RSS-CB_1.2_RDF_Schema#Exchange-Rates"/>
+          <cb:value>0.5695</cb:value>
+          <cb:unit>AUD</cb:unit>
+          <cb:decimals>4</cb:decimals>
+        </cb:observation>
+        <cb:baseCurrency>AUD</cb:baseCurrency>
+        <cb:targetCurrency>CHF</cb:targetCurrency>
+        <cb:rateType>4.00 pm foreign exchange rates</cb:rateType>
+        <cb:observationPeriod rdf:parseType="Resource">
+          <rdf:type rdf:resource="http://www.cbwiki.net/wiki/index.php/RSS-CB_1.2_RDF_Schema#Exchange-Rates"/>
+          <cb:frequency>daily</cb:frequency>
+          <cb:period>2025-02-07</cb:period>
+        </cb:observationPeriod>
+      </cb:exchangeRate>
+    </cb:statistics>
+  </item>
+  <item rdf:about="https://www.rba.gov.au/statistics/frequency/exchange-rates.html#TWI_4pm">
+    <title xml:lang="en">AU: 60.1 TWI_4pm = 1 AUD 2025-02-07 RBA 4.00 pm Eastern Australian time</title>
+    <link>https://www.rba.gov.au/statistics/frequency/exchange-rates.html#TWI_4pm</link>
+    <description>AUD Trade-weighted Index as at 4.00 pm Eastern Australian time on 07 Feb 2025</description>
+    <dc:date>2025-02-07T16:30:00+11:00</dc:date>
+    <dc:language>en</dc:language>
+    <dcterms:audience>general</dcterms:audience>
+    <cb:statistics rdf:parseType="Resource">
+      <rdf:type rdf:resource="http://www.cbwiki.net/wiki/index.php/RSS-CB_1.2_RDF_Schema#Exchange-Rates"/>
+      <cb:country>AU</cb:country>
+      <cb:institutionAbbrev>RBA</cb:institutionAbbrev>
+      <cb:exchangeRate rdf:parseType="Resource">
+        <rdf:type rdf:resource="http://www.cbwiki.net/wiki/index.php/RSS-CB_1.2_RDF_Schema#Exchange-Rates"/>
+        <cb:observation rdf:parseType="Resource">
+          <rdf:type rdf:resource="http://www.cbwiki.net/wiki/index.php/RSS-CB_1.2_RDF_Schema#Exchange-Rates"/>
+          <cb:value>60.1</cb:value>
+          <cb:unit>AUD</cb:unit>
+          <cb:decimals>1</cb:decimals>
+        </cb:observation>
+        <cb:baseCurrency>AUD</cb:baseCurrency>
+        <cb:targetCurrency>XXX</cb:targetCurrency>
+        <cb:rateType>4.00 pm foreign exchange rates</cb:rateType>
+        <cb:observationPeriod rdf:parseType="Resource">
+          <rdf:type rdf:resource="http://www.cbwiki.net/wiki/index.php/RSS-CB_1.2_RDF_Schema#Exchange-Rates"/>
+          <cb:frequency>daily</cb:frequency>
+          <cb:period>2025-02-07</cb:period>
+        </cb:observationPeriod>
+      </cb:exchangeRate>
+    </cb:statistics>
+  </item>
+  <item rdf:about="https://www.rba.gov.au/statistics/frequency/exchange-rates.html#SDR">
+    <title xml:lang="en">AU: 0.4817 SDR = 1 AUD 2025-02-07 RBA 4.00 pm Eastern Australian time</title>
+    <link>https://www.rba.gov.au/statistics/frequency/exchange-rates.html#SDR</link>
+    <description>AUD/SDR representative rate as at 4.00 pm Eastern Australian time on 07 Feb 2025. The value of the Special Drawing Right is calculated by the International Monetary Fund on the basis of a weighted basket of four currencies - US dollar, European euro, Japanese yen and UK pound. The Fund publishes the value of the SDR each day in terms of US dollars; the latest available rate is crossed with the 4 pm A$/US$ rate.</description>
+    <dc:date>2025-02-07T16:30:00+11:00</dc:date>
+    <dc:language>en</dc:language>
+    <dcterms:audience>general</dcterms:audience>
+    <cb:statistics rdf:parseType="Resource">
+      <rdf:type rdf:resource="http://www.cbwiki.net/wiki/index.php/RSS-CB_1.2_RDF_Schema#Exchange-Rates"/>
+      <cb:country>AU</cb:country>
+      <cb:institutionAbbrev>RBA</cb:institutionAbbrev>
+      <cb:exchangeRate rdf:parseType="Resource">
+        <rdf:type rdf:resource="http://www.cbwiki.net/wiki/index.php/RSS-CB_1.2_RDF_Schema#Exchange-Rates"/>
+        <cb:observation rdf:parseType="Resource">
+          <rdf:type rdf:resource="http://www.cbwiki.net/wiki/index.php/RSS-CB_1.2_RDF_Schema#Exchange-Rates"/>
+          <cb:value>0.4817</cb:value>
+          <cb:unit>AUD</cb:unit>
+          <cb:decimals>4</cb:decimals>
+        </cb:observation>
+        <cb:baseCurrency>AUD</cb:baseCurrency>
+        <cb:targetCurrency>XDR</cb:targetCurrency>
+        <cb:rateType>4.00 pm foreign exchange rates</cb:rateType>
+        <cb:observationPeriod rdf:parseType="Resource">
+          <rdf:type rdf:resource="http://www.cbwiki.net/wiki/index.php/RSS-CB_1.2_RDF_Schema#Exchange-Rates"/>
+          <cb:frequency>daily</cb:frequency>
+          <cb:period>2025-02-07</cb:period>
+        </cb:observationPeriod>
+      </cb:exchangeRate>
+    </cb:statistics>
+  </item>
+</rdf:RDF>
+x$https://www.tcmb.gov.tr/kurlar//.xmlÉ»çÇddatexFri, 07 Feb 2025 12:38:31 GMTÇmlast-modifiedxThu, 06 Feb 2025 12:30:01 GMTÇdetagt"2372-62d7866a3315d"Çmaccept-rangesebytesÇncontent-lengthd9074Çox-frame-optionsjSAMEORIGINÇvx-content-type-optionsgnosniffÇlcontent-typeoapplication/xmlÇcagea0Çxstrict-transport-securitypmax-age=31536000Çjconnectionjkeep-aliveÇjset-cookiex©TS01ab7d04=015d31d69156f5b8ed65880eda3e0254b83a06d3244a42cee9cbcfaa410775f910fa574da5a8799f897acd5abf40b280c24816bf07; Path=/; Domain=.www.tcmb.gov.tr; Secure; HttpOnly;ÇdvaryoAccept-EncodingY#r<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="isokur.xsl"?>
+<Tarih_Date Tarih="06.02.2025" Date="02/06/2025"  Bulten_No="2025/26" >
+	<Currency CrossOrder="0" Kod="USD" CurrencyCode="USD">
+			<Unit>1</Unit>
+			<Isim>ABD DOLARI</Isim>
+			<CurrencyName>US DOLLAR</CurrencyName>
+			<ForexBuying>35.8332</ForexBuying>
+			<ForexSelling>35.8978</ForexSelling>
+			<BanknoteBuying>35.8081</BanknoteBuying>
+			<BanknoteSelling>35.9516</BanknoteSelling>
+			<CrossRateUSD/>
+			<CrossRateOther/>
+		
+	</Currency>
+	<Currency CrossOrder="1" Kod="AUD" CurrencyCode="AUD">
+			<Unit>1</Unit>
+			<Isim>AVUSTRALYA DOLARI</Isim>
+			<CurrencyName>AUSTRALIAN DOLLAR</CurrencyName>
+			<ForexBuying>22.3916</ForexBuying>
+			<ForexSelling>22.5377</ForexSelling>
+			<BanknoteBuying>22.2886</BanknoteBuying>
+			<BanknoteSelling>22.6729</BanknoteSelling>
+				<CrossRateUSD>1.5965</CrossRateUSD>
+				<CrossRateOther/>
+		
+	</Currency>
+	<Currency CrossOrder="2" Kod="DKK" CurrencyCode="DKK">
+			<Unit>1</Unit>
+			<Isim>DANƒ∞MARKA KRONU</Isim>
+			<CurrencyName>DANISH KRONE</CurrencyName>
+			<ForexBuying>4.9733</ForexBuying>
+			<ForexSelling>4.9977</ForexSelling>
+			<BanknoteBuying>4.9698</BanknoteBuying>
+			<BanknoteSelling>5.0092</BanknoteSelling>
+				<CrossRateUSD>7.1939</CrossRateUSD>
+				<CrossRateOther/>
+		
+	</Currency>
+	<Currency CrossOrder="9" Kod="EUR" CurrencyCode="EUR">
+			<Unit>1</Unit>
+			<Isim>EURO</Isim>
+			<CurrencyName>EURO</CurrencyName>
+			<ForexBuying>37.1584</ForexBuying>
+			<ForexSelling>37.2254</ForexSelling>
+			<BanknoteBuying>37.1324</BanknoteBuying>
+			<BanknoteSelling>37.2812</BanknoteSelling>
+				<CrossRateUSD/>
+				<CrossRateOther>1.0370</CrossRateOther>
+		
+	</Currency>
+	<Currency CrossOrder="10" Kod="GBP" CurrencyCode="GBP">
+			<Unit>1</Unit>
+			<Isim>ƒ∞NGƒ∞Lƒ∞Z STERLƒ∞Nƒ∞</Isim>
+			<CurrencyName>POUND STERLING</CurrencyName>
+			<ForexBuying>44.5218</ForexBuying>
+			<ForexSelling>44.7539</ForexSelling>
+			<BanknoteBuying>44.4907</BanknoteBuying>
+			<BanknoteSelling>44.8211</BanknoteSelling>
+				<CrossRateUSD/>
+				<CrossRateOther>1.2446</CrossRateOther>
+		
+	</Currency>
+	<Currency CrossOrder="3" Kod="CHF" CurrencyCode="CHF">
+			<Unit>1</Unit>
+			<Isim>ƒ∞SVƒ∞√áRE FRANGI</Isim>
+			<CurrencyName>SWISS FRANK</CurrencyName>
+			<ForexBuying>39.5312</ForexBuying>
+			<ForexSelling>39.7850</ForexSelling>
+			<BanknoteBuying>39.4719</BanknoteBuying>
+			<BanknoteSelling>39.8447</BanknoteSelling>
+				<CrossRateUSD>0.9044</CrossRateUSD>
+				<CrossRateOther/>
+		
+	</Currency>
+	<Currency CrossOrder="4" Kod="SEK" CurrencyCode="SEK">
+			<Unit>1</Unit>
+			<Isim>ƒ∞SVE√á KRONU</Isim>
+			<CurrencyName>SWEDISH KRONA</CurrencyName>
+			<ForexBuying>3.2654</ForexBuying>
+			<ForexSelling>3.2992</ForexSelling>
+			<BanknoteBuying>3.2631</BanknoteBuying>
+			<BanknoteSelling>3.3068</BanknoteSelling>
+				<CrossRateUSD>10.93</CrossRateUSD>
+				<CrossRateOther/>
+		
+	</Currency>
+	<Currency CrossOrder="6" Kod="CAD" CurrencyCode="CAD">
+			<Unit>1</Unit>
+			<Isim>KANADA DOLARI</Isim>
+			<CurrencyName>CANADIAN DOLLAR</CurrencyName>
+			<ForexBuying>24.9253</ForexBuying>
+			<ForexSelling>25.0377</ForexSelling>
+			<BanknoteBuying>24.8330</BanknoteBuying>
+			<BanknoteSelling>25.1328</BanknoteSelling>
+				<CrossRateUSD>1.4357</CrossRateUSD>
+				<CrossRateOther/>
+		
+	</Currency>
+	<Currency CrossOrder="11" Kod="KWD" CurrencyCode="KWD">
+			<Unit>1</Unit>
+			<Isim>KUVEYT Dƒ∞NARI</Isim>
+			<CurrencyName>KUWAITI DINAR</CurrencyName>
+			<ForexBuying>115.4564</ForexBuying>
+			<ForexSelling>116.9672</ForexSelling>
+			<BanknoteBuying>113.7246</BanknoteBuying>
+			<BanknoteSelling>118.7217</BanknoteSelling>
+				<CrossRateUSD/>
+				<CrossRateOther>3.2402</CrossRateOther>
+		
+	</Currency>
+	<Currency CrossOrder="7" Kod="NOK" CurrencyCode="NOK">
+			<Unit>1</Unit>
+			<Isim>NORVE√á KRONU</Isim>
+			<CurrencyName>NORWEGIAN KRONE</CurrencyName>
+			<ForexBuying>3.1754</ForexBuying>
+			<ForexSelling>3.1968</ForexSelling>
+			<BanknoteBuying>3.1732</BanknoteBuying>
+			<BanknoteSelling>3.2041</BanknoteSelling>
+				<CrossRateUSD>11.26</CrossRateUSD>
+				<CrossRateOther/>
+		
+	</Currency>
+	<Currency CrossOrder="8" Kod="SAR" CurrencyCode="SAR">
+			<Unit>1</Unit>
+			<Isim>SUUDƒ∞ ARABƒ∞STAN Rƒ∞YALƒ∞</Isim>
+			<CurrencyName>SAUDI RIYAL</CurrencyName>
+			<ForexBuying>9.5538</ForexBuying>
+			<ForexSelling>9.5710</ForexSelling>
+			<BanknoteBuying>9.4821</BanknoteBuying>
+			<BanknoteSelling>9.6428</BanknoteSelling>
+				<CrossRateUSD>3.7507</CrossRateUSD>
+				<CrossRateOther/>
+		
+	</Currency>
+	<Currency CrossOrder="5" Kod="JPY" CurrencyCode="JPY">
+			<Unit>100</Unit>
+			<Isim>JAPON YENƒ∞</Isim>
+			<CurrencyName>JAPENESE YEN</CurrencyName>
+			<ForexBuying>23.4297</ForexBuying>
+			<ForexSelling>23.5849</ForexSelling>
+			<BanknoteBuying>23.3430</BanknoteBuying>
+			<BanknoteSelling>23.6745</BanknoteSelling>
+				<CrossRateUSD>152.57</CrossRateUSD>
+				<CrossRateOther/>
+		
+	</Currency>
+	<Currency CrossOrder="12" Kod="BGN" CurrencyCode="BGN">
+			<Unit>1</Unit>
+			<Isim>BULGAR LEVASI</Isim>
+			<CurrencyName>BULGARIAN LEV</CurrencyName>
+			<ForexBuying>18.8922</ForexBuying>
+			<ForexSelling>19.1394</ForexSelling>
+			<BanknoteBuying></BanknoteBuying>
+			<BanknoteSelling></BanknoteSelling>
+				<CrossRateUSD>1.8861</CrossRateUSD>
+				<CrossRateOther/>
+		
+	</Currency>
+	<Currency CrossOrder="13" Kod="RON" CurrencyCode="RON">
+			<Unit>1</Unit>
+			<Isim>RUMEN LEYƒ∞</Isim>
+			<CurrencyName>NEW LEU</CurrencyName>
+			<ForexBuying>7.4249</ForexBuying>
+			<ForexSelling>7.5221</ForexSelling>
+			<BanknoteBuying></BanknoteBuying>
+			<BanknoteSelling></BanknoteSelling>
+				<CrossRateUSD>4.7990</CrossRateUSD>
+				<CrossRateOther/>
+		
+	</Currency>
+	<Currency CrossOrder="14" Kod="RUB" CurrencyCode="RUB">
+			<Unit>1</Unit>
+			<Isim>RUS RUBLESƒ∞</Isim>
+			<CurrencyName>RUSSIAN ROUBLE</CurrencyName>
+			<ForexBuying>0.36718</ForexBuying>
+			<ForexSelling>0.37198</ForexSelling>
+			<BanknoteBuying></BanknoteBuying>
+			<BanknoteSelling></BanknoteSelling>
+				<CrossRateUSD>97.04</CrossRateUSD>
+				<CrossRateOther/>
+		
+	</Currency>
+	<Currency CrossOrder="16" Kod="CNY" CurrencyCode="CNY">
+			<Unit>1</Unit>
+			<Isim>√áƒ∞N YUANI</Isim>
+			<CurrencyName>CHINESE RENMINBI</CurrencyName>
+			<ForexBuying>4.8888</ForexBuying>
+			<ForexSelling>4.9528</ForexSelling>
+			<BanknoteBuying></BanknoteBuying>
+			<BanknoteSelling></BanknoteSelling>
+				<CrossRateUSD>7.2886</CrossRateUSD>
+				<CrossRateOther/>
+		
+	</Currency>
+	<Currency CrossOrder="17" Kod="PKR" CurrencyCode="PKR">
+			<Unit>1</Unit>
+			<Isim>PAKƒ∞STAN RUPƒ∞Sƒ∞</Isim>
+			<CurrencyName>PAKISTANI RUPEE</CurrencyName>
+			<ForexBuying>0.12767</ForexBuying>
+			<ForexSelling>0.12934</ForexSelling>
+			<BanknoteBuying></BanknoteBuying>
+			<BanknoteSelling></BanknoteSelling>
+				<CrossRateUSD>279.10</CrossRateUSD>
+				<CrossRateOther/>
+		
+	</Currency>
+	<Currency CrossOrder="18" Kod="QAR" CurrencyCode="QAR">
+			<Unit>1</Unit>
+			<Isim>KATAR Rƒ∞YALƒ∞</Isim>
+			<CurrencyName>QATARI RIAL</CurrencyName>
+			<ForexBuying>9.7735</ForexBuying>
+			<ForexSelling>9.9014</ForexSelling>
+			<BanknoteBuying></BanknoteBuying>
+			<BanknoteSelling></BanknoteSelling>
+				<CrossRateUSD>3.6458</CrossRateUSD>
+				<CrossRateOther/>
+		
+	</Currency>
+	<Currency CrossOrder="19" Kod="KRW" CurrencyCode="KRW">
+			<Unit>1</Unit>
+			<Isim>G√úNEY KORE WONU</Isim>
+			<CurrencyName>SOUTH KOREAN WON</CurrencyName>
+			<ForexBuying>0.02458</ForexBuying>
+			<ForexSelling>0.02490</ForexSelling>
+			<BanknoteBuying></BanknoteBuying>
+			<BanknoteSelling></BanknoteSelling>
+				<CrossRateUSD>1450</CrossRateUSD>
+				<CrossRateOther/>
+		
+	</Currency>
+	<Currency CrossOrder="20" Kod="AZN" CurrencyCode="AZN">
+			<Unit>1</Unit>
+			<Isim>AZERBAYCAN YENƒ∞ MANATI</Isim>
+			<CurrencyName>AZERBAIJANI NEW MANAT</CurrencyName>
+			<ForexBuying>20.9602</ForexBuying>
+			<ForexSelling>21.2345</ForexSelling>
+			<BanknoteBuying></BanknoteBuying>
+			<BanknoteSelling></BanknoteSelling>
+				<CrossRateUSD>1.7000</CrossRateUSD>
+				<CrossRateOther/>
+		
+	</Currency>
+	<Currency CrossOrder="21" Kod="AED" CurrencyCode="AED">
+			<Unit>1</Unit>
+			<Isim>Bƒ∞RLE≈ûƒ∞K ARAP EMƒ∞RLƒ∞KLERƒ∞ Dƒ∞RHEMƒ∞</Isim>
+			<CurrencyName>UNITED ARAB EMIRATES DIRHAM</CurrencyName>
+			<ForexBuying>9.7013</ForexBuying>
+			<ForexSelling>9.8283</ForexSelling>
+			<BanknoteBuying></BanknoteBuying>
+			<BanknoteSelling></BanknoteSelling>
+				<CrossRateUSD>3.6729</CrossRateUSD>
+				<CrossRateOther/>
+		
+	</Currency>
+	<Currency CrossOrder="0" Kod="XDR" CurrencyCode="XDR">
+		<Unit>1</Unit>
+		<Isim>√ñZEL √áEKME HAKKI (SDR)                            </Isim>
+		<CurrencyName>SPECIAL DRAWING RIGHT (SDR)                       </CurrencyName>
+		<ForexBuying>46.8184</ForexBuying>
+		<ForexSelling/>
+		<BanknoteBuying/>
+		<BanknoteSelling/>
+		<CrossRateUSD/>
+		<CrossRateOther>1.30539</CrossRateOther>
+	</Currency>
+</Tarih_Date>
