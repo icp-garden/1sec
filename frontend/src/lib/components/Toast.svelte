@@ -50,7 +50,7 @@
 				{:else}
 					<WarningIcon size="normal" />
 				{/if}
-				<p title="toast-message">{@html toast.message}</p>
+				<p title="toast-message">{toast.message}</p>
 				<button
 					class="toast-close"
 					on:click={() => {

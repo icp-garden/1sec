@@ -248,6 +248,15 @@ pub async fn icp_to_evm(arg: TransferIcpToEvmArg) -> Result<TransferResponse, St
 
     let transfer_amount = icp_amount.sub(ledger_fee, "BUG: impossible");
 
+    // Include identifying info in the memo so that if the canister traps
+    // after a successful transfer_from but before recording the flow event,
+    // the stuck funds can be traced via the ledger transaction history.
+    let memo_data = [
+        icp_amount.into_inner().to_be_bytes(),
+        evm_amount.into_inner().to_be_bytes(),
+    ]
+    .concat();
+
     let transfer_args = TransferFromArgs {
         from: icp_account,
         to: IcrcAccount {
@@ -256,7 +265,7 @@ pub async fn icp_to_evm(arg: TransferIcpToEvmArg) -> Result<TransferResponse, St
         },
         amount: transfer_amount.into(),
         fee: Some(ledger_fee.into()),
-        memo: None,
+        memo: Some(memo_data.into()),
         created_at_time: None,
         spender_subaccount: None,
     };

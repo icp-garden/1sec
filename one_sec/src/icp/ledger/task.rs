@@ -763,7 +763,28 @@ async fn transfer_fee_task(token: Token) -> Result<(), String> {
     match result {
         Ok(Ok(_n)) => {
             cc.returned_ok();
-            process_event(Event::TransferredFee { amount, ledger_fee }.wrap(token));
+            // Verify the deduction won't panic before calling process_event.
+            // The only way process_event(TransferredFee) can trap is if
+            // on_transferred_fee hits an arithmetic underflow in .sub().
+            // If the canister trapped after a previous successful transfer
+            // but before this deduction, fees would still be high and the
+            // task would retry, transferring again. By checking first and
+            // skipping on underflow, we break the infinite retry loop.
+            let fees = read_ledger_state(token, |s| s.fees);
+            if fees.checked_sub(amount).and_then(|r| r.checked_sub(ledger_fee)).is_some() {
+                process_event(Event::TransferredFee { amount, ledger_fee }.wrap(token));
+            } else {
+                log!(
+                    ERROR,
+                    "BUG: fee transfer succeeded for {:?} but fees ({}) < amount ({}) + \
+                     ledger_fee ({}). A previous transfer likely went through without \
+                     recording the deduction. Skipping to prevent double-deduction.",
+                    token,
+                    fees,
+                    amount,
+                    ledger_fee,
+                );
+            }
         }
         Ok(Err(TransferError::Duplicate { duplicate_of })) => {
             let tx = as_block_index(duplicate_of);

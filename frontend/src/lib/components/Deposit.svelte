@@ -119,11 +119,9 @@
 					result.done?.id &&
 					(lastTransferId === undefined || result.done.id !== lastTransferId)
 				) {
-					const ledgerId = MAINNET_ICP_TOKENS.get(token)!.ledger;
-					const url = `https://dashboard.internetcomputer.org/tokens/${ledgerId}/transactions`;
 					toasts.add(
 						Toast.success(
-							`Tokens received at <a target="_blank" style="color: black; text-decoration: underline;" href=${url}>block index ${result.done.id}</a>`
+							`Tokens received at block index ${result.done.id}`
 						)
 					);
 					clearInterval($notifyInterval);
@@ -164,10 +162,9 @@
 							break;
 						case 'Forwarded' in result.status:
 							if (lastStatus === 'forwarded') break;
-							const url = getTxExplorerUrl(evmChain, token, result.status.Forwarded.hash);
-							toasts.add(
+								toasts.add(
 								Toast.success(
-									`Forwarded transfer at <a target="_blank" style="color: black; text-decoration: underline;" href=${url}>${truncateAddress(result.status.Forwarded.hash)}</a>`
+									`Forwarded transfer at ${truncateAddress(result.status.Forwarded.hash)}`
 								)
 							);
 							toasts.add(Toast.temporarySuccess('Tokens will arrive shortly'));

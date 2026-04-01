@@ -231,8 +231,9 @@ fn on_transferred_fee(state: &mut State, amount: Amount, ledger_fee: Amount) {
             // The fee was unlocked, so the balance decreases.
             state.balance = state
                 .balance
-                .sub(amount, "BUG: overflow in balance += amount")
+                .sub(amount, "BUG: underflow in balance -= amount")
                 .sub(ledger_fee, "BUG: underflow in balance -= ledger_fee");
         }
     }
 }
+

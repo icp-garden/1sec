@@ -27,8 +27,7 @@ async function getAuthClient(): Promise<AuthClient> {
 	if (_authClient) {
 		return _authClient;
 	}
-	/// TODO: double check that disabling idle detection is okay.
-	let authClient = await AuthClient.create({ idleOptions: { disableIdle: true } });
+	let authClient = await AuthClient.create({ idleOptions: { idleTimeout: 10 * 60 * 1000 } });
 	_authClient = authClient;
 	return authClient;
 }

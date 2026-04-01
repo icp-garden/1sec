@@ -2,7 +2,11 @@
 	{
 		"match": "**/*",
 		"headers": {
-			"X-Security-Policy": "hardened"
+			"X-Content-Type-Options": "nosniff",
+			"X-Frame-Options": "DENY",
+			"Referrer-Policy": "strict-origin-when-cross-origin",
+			"Permissions-Policy": "accelerometer=(), camera=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), usb=()",
+			"Content-Security-Policy": "default-src 'self' https:; script-src 'self'; style-src 'self' 'unsafe-inline' https:; img-src 'self' data: https:; font-src 'self' data: https:; connect-src 'self' https: wss:; frame-ancestors 'none'"
 		},
 		"ignore": false
 	},
@@ -10,8 +14,7 @@
 		"match": ".well-known/ii-alternative-origins",
 		"headers": {
 			"Access-Control-Allow-Origin": "*",
-			"Content-Type": "application/json",
-			"X-Security-Policy": "hardened"
+			"Content-Type": "application/json"
 		},
 		"ignore": false
 	},

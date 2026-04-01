@@ -106,7 +106,7 @@ export class IcpToEvmApprove implements Step {
 					fee: [],
 					memo: [],
 					from_subaccount: [],
-					created_at_time: [],
+					created_at_time: [BigInt(Date.now()) * BigInt(NANOS_PER_MS)],
 					expires_at: [expiry],
 					expected_allowance: [],
 					amount: this.amount

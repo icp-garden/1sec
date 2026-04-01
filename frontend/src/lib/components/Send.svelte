@@ -39,14 +39,13 @@
 				fee: [],
 				memo: [],
 				from_subaccount: [],
-				created_at_time: [],
+				created_at_time: [BigInt(Date.now()) * 1_000_000n],
 				amount: numberToBigintScaled(amount, config.decimals)
 			});
 			if ('Ok' in result) {
-				const url = getTxExplorerUrl(asset.chain, asset.token, String(result.Ok));
 				toasts.add(
 					Toast.success(
-						`Successful transfer at <a style="color: var(--c-text--interactive)" href=${url}>block index ${result.Ok}</a>`
+						`Successful transfer at block index ${result.Ok}`
 					)
 				);
 			} else {
@@ -70,15 +69,14 @@
 				fee: { e8s: 10_000n },
 				memo: 0n,
 				from_subaccount: [],
-				created_at_time: [],
+				created_at_time: [{ timestamp_nanos: BigInt(Date.now()) * 1_000_000n }],
 				amount: { e8s: numberToBigintScaled(amount, config.decimals) }
 			});
 
 			if ('Ok' in result) {
-				const url = getTxExplorerUrl('ICP', 'ICP', String(result.Ok));
 				toasts.add(
 					Toast.success(
-						`Successful transfer at <a style="color: white" href=${url + result.Ok}>block index ${result.Ok}</a>`
+						`Successful transfer at block index ${result.Ok}`
 					)
 				);
 			} else {
