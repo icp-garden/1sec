@@ -1,0 +1,31 @@
+[package]
+name = "relayer"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+alloy = { version = "0.12", features = ["full"] }
+alloy-consensus = "0.12.5"
+alloy-eips = "0.12.5"
+alloy-rlp = "0.3.11"
+alloy-trie = "0.7.9"
+alloy-chains = "0.1.58"
+eyre = "0.6.12"
+op-alloy = { version = "0.11.1", features = ["full"] }
+tokio.workspace = true
+candid = "0.10.13"
+ic-agent = "0.40.1"
+one_sec = { path = "../one_sec" }
+serde = { version = "1.0.203", features = ["derive"] }
+serde_bytes = "0.11.15"
+serde_cbor = "0.11.2"
+serde_json = { version = "^1.0.107" }
+async-trait = "0.1.88"
+clap = "4.5.34"
+evm_rpc_types.workspace = true
+num-traits.workspace = true
+chrono = "0.4"
+openssl = "0.10.73"
+rpassword = "7.4"
+futures = "0.3.31"
+regex = "1"

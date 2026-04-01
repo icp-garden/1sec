@@ -1,0 +1,63 @@
+(
+  variant {
+    Init = record {
+      deployment = variant { Testnet };
+      icp = opt record {
+        ledger = vec {
+          record {
+            token = variant { ICP };
+            initial_balance = opt(2983595631 : nat64)
+          };
+          record {
+            token = variant { USDC };
+            initial_balance = opt(39569981 : nat64)
+          }
+        }
+      };
+      evm = vec {
+        record {
+          chain = variant { Base };
+          initial_nonce = opt(448 : nat64);
+          ledger = vec {
+            record {
+              token = variant { ICP };
+              initial_balance = opt(1658045968 : nat64)
+            };
+            record {
+              token = variant { USDC };
+              initial_balance = opt(31707207 : nat64)
+            }
+          }
+        };
+        record {
+          chain = variant { Arbitrum };
+          initial_nonce = opt(83 : nat64);
+          ledger = vec {
+            record {
+              token = variant { ICP };
+              initial_balance = opt(193658893 : nat64)
+            };
+            record {
+              token = variant { USDC };
+              initial_balance = opt(12264713 : nat64)
+            }
+          }
+        };
+        record {
+          chain = variant { Ethereum };
+          initial_nonce = opt(6 : nat64);
+          ledger = vec {
+            record {
+              token = variant { ICP };
+              initial_balance = opt(303435019 : nat64)
+            };
+            record {
+              token = variant { USDC };
+              initial_balance = opt(2123028 : nat64)
+            }
+          }
+        }
+      }
+    }
+  }
+)

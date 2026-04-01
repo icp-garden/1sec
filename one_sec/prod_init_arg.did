@@ -1,0 +1,27 @@
+(
+  variant {
+    Init = record {
+      deployment = variant { Mainnet };
+      evm = vec {
+        record {
+          chain = variant { Base };
+          initial_nonce = opt(0 : nat64);
+          initial_block = opt(31718191 : nat64);
+          ledger = vec {}
+        };
+        record {
+          chain = variant { Arbitrum };
+          initial_nonce = opt(0 : nat64);
+          initial_block = opt(348585048 : nat64);
+          ledger = vec {}
+        };
+        record {
+          chain = variant { Ethereum };
+          initial_nonce = opt(0 : nat64);
+          initial_block = opt(22730411 : nat64);
+          ledger = vec {}
+        }
+      }
+    }
+  }
+)

@@ -1,0 +1,19 @@
+[package]
+name = "backup"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+eyre = "0.6.12"
+tokio.workspace = true
+minicbor.workspace = true
+candid = "0.10.13"
+ic-agent = "0.39.3"
+one_sec = { path = "../one_sec" }
+serde = { version = "1.0.203", features = ["derive"] }
+serde_bytes = "0.11.15"
+serde_cbor = "0.11.2"
+serde_json = { version = "^1.0.107" }
+async-trait = "0.1.88"
+clap = "4.5.34"
+chrono = "0.4"
