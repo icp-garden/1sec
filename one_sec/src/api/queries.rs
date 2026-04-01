@@ -932,14 +932,16 @@ fn build_tx_log_block_map() -> BTreeMap<TxLogId, BlockNumber> {
     with_event_iter(|iter| {
         let mut map = BTreeMap::new();
         for event in iter {
-            if let EventType::Evm { event, .. } = event.event {
-                if let evm::Event::Reader(evm::reader::Event::FetchedTxLog {
-                    block_number,
-                    tx_log_id,
-                }) = event
-                {
-                    map.insert(tx_log_id, block_number);
-                }
+            if let EventType::Evm {
+                event:
+                    evm::Event::Reader(evm::reader::Event::FetchedTxLog {
+                        block_number,
+                        tx_log_id,
+                    }),
+                ..
+            } = event.event
+            {
+                map.insert(tx_log_id, block_number);
             }
         }
         map

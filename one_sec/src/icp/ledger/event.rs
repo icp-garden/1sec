@@ -236,4 +236,3 @@ fn on_transferred_fee(state: &mut State, amount: Amount, ledger_fee: Amount) {
         }
     }
 }
-

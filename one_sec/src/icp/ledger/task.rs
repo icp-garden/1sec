@@ -771,7 +771,11 @@ async fn transfer_fee_task(token: Token) -> Result<(), String> {
             // task would retry, transferring again. By checking first and
             // skipping on underflow, we break the infinite retry loop.
             let fees = read_ledger_state(token, |s| s.fees);
-            if fees.checked_sub(amount).and_then(|r| r.checked_sub(ledger_fee)).is_some() {
+            if fees
+                .checked_sub(amount)
+                .and_then(|r| r.checked_sub(ledger_fee))
+                .is_some()
+            {
                 process_event(Event::TransferredFee { amount, ledger_fee }.wrap(token));
             } else {
                 log!(

@@ -271,8 +271,8 @@ fn check_candid_interface_compatibility() {
 
     let new_interface = __export_service();
 
-    let old_interface = std::path::PathBuf::from(std::env::var("CARGO_MANIFEST_DIR").unwrap())
-        .join("one_sec.did");
+    let old_interface =
+        std::path::PathBuf::from(std::env::var("CARGO_MANIFEST_DIR").unwrap()).join("one_sec.did");
 
     check_service_equal(
         "Actual one_sec candid interface:",

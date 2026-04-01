@@ -14,10 +14,10 @@ use evm_rpc_types::Nat256;
 use eyre::eyre;
 use eyre::OptionExt;
 use ic_agent::export::reqwest::Url;
+use num_traits::cast::ToPrimitive;
 use one_sec::api::types::RelayProof;
 use one_sec::evm::writer::{fee_history_args, get_fee_from_history};
 use one_sec::evm::TxHash;
-use num_traits::cast::ToPrimitive;
 
 use crate::merkle::{build_proof, check_proof};
 use crate::TaskMetadata;

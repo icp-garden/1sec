@@ -14,7 +14,7 @@ declare_log_buffer!(name = DEBUG_BUF, capacity = 1000);
 // Trace of HTTP requests and responses.
 declare_log_buffer!(name = TRACE_HTTP_BUF, capacity = 1000);
 
-pub const ERROR: PrintProxySink = PrintProxySink("ERROR", &INFO_BUF);
+pub const ERROR: PrintProxySink = PrintProxySink("ERROR", &ERROR_BUF);
 pub const INFO: PrintProxySink = PrintProxySink("INFO", &INFO_BUF);
 pub const DEBUG: PrintProxySink = PrintProxySink("DEBUG", &DEBUG_BUF);
 pub const TRACE_HTTP: PrintProxySink = PrintProxySink("TRACE_HTTP", &TRACE_HTTP_BUF);

@@ -20,6 +20,7 @@ use icrc_ledger_types::{
     },
     icrc2::approve::{ApproveArgs, ApproveError},
 };
+use lazy_static::lazy_static;
 use one_sec::{
     api::{
         types::{
@@ -34,7 +35,6 @@ use one_sec::{
     numeric::{Amount, Wei, E8S},
     task::TaskType,
 };
-use lazy_static::lazy_static;
 use pocket_ic::{nonblocking::PocketIc, PocketIcBuilder};
 use serde::Deserialize;
 use std::{
@@ -514,15 +514,10 @@ impl TestEnv {
     }
 
     pub async fn get_forwarding_address(&self, user: Principal, account: IcpAccount) -> String {
-        self.query::<Result<String, String>>(
-            self.one_sec,
-            user,
-            "get_forwarding_address",
-            account,
-        )
-        .await
-        .unwrap()
-        .unwrap()
+        self.query::<Result<String, String>>(self.one_sec, user, "get_forwarding_address", account)
+            .await
+            .unwrap()
+            .unwrap()
     }
 
     pub async fn try_get_forwarding_address(
@@ -530,14 +525,9 @@ impl TestEnv {
         user: Principal,
         account: IcpAccount,
     ) -> Result<String, String> {
-        self.query::<Result<String, String>>(
-            self.one_sec,
-            user,
-            "get_forwarding_address",
-            account,
-        )
-        .await
-        .unwrap()
+        self.query::<Result<String, String>>(self.one_sec, user, "get_forwarding_address", account)
+            .await
+            .unwrap()
     }
 
     pub async fn get_forwarding_transactions(

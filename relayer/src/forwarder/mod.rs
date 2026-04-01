@@ -25,6 +25,7 @@ use candid::{decode_one, Encode, Nat, Principal};
 use evm_rpc_types::Nat256;
 use eyre::eyre;
 use ic_agent::{export::reqwest::Url, Agent};
+use num_traits::ToPrimitive;
 use one_sec::{
     api::types::{
         Chain, EvmChain, EvmTx, ForwardedTx, ForwardingAccount, ForwardingBalance,
@@ -38,7 +39,6 @@ use one_sec::{
     },
     numeric::Percent,
 };
-use num_traits::ToPrimitive;
 use regex::Regex;
 use tokio::time::Instant;
 

@@ -1323,12 +1323,9 @@ async fn test_queue_position() {
     let test = TestEnv::new().await;
 
     let amount = Amount::new(1_000 * E8S);
-    test.icp_approve(test.users[0], test.one_sec, amount)
-        .await;
-    test.icp_approve(test.users[1], test.one_sec, amount)
-        .await;
-    test.icp_approve(test.users[2], test.one_sec, amount)
-        .await;
+    test.icp_approve(test.users[0], test.one_sec, amount).await;
+    test.icp_approve(test.users[1], test.one_sec, amount).await;
+    test.icp_approve(test.users[2], test.one_sec, amount).await;
 
     for _ in 0..40 {
         test.tick().await;

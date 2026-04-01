@@ -13,11 +13,11 @@ use candid::{decode_one, Encode, Principal};
 use eyre::{bail, eyre, OptionExt};
 use futures::{stream::FuturesUnordered, StreamExt};
 use ic_agent::{agent::CallResponse, export::reqwest::Url, Agent, Identity, RequestId};
+use merkle::check_proof;
 use one_sec::{
     api::types::{EvmChain, Metadata, RelayProof, RelayTask},
     evm::TxHash,
 };
-use merkle::check_proof;
 use openssl::ec::EcKey;
 use openssl::pkey::Private;
 use std::{

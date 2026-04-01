@@ -379,7 +379,7 @@ pub fn encode_metrics(w: &mut ic_metrics_encoder::MetricsEncoder<Vec<u8>>) -> st
                 w.encode_gauge(
                     &format!("{}_negative_balance", name),
                     ledger.negative_balance.into_inner() as f64,
-                    "The positive balance of the ledger",
+                    "The negative balance of the ledger",
                 )?;
 
                 w.encode_gauge(
@@ -392,12 +392,6 @@ pub fn encode_metrics(w: &mut ic_metrics_encoder::MetricsEncoder<Vec<u8>>) -> st
                     &format!("{}_pending_balance_add", name),
                     ledger.pending_balance_add.into_inner() as f64,
                     "The pending positive delta of the ledger balance",
-                )?;
-
-                w.encode_gauge(
-                    &format!("{}_pending_balance_sub", name),
-                    ledger.pending_balance_sub.into_inner() as f64,
-                    "The pending negative delta of the ledger balance",
                 )?;
             }
         }
