@@ -11,7 +11,7 @@
 		validateAddr
 	} from '$lib/utils';
 	import { CONFIG, TOKEN, getTxExplorerUrl, type TokenConfig } from '$lib/oneSec/config';
-	import { Principal } from '@dfinity/principal';
+	import { Principal } from '@icp-sdk/core/principal';
 	import { Toast } from '$lib/toast';
 	import { writeError } from '$lib/resultHandler';
 	import type { _SERVICE as ICRC1 } from '../../declarations/icp_ledger/icp_ledger.did';
@@ -43,11 +43,7 @@
 				amount: numberToBigintScaled(amount, config.decimals)
 			});
 			if ('Ok' in result) {
-				toasts.add(
-					Toast.success(
-						`Successful transfer at block index ${result.Ok}`
-					)
-				);
+				toasts.add(Toast.success(`Successful transfer at block index ${result.Ok}`));
 			} else {
 				toasts.add(Toast.error(writeError(result.Err)));
 			}
@@ -74,11 +70,7 @@
 			});
 
 			if ('Ok' in result) {
-				toasts.add(
-					Toast.success(
-						`Successful transfer at block index ${result.Ok}`
-					)
-				);
+				toasts.add(Toast.success(`Successful transfer at block index ${result.Ok}`));
 			} else {
 				toasts.add(Toast.error(writeError(result.Err)));
 			}

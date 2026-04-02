@@ -1,5 +1,5 @@
-import { HttpAgent } from '@dfinity/agent';
-import { Ed25519KeyIdentity } from '@dfinity/identity';
+import { HttpAgent } from '@icp-sdk/core/agent';
+import { Ed25519KeyIdentity } from '@icp-sdk/core/identity';
 import { fetchActors, User } from '$lib/actors';
 import { accountIdentifierFromHex, isAccountIdValid, isIcrcAccountValid } from '$lib/utils';
 import type {
@@ -10,7 +10,7 @@ import type {
 import { AccountIdentifier } from '@dfinity/ledger-icp';
 import type { Page } from 'playwright';
 import { expect } from '@playwright/test';
-import { Principal } from '@dfinity/principal';
+import { Principal } from '@icp-sdk/core/principal';
 import { InternetIdentityPage } from '@dfinity/internet-identity-playwright';
 import type { Dappwright } from '@tenkeylabs/dappwright';
 import { ethers } from 'ethers';

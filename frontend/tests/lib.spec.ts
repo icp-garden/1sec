@@ -14,7 +14,7 @@ import {
 	isEvmAddressValid,
 	isIcrcAccountValid
 } from '$lib/utils';
-import { Principal } from '@dfinity/principal';
+import { Principal } from '@icp-sdk/core/principal';
 import type { Account, Token } from '../src/declarations/one_sec/one_sec.did';
 import { AccountIdentifier } from '@dfinity/ledger-icp';
 

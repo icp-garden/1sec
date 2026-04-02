@@ -1,7 +1,7 @@
 // Keep this in sync with `one_sec/src/config.rs`.
 
 import { CANISTER_ID_ONE_SEC, DEV, STAGING, CANISTER_ID_CK_UNWRAP } from '$lib/env';
-import { Principal } from '@dfinity/principal';
+import { Principal } from '@icp-sdk/core/principal';
 import type { EvmChain, Token, OperatingMode, Chain } from './types';
 import { Asset } from './types';
 

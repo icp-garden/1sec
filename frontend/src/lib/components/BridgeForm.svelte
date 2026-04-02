@@ -1,10 +1,5 @@
 <script lang="ts">
-	import {
-		SUPPORTED,
-		TOKEN,
-		tokenToLedgerFee,
-		TRANSFER_FEE_MULTIPLIER
-	} from '$lib/oneSec/config';
+	import { SUPPORTED, TOKEN, tokenToLedgerFee, TRANSFER_FEE_MULTIPLIER } from '$lib/oneSec/config';
 	import type { BridgeSettings } from '$lib/oneSec/settings';
 	import type { BridgeRequest, Contracts, EvmChain, BridgeDirection } from '$lib/oneSec/types';
 	import { Asset } from '$lib/oneSec/types';
@@ -14,7 +9,7 @@
 	import InputReceiver from './InputReceiver.svelte';
 	import WalletTokenInfo from './WalletTokenInfo.svelte';
 	import InputSender from './InputSender.svelte';
-	import { Principal } from '@dfinity/principal';
+	import { Principal } from '@icp-sdk/core/principal';
 	import * as toCandid from '$lib/oneSec/toCandid';
 	import { IcpUser } from '$lib/user/icpUser';
 	import { EvmUser } from '$lib/user/evmUser';

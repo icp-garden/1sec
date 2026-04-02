@@ -10,7 +10,7 @@
 	} from '$lib/oneSec/config';
 	import { oneSecForwarding, type OneSecForwarding } from 'onesec-bridge';
 	import { type EvmChain, type Token } from '$lib/oneSec/types';
-	import { Principal } from '@dfinity/principal';
+	import { Principal } from '@icp-sdk/core/principal';
 	import { QRCode } from '@dfinity/gix-components';
 	import { slide } from 'svelte/transition';
 	import Address from './Address.svelte';
@@ -119,11 +119,7 @@
 					result.done?.id &&
 					(lastTransferId === undefined || result.done.id !== lastTransferId)
 				) {
-					toasts.add(
-						Toast.success(
-							`Tokens received at block index ${result.done.id}`
-						)
-					);
+					toasts.add(Toast.success(`Tokens received at block index ${result.done.id}`));
 					clearInterval($notifyInterval);
 					lastStatus = undefined;
 					notifyInterval.reset();
@@ -162,7 +158,7 @@
 							break;
 						case 'Forwarded' in result.status:
 							if (lastStatus === 'forwarded') break;
-								toasts.add(
+							toasts.add(
 								Toast.success(
 									`Forwarded transfer at ${truncateAddress(result.status.Forwarded.hash)}`
 								)

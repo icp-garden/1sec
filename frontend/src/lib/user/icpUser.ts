@@ -1,7 +1,7 @@
 import { DEV } from '$lib/env';
 import type { Token } from '$lib/oneSec/types';
-import { Actor, HttpAgent, type Agent } from '@dfinity/agent';
-import { Principal } from '@dfinity/principal';
+import { Actor, HttpAgent, type Agent } from '@icp-sdk/core/agent';
+import { Principal } from '@icp-sdk/core/principal';
 import type { _SERVICE as ICRC2 } from '../../declarations/icrc_ledger/icrc_ledger.did';
 import type { _SERVICE as ICRC1 } from '../../declarations/icp_ledger/icp_ledger.did';
 import type { _SERVICE as OneSec } from '../../declarations/one_sec/one_sec.did';

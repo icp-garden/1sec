@@ -1,6 +1,6 @@
 import type { Account, IcpAccount, Tx } from '../declarations/one_sec/one_sec.did';
 import { decodeIcrcAccount } from '@dfinity/ledger-icrc';
-import { Principal } from '@dfinity/principal';
+import { Principal } from '@icp-sdk/core/principal';
 import type { Amount } from '$lib/types';
 import { IcpUser } from './user/icpUser';
 import { EvmUser } from './user/evmUser';

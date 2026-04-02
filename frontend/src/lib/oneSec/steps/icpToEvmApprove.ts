@@ -1,4 +1,4 @@
-import { Principal } from '@dfinity/principal';
+import { Principal } from '@icp-sdk/core/principal';
 import type { Step, Contracts, Status, StepTag, Chain, Token } from '../types';
 import { writeError } from '$lib/resultHandler';
 import { ICP_CALL_MS, MS_PER_WEEK, NANOS_PER_MS } from '../utils';

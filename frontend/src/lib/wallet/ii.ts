@@ -7,10 +7,10 @@ import {
 } from '$lib/env';
 import { MS_PER_HOUR, NANOS_PER_MS } from '$lib/oneSec/utils';
 import { IcpUser } from '$lib/user/icpUser';
-import { type Agent, HttpAgent } from '@dfinity/agent';
-import { AuthClient } from '@dfinity/auth-client';
+import { type Agent, HttpAgent } from '@icp-sdk/core/agent';
+import { AuthClient } from '@icp-sdk/auth/client';
 import type { Wallet, WalletAccount, WalletKind } from './types';
-import { Principal } from '@dfinity/principal';
+import { Principal } from '@icp-sdk/core/principal';
 import { AccountIdentifier } from '@dfinity/ledger-icp';
 
 const HOST = DEV ? 'http://127.0.1:8080' : 'https://ic0.app';

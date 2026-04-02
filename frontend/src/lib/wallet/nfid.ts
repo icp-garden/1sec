@@ -3,8 +3,8 @@ import type { Wallet, WalletAccount, WalletKind } from './types';
 import { Signer } from '@slide-computer/signer';
 import { SignerAgent } from '@slide-computer/signer-agent';
 import { IcpUser } from '$lib/user/icpUser';
-import { Principal } from '@dfinity/principal';
-import type { Agent } from '@dfinity/agent';
+import { Principal } from '@icp-sdk/core/principal';
+import type { Agent } from '@icp-sdk/core/agent';
 import { AccountIdentifier } from '@dfinity/ledger-icp';
 
 export const NFID_RPC = 'https://nfid.one/rpc';
