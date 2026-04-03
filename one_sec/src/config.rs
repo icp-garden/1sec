@@ -18,7 +18,7 @@ use crate::{
 /// The maximum number of blocks supported in `eth_getLogs`.
 const GET_LOGS_MAX_BLOCK_RANGE: usize = 3_000;
 
-const FEE_RECEIVER: &str = "54mbv-kyaaa-aaaar-qbn5a-cai";
+const FEE_RECEIVER: &str = "52mp3-qiaaa-aaaar-qbzja-cai";
 const EVM_RPC_CANISTER: &str = "7hfb6-caaaa-aaaar-qadga-cai";
 const MAX_TX_COST: Wei = Wei::new(100_000_000_000_000_000); // 0.1 ETH
 
