@@ -76,13 +76,12 @@
 		align-items: center;
 		padding: 0 calc(var(--s-inset, 1.5rem) * 2);
 		height: var(--s-inset, 1.5rem);
-		border-top: var(--s-line) solid var(--c-line);
 		background: var(--c-bg);
 		position: fixed;
 		bottom: 0;
 		left: 0;
 		right: 0;
-		z-index: 1;
+		z-index: 3;
 	}
 
 	.footer__brand {
