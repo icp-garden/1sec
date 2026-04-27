@@ -151,7 +151,7 @@ contract Token is ERC20, Ownable, ERC20Permit {
      * @dev Withdraw eth from the contract.
      */
     function withdrawEth(uint256 amount, address payable to) public onlyOwner {
-        require(amount >= address(this).balance, "Balance too low");
+        require(amount <= address(this).balance, "Balance too low");
         to.transfer(amount);
     }
 
