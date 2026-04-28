@@ -181,7 +181,7 @@ contract Locker is Ownable {
      * @dev Withdraw eth from the contract.
      */
     function withdrawEth(uint256 amount, address payable to) public onlyOwner {
-        require(amount >= address(this).balance, "Balance too low");
+        require(amount <= address(this).balance, "Balance too low");
         to.transfer(amount);
     }
 }
