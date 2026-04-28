@@ -3,11 +3,10 @@
   "dfx": "0.26.1",
   "canisters": {
     "one_sec": {
-      "package": "one_sec",
+      "type": "custom",
       "candid": "one_sec/one_sec.did",
-      "specified_id": "5okwm-giaaa-aaaar-qbn6a-cai",
-      "type": "rust",
-      "gzip": true
+      "wasm": "one_sec.wasm.gz",
+      "specified_id": "5okwm-giaaa-aaaar-qbn6a-cai"
     },
     "one_sec_staging": {
       "package": "one_sec",
