@@ -641,6 +641,78 @@ type Result = variant {
     Err : text
 };
 
+/////////////////////////////////////////////////////
+/// ICRC-21 / ICRC-10
+/////////////////////////////////////////////////////
+
+type SupportedStandard = record {
+    name : text;
+    url : text;
+};
+
+type ConsentMessageMetadata = record {
+    language : text;
+    utc_offset_minutes : opt int16;
+};
+
+type ConsentMessageSpec = record {
+    metadata : ConsentMessageMetadata;
+    device_spec : opt variant {
+        GenericDisplay;
+        FieldsDisplay;
+    };
+};
+
+type ConsentMessageRequest = record {
+    method : text;
+    arg : blob;
+    user_preferences : ConsentMessageSpec;
+};
+
+type ICRC21Value = variant {
+    TokenAmount : record {
+        decimals : nat8;
+        amount : nat64;
+        symbol : text;
+    };
+    TimestampSeconds : record {
+        amount : nat64;
+    };
+    DurationSeconds : record {
+        amount : nat64;
+    };
+    Text : record {
+        content : text;
+    };
+};
+
+type ConsentMessage = variant {
+    GenericDisplayMessage : text;
+    FieldsDisplayMessage : record {
+        intent : text;
+        fields : vec record { text; ICRC21Value };
+    };
+};
+
+type ConsentInfo = record {
+    consent_message : ConsentMessage;
+    metadata : ConsentMessageMetadata;
+};
+
+type ErrorInfo = record {
+    description : text;
+};
+
+type ICRC21Error = variant {
+    UnsupportedCanisterCall : ErrorInfo;
+    ConsentMessageUnavailable : ErrorInfo;
+    InsufficientPayment : ErrorInfo;
+    GenericError : record {
+        error_code : nat;
+        description : text;
+    };
+};
+
 service : (InitOrUpgradeArg) -> {
     /////////////////////////////////////////////////////
     /// Cross-chain token transfer (bridging) operations
@@ -776,5 +848,12 @@ service : (InitOrUpgradeArg) -> {
     pause_endpoint : (Endpoint) -> (text);
     resume_endpoint : (Endpoint) -> (text);
     resume_all_paused_endpoints : () -> (text);
-    get_paused_endpoints : () -> (vec Endpoint) query
+    get_paused_endpoints : () -> (vec Endpoint) query;
+
+    /////////////////////////////////////////////////////
+    /// ICRC-21 / ICRC-10
+    /////////////////////////////////////////////////////
+
+    icrc21_canister_call_consent_message : (ConsentMessageRequest) -> (variant { Ok : ConsentInfo; Err : ICRC21Error });
+    icrc10_supported_standards : () -> (vec SupportedStandard) query;
 }

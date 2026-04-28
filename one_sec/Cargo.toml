@@ -45,6 +45,7 @@ ic-ledger-types.workspace = true
 icrc-cbor.workspace = true
 icrc-ledger-client-cdk.workspace = true
 icrc-ledger-types.workspace = true
+icrc-ledger-types-021 = { package = "icrc-ledger-types", version = "0.2.0" }
 itertools.workspace = true
 minicbor.workspace = true
 minicbor-derive.workspace = true
