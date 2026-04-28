@@ -1444,9 +1444,9 @@ dependencies = [
 
 [[package]]
 name = "candid"
-version = "0.10.14"
+version = "0.10.27"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "f9d90f5a1426d0489283a0bd5da9ed406fb3e69597e0d823dcb88a1965bb58d2"
+checksum = "1ba5b4833b63bf7b785fecdd2cc918ed90d988fd974825d5c48e7b407c39ef38"
 dependencies = [
  "anyhow",
  "binread",
@@ -1467,9 +1467,9 @@ dependencies = [
 
 [[package]]
 name = "candid_derive"
-version = "0.6.6"
+version = "0.10.27"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "3de398570c386726e7a59d9887b68763c481477f9a043fb998a2e09d428df1a9"
+checksum = "7b60664b6324832dfb4863f3b19eb4d58819cd38fba6d3941b101213cea0d9ec"
 dependencies = [
  "lazy_static",
  "proc-macro2",
@@ -2188,7 +2188,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "33d852cb9b869c2a9b3df2f71a3074817f01e1844f839a144f5fcef059a4eb5d"
 dependencies = [
  "libc",
- "windows-sys 0.52.0",
+ "windows-sys 0.59.0",
 ]
 
 [[package]]
@@ -3215,7 +3215,7 @@ dependencies = [
  "ic-ledger-canister-core",
  "ic-ledger-core",
  "ic-ledger-hash-of",
- "icrc-ledger-types",
+ "icrc-ledger-types 0.1.10",
  "num-bigint",
  "num-traits",
  "serde",
@@ -3246,7 +3246,7 @@ dependencies = [
  "ic-ledger-hash-of",
  "ic-metrics-encoder",
  "ic-stable-structures",
- "icrc-ledger-types",
+ "icrc-ledger-types 0.1.10",
  "leb128",
  "minicbor",
  "num-traits",
@@ -3573,7 +3573,7 @@ dependencies = [
  "ic-ledger-core",
  "ic-ledger-hash-of",
  "ic-stable-structures",
- "icrc-ledger-types",
+ "icrc-ledger-types 0.1.10",
  "lazy_static",
  "on_wire",
  "prost 0.13.4",
@@ -3615,7 +3615,7 @@ source = "git+https://github.com/dfinity/ic.git?rev=5128134d24b7a5b8e24a3d5d40c4
 dependencies = [
  "async-trait",
  "candid",
- "icrc-ledger-types",
+ "icrc-ledger-types 0.1.10",
 ]
 
 [[package]]
@@ -3641,6 +3641,28 @@ dependencies = [
  "ic-stable-structures",
  "icrc-cbor 0.1.0 (git+https://github.com/dfinity/ic.git?rev=5128134d24b7a5b8e24a3d5d40c4cce9d81fd375)",
  "itertools 0.12.1",
+ "minicbor",
+ "num-bigint",
+ "num-traits",
+ "serde",
+ "serde_bytes",
+ "sha2 0.10.9",
+ "strum 0.26.3",
+ "strum_macros 0.26.4",
+ "time",
+]
+
+[[package]]
+name = "icrc-ledger-types"
+version = "0.2.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "a11c866a01b93ef6bd0e3dc01374df41bc70a8b79027a2fd120543a094668978"
+dependencies = [
+ "base32",
+ "candid",
+ "crc32fast",
+ "hex",
+ "icrc-cbor 0.1.0 (registry+https://github.com/rust-lang/crates.io-index)",
  "minicbor",
  "num-bigint",
  "num-traits",
@@ -4451,7 +4473,8 @@ dependencies = [
  "ic0",
  "icrc-cbor 0.1.0 (registry+https://github.com/rust-lang/crates.io-index)",
  "icrc-ledger-client-cdk",
- "icrc-ledger-types",
+ "icrc-ledger-types 0.1.10",
+ "icrc-ledger-types 0.2.0",
  "itertools 0.14.0",
  "minicbor",
  "minicbor-derive 0.15.3",
@@ -5042,7 +5065,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "81bddcdb20abf9501610992b6759a4c888aef7d1a7247ef75e2404275ac24af1"
 dependencies = [
  "anyhow",
- "itertools 0.10.5",
+ "itertools 0.12.1",
  "proc-macro2",
  "quote",
  "syn 2.0.104",
@@ -5055,7 +5078,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "157c5a9d7ea5c2ed2d9fb8f495b64759f7816c7eaea54ba3978f0d63000162e3"
 dependencies = [
  "anyhow",
- "itertools 0.10.5",
+ "itertools 0.13.0",
  "proc-macro2",
  "quote",
  "syn 2.0.104",
@@ -5125,7 +5148,7 @@ dependencies = [
  "once_cell",
  "socket2",
  "tracing",
- "windows-sys 0.52.0",
+ "windows-sys 0.59.0",
 ]
 
 [[package]]
@@ -5513,7 +5536,7 @@ dependencies = [
  "errno",
  "libc",
  "linux-raw-sys",
- "windows-sys 0.52.0",
+ "windows-sys 0.59.0",
 ]
 
 [[package]]
@@ -6070,7 +6093,7 @@ dependencies = [
  "cfg-if",
  "libc",
  "psm",
- "windows-sys 0.52.0",
+ "windows-sys 0.59.0",
 ]
 
 [[package]]
@@ -6237,7 +6260,7 @@ dependencies = [
  "getrandom 0.2.15",
  "once_cell",
  "rustix",
- "windows-sys 0.52.0",
+ "windows-sys 0.59.0",
 ]
 
 [[package]]
@@ -6277,7 +6300,7 @@ dependencies = [
  "ic-ledger-types",
  "icp-ledger",
  "icrc-ledger-client-cdk",
- "icrc-ledger-types",
+ "icrc-ledger-types 0.1.10",
  "lazy_static",
  "minicbor",
  "one_sec",
@@ -7024,7 +7047,7 @@ version = "0.1.9"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "cf221c93e13a30d793f7645a0e7762c55d169dbb0a49671918a2319d289b10bb"
 dependencies = [
- "windows-sys 0.48.0",
+ "windows-sys 0.59.0",
 ]
 
 [[package]]

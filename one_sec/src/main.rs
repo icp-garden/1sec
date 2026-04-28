@@ -2,8 +2,14 @@
 
 use ic_cdk::{init, post_upgrade, query, update};
 use ic_http_types::{HttpRequest, HttpResponse};
+use icrc_ledger_types_021::icrc21::{
+    errors::Icrc21Error,
+    requests::ConsentMessageRequest,
+    responses::ConsentInfo,
+};
 use one_sec::{
     api::{
+        icrc21::{self, SupportedStandard},
         queries,
         types::{
             CanisterCalls, EvmBlockStats, EvmChain, ForwardEvmToIcpArg, ForwardingAccount,
@@ -227,6 +233,21 @@ fn get_paused_tasks() -> Vec<TaskType> {
 #[query]
 fn get_paused_endpoints() -> Vec<Endpoint> {
     queries::get_paused_endpoints()
+}
+
+#[update]
+fn icrc21_canister_call_consent_message(
+    r: ConsentMessageRequest,
+) -> Result<ConsentInfo, Icrc21Error> {
+    icrc21::icrc21_canister_call_consent_message(ic_cdk::caller(), r)
+}
+
+#[query]
+fn icrc10_supported_standards() -> Vec<SupportedStandard> {
+    vec![SupportedStandard {
+        name: "ICRC-21".into(),
+        url: "https://github.com/dfinity/wg-identity-authentication/blob/main/topics/ICRC-21/icrc_21_consent_msg.md".into(),
+    }]
 }
 
 fn main() {}

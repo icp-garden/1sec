@@ -1,5 +1,6 @@
 //! This module defines the canister API: endpoints and candid types.
 
+pub mod icrc21;
 pub mod queries;
 pub mod types;
 pub mod updates;
