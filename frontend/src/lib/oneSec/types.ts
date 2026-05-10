@@ -21,6 +21,7 @@ export type Token =
 	| 'ckBTC'
 	| 'GLDT'
 	| 'CHAT'
+	| 'YUSAN'
 	| 'ckUSDC'
 	| 'ckUSDT';
 export type OperatingMode = 'minter' | 'locker' | 'unwrapper';

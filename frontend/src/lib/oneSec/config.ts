@@ -377,6 +377,13 @@ const MAINNET_ETH_EVM_TOKENS: Map<Token, EvmTokenConfig> = new Map([
 			mode: 'minter',
 			erc20: '0xDb95092C454235E7e666c4E226dBBbCdeb499d25'
 		}
+	],
+	[
+		'YUSAN',
+		{
+			mode: 'minter',
+			erc20: '0x0DEAB4ea8fB5B4374696f6a5c72A3250276546C1'
+		}
 	]
 ]);
 
@@ -536,6 +543,14 @@ export const MAINNET_ICP_TOKENS: Map<Token, IcpTokenConfig> = new Map([
 			mode: 'locker',
 			ledger: Principal.fromText('2ouva-viaaa-aaaaq-aaamq-cai'),
 			fee: 0.001
+		}
+	],
+	[
+		'YUSAN',
+		{
+			mode: 'locker',
+			ledger: Principal.fromText('5qy5f-6yaaa-aaaar-qb6vq-cai'),
+			fee: 0.1
 		}
 	],
 	[
@@ -720,6 +735,14 @@ export const TOKEN: Map<Token, TokenConfig> = new Map([
 			decimals: 8,
 			logoPath: '/icons/token/openchat.svg',
 			ledgerFee: 0.001
+		}
+	],
+	[
+		'YUSAN',
+		{
+			decimals: 8,
+			logoPath: '/icons/token/yusan.svg',
+			ledgerFee: 0.1
 		}
 	],
 	[

@@ -483,6 +483,12 @@ fn ethereum_config() -> evm::Config {
                 "0xecc5f868AdD75F4ff9FD00bbBDE12C35BA2C9C89",
                 80_000,
             ),
+            evm_ledger_minter(
+                Token::YUSAN,
+                8,
+                "0x0DEAB4ea8fB5B4374696f6a5c72A3250276546C1",
+                80_000,
+            ),
             evm_ledger_locker(
                 Token::USDC,
                 6,
@@ -565,6 +571,14 @@ impl Config {
             Amount::new(25_000 * E6S),
             Percent::from_permille(1),
         ));
+        // YUSAN only on Ethereum.
+        flows.extend(flow_both_directions(
+            Token::YUSAN,
+            EvmChain::Ethereum,
+            Amount::new(E8S),
+            Amount::new(25_000 * E8S),
+            Percent::from_permille(5),
+        ));
         flows.extend(flows_all_chains(
             Token::cbBTC,
             Amount::new(1_000),
@@ -624,6 +638,16 @@ impl Config {
                         false,
                         Amount::new(E8S),
                         Amount::new(100_000),
+                    ),
+                    icp_ledger(
+                        Token::YUSAN,
+                        OperatingMode::Locker,
+                        8,
+                        "5qy5f-6yaaa-aaaar-qb6vq-cai",
+                        Some("5xz3r-taaaa-aaaar-qb6va-cai"),
+                        false,
+                        Amount::new(1_000_000_000),
+                        Amount::new(10_000_000),
                     ),
                     icp_ledger(
                         Token::USDC,

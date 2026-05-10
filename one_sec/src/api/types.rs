@@ -134,6 +134,8 @@ pub enum Token {
     GLDT,
     #[n(7)]
     CHAT,
+    #[n(8)]
+    YUSAN,
 }
 
 #[derive(CandidType, Clone, Debug, PartialEq, Eq, PartialOrd, Ord, Deserialize)]
