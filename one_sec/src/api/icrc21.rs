@@ -145,10 +145,7 @@ pub fn message_for_transfer_icp_to_evm(
             "Destination address".to_string(),
             text(args.evm_account.address),
         ),
-        (
-            "Amount".to_string(),
-            token_amount(amount, decimals, symbol),
-        ),
+        ("Amount".to_string(), token_amount(amount, decimals, symbol)),
     ];
 
     Ok(FieldsDisplay {
@@ -169,11 +166,7 @@ pub fn message_for_transfer(args: TransferArg) -> Result<FieldsDisplay, Icrc21Er
     let amount = nat_to_u64(args.source.amount)?;
 
     if args.source.chain == Chain::ICP {
-        let evm_chain: EvmChain = args
-            .destination
-            .chain
-            .try_into()
-            .map_err(icrc21_error)?;
+        let evm_chain: EvmChain = args.destination.chain.try_into().map_err(icrc21_error)?;
         let evm_account: EvmAccount = args.destination.account.as_evm().map_err(icrc21_error)?;
         let decimals = icp_token_decimals(token)?;
 
@@ -185,14 +178,8 @@ pub fn message_for_transfer(args: TransferArg) -> Result<FieldsDisplay, Icrc21Er
                     "Destination chain".to_string(),
                     text(evm_chain_name(evm_chain)),
                 ),
-                (
-                    "Destination address".to_string(),
-                    text(evm_account.address),
-                ),
-                (
-                    "Amount".to_string(),
-                    token_amount(amount, decimals, symbol),
-                ),
+                ("Destination address".to_string(), text(evm_account.address)),
+                ("Amount".to_string(), token_amount(amount, decimals, symbol)),
             ],
         })
     } else {
@@ -209,19 +196,13 @@ pub fn message_for_transfer(args: TransferArg) -> Result<FieldsDisplay, Icrc21Er
         Ok(FieldsDisplay {
             intent: "Transfer EVM to ICP".to_string(),
             fields: vec![
-                (
-                    "Source chain".to_string(),
-                    text(evm_chain_name(evm_chain)),
-                ),
+                ("Source chain".to_string(), text(evm_chain_name(evm_chain))),
                 ("Source token".to_string(), text(symbol.clone())),
                 (
                     "Destination address".to_string(),
                     text(icp_account_text(&icp_account)),
                 ),
-                (
-                    "Amount".to_string(),
-                    token_amount(amount, decimals, symbol),
-                ),
+                ("Amount".to_string(), token_amount(amount, decimals, symbol)),
             ],
         })
     }

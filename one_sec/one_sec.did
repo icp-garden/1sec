@@ -19,6 +19,7 @@ type Token = variant {
     BOB;
     GLDT;
     CHAT;
+    YUSAN;
 };
 
 /// An EVM address represented as a hex-string.

@@ -20,6 +20,8 @@ export function token(token: candid.Token): Token {
 			return 'GLDT';
 		case 'CHAT' in token:
 			return 'CHAT';
+		case 'YUSAN' in token:
+			return 'YUSAN';
 		default: {
 			// This ensures that all variants are covered above.
 			const _exhaustiveCheck: never = token;

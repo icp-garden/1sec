@@ -19,7 +19,8 @@ export const idlFactory = ({ IDL }) => {
 		USDT: IDL.Null,
 		cbBTC: IDL.Null,
 		ckBTC: IDL.Null,
-		CHAT: IDL.Null
+		CHAT: IDL.Null,
+		YUSAN: IDL.Null
 	});
 	const InitEvmTokenArg = IDL.Record({
 		token: Token,
@@ -480,7 +481,8 @@ export const init = ({ IDL }) => {
 		USDT: IDL.Null,
 		cbBTC: IDL.Null,
 		ckBTC: IDL.Null,
-		CHAT: IDL.Null
+		CHAT: IDL.Null,
+		YUSAN: IDL.Null
 	});
 	const InitEvmTokenArg = IDL.Record({
 		token: Token,

@@ -266,7 +266,8 @@ export type Token =
 	| { USDT: null }
 	| { cbBTC: null }
 	| { ckBTC: null }
-	| { CHAT: null };
+	| { CHAT: null }
+	| { YUSAN: null };
 export interface TokenMetadata {
 	wei_per_token: number;
 	decimals: number;

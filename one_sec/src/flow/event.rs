@@ -517,6 +517,44 @@ pub fn prepare_steps(input: &Input) -> [Step; 2] {
                 },
             ]
         }
+        (Token::YUSAN, Direction::IcpToEvm) => {
+            assert_eq!(input.evm_token, Token::YUSAN);
+            [
+                Step {
+                    chain: Chain::ICP,
+                    op: Operation::Lock,
+                    progress: Progress::Planned,
+                    start: None,
+                    end: None,
+                },
+                Step {
+                    chain: evm_chain,
+                    op: Operation::Mint,
+                    progress: Progress::Planned,
+                    start: None,
+                    end: None,
+                },
+            ]
+        }
+        (Token::YUSAN, Direction::EvmToIcp) => {
+            assert_eq!(input.evm_token, Token::YUSAN);
+            [
+                Step {
+                    chain: evm_chain,
+                    op: Operation::Burn,
+                    progress: Progress::Planned,
+                    start: None,
+                    end: None,
+                },
+                Step {
+                    chain: Chain::ICP,
+                    op: Operation::Unlock,
+                    progress: Progress::Planned,
+                    start: None,
+                    end: None,
+                },
+            ]
+        }
     }
 }
 

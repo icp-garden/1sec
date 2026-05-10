@@ -249,6 +249,7 @@ async fn refresh_exchange_rate_task() -> Result<(), String> {
     update_relative_exchange_rate(Token::GLDT, 12, 10)?; // GLDT = 12/10 USDC
     update_relative_exchange_rate(Token::BOB, 29, 100)?; // BOB = 29/100 USDC
     update_relative_exchange_rate(Token::CHAT, 10, 100)?; // CHAT = 10/100 USDC
+    update_relative_exchange_rate(Token::YUSAN, 20, 100)?; // YUSAN = 20/100 USDC
     let refresh_delay = Duration::from_secs(5 * 60);
     schedule_after(
         refresh_delay,

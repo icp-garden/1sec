@@ -3,9 +3,7 @@
 use ic_cdk::{init, post_upgrade, query, update};
 use ic_http_types::{HttpRequest, HttpResponse};
 use icrc_ledger_types_021::icrc21::{
-    errors::Icrc21Error,
-    requests::ConsentMessageRequest,
-    responses::ConsentInfo,
+    errors::Icrc21Error, requests::ConsentMessageRequest, responses::ConsentInfo,
 };
 use one_sec::{
     api::{

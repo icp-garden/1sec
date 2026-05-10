@@ -19,6 +19,8 @@ export function token(token: Token): candid.Token {
 			return { GLDT: null };
 		case 'CHAT':
 			return { CHAT: null };
+		case 'YUSAN':
+			return { YUSAN: null };
 	}
 }
 
